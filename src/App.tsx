@@ -8,6 +8,7 @@ import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 import Index from "./pages/Index";
 import CidadaniaPortuguesa from "./pages/CidadaniaPortuguesa";
 import BuscaDocumentos from "./pages/BuscaDocumentos";
+import ServicePage from "./pages/ServicePage";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import PoliticaPrivacidade from "./pages/PoliticaPrivacidade";
@@ -26,6 +27,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/cidadania-portuguesa" element={<CidadaniaPortuguesa />} />
+            <Route path="/cidadania-portuguesa/:slug" element={<ServicePage />} />
             <Route path="/busca-documentos" element={<BuscaDocumentos />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
