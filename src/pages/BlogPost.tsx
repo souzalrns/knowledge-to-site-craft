@@ -164,7 +164,7 @@ export default function BlogPost() {
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.metaDescription || post.excerpt} />
         <meta property="og:url" content={`https://viannalegal.com.br/blog/${post.slug}`} />
-        <meta property="article:published_time" content={`2024-12-${post.date.split(' ')[0]}`} />
+        <meta property="article:published_time" content={parseDate(post.date)} />
         <meta property="article:author" content={post.author} />
         
         <meta name="twitter:card" content="summary_large_image" />
