@@ -3077,6 +3077,18 @@ Se seu processo entrou em diligência, foi indeferido ou você simplesmente quer
 export default function Blog() {
   useScrollToHash();
 
+  const parseDate = (dateStr: string) => {
+    const monthMap: Record<string, string> = {
+      'Jan': '01', 'Fev': '02', 'Mar': '03', 'Abr': '04', 'Mai': '05', 'Jun': '06',
+      'Jul': '07', 'Ago': '08', 'Set': '09', 'Out': '10', 'Nov': '11', 'Dez': '12'
+    };
+    const parts = dateStr.split(' ');
+    const day = parts[0]?.padStart(2, '0') || '01';
+    const month = monthMap[parts[1] || ''] || '01';
+    const year = parts[2] || '2024';
+    return `${year}-${month}-${day}`;
+  };
+
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Blog",
@@ -3099,7 +3111,7 @@ export default function Blog() {
         "@type": "Person",
         "name": post.author
       },
-      "datePublished": "2024-12-" + post.date.split(' ')[0],
+      "datePublished": parseDate(post.date),
       "url": `https://viannalegal.com.br/blog/${post.slug}`,
       "publisher": {
         "@type": "Organization",
