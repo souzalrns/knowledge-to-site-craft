@@ -97,7 +97,7 @@ export function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2"
+            className="lg:hidden p-3 -mr-1 min-h-[44px] min-w-[44px] flex items-center justify-center"
             onClick={() => setMobileMenuOpen((open) => !open)}
             aria-label={mobileMenuOpen ? 'Fechar menu' : 'Abrir menu'}
             aria-expanded={mobileMenuOpen}
@@ -123,7 +123,7 @@ export function Header() {
             <div className="container-width py-6 flex flex-col gap-4">
               {navItems.map((item) => {
                 const cls = cn(
-                  'font-medium text-foreground py-2 hover:text-gold transition-colors',
+                  'font-medium text-foreground py-3 min-h-[44px] flex items-center hover:text-gold transition-colors',
                   item.highlight && 'text-gold font-semibold'
                 );
                 return item.isAnchor ? (

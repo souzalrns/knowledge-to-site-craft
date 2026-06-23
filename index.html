@@ -2,7 +2,7 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
     <!-- Preconnect para fontes (antes do preload) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -54,8 +54,44 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-    <!-- Favicon -->
+    <!-- Favicon + PWA -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- ═══ ANALYTICS ════════════════════════════════════════════════════════
+         Substituir os IDs abaixo pelos valores reais:
+         - VITE_GA4_MEASUREMENT_ID  →  G-XXXXXXXXXX  (Google Analytics 4)
+         - CLARITY_PROJECT_ID       →  xxxxxxxxxx    (Microsoft Clarity)
+         
+         Após deploy, adicionar também o domínio ao GA4 e ao Clarity.
+    ═══════════════════════════════════════════════════════════════════════ -->
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PLACEHOLDER"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      // Substituir G-PLACEHOLDER pelo Measurement ID real do GA4
+      gtag('config', 'G-PLACEHOLDER', {
+        anonymize_ip: true,
+        cookie_flags: 'SameSite=None;Secure',
+        // Respeitar Do Not Track
+        send_page_view: !navigator.doNotTrack
+      });
+    </script>
+
+    <!-- Microsoft Clarity (heatmaps + session recordings — gratuito) -->
+    <script>
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "CLARITY-PLACEHOLDER");
+      // Substituir CLARITY-PLACEHOLDER pelo Project ID real do Clarity
+    </script>
+
   </head>
 
   <body>

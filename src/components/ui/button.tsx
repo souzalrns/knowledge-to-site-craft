@@ -22,8 +22,8 @@ const buttonVariants = cva(
         italy: "bg-accent text-accent-foreground hover:bg-accent/90",
       },
       size: {
-        default: "h-11 px-6 py-2",
-        sm: "h-9 rounded-md px-4",
+        default: "h-11 px-6 py-2 min-w-[120px]",
+        sm: "h-10 rounded-md px-4 min-w-[80px]",
         lg: "h-14 rounded-lg px-10 text-base",
         xl: "h-16 rounded-xl px-12 text-lg",
         icon: "h-10 w-10",

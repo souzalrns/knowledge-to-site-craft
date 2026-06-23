@@ -5,7 +5,9 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import { useAnalytics } from "@/hooks/useAnalytics";
 
 // Carregamento imediato — rota principal
 import Index from "./pages/Index";
@@ -20,6 +22,19 @@ const Quiz                 = lazy(() => import("./pages/Quiz"));
 const PoliticaPrivacidade  = lazy(() => import("./pages/PoliticaPrivacidade"));
 const TermosUso            = lazy(() => import("./pages/TermosUso"));
 const NotFound             = lazy(() => import("./pages/NotFound"));
+
+
+// Tracking de page views em SPA (GA4 não detecta navegação automática em React Router)
+function RouteTracker() {
+  const location = useLocation();
+  const { trackPageView } = useAnalytics();
+
+  useEffect(() => {
+    trackPageView(location.pathname, document.title);
+  }, [location.pathname]);
+
+  return null;
+}
 
 // Skeleton mínimo enquanto o chunk carrega
 const PageLoader = () => (
@@ -44,6 +59,7 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          <RouteTracker />
           <Suspense fallback={<PageLoader />}>
             <Routes>
               <Route path="/"                        element={<Index />} />

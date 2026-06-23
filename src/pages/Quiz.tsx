@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useAnalytics } from '@/hooks/useAnalytics';
 import { Helmet } from 'react-helmet-async';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Header } from '@/components/layout/Header';
@@ -284,6 +285,7 @@ export default function Quiz() {
   const [leadEmail, setLeadEmail] = useState('');
   const [leadPhone, setLeadPhone] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const { trackEvent, trackConversion } = useAnalytics();
 
   // Calcula profundidade máxima da árvore dinamicamente
   const TOTAL_STEPS = (() => {
@@ -297,6 +299,7 @@ export default function Quiz() {
   })();
 
   function startQuiz() {
+    trackEvent('quiz_started');
     setHistory([]);
     setCurrentKey('q1');
     setStepNum(1);
@@ -338,6 +341,7 @@ export default function Quiz() {
     const msg = encodeURIComponent(
       `Olá! Fiz o quiz de cidadania portuguesa.\n\nNome: ${leadName}\nE-mail: ${leadEmail}\nWhatsApp: ${leadPhone}\n\nGostaria de uma análise gratuita do meu caso.`
     );
+    trackConversion('lead_quiz', { result: resultKey });
     window.open(`https://wa.me/351913134260?text=${msg}`, '_blank', 'noopener,noreferrer');
     setSubmitted(true);
   }
