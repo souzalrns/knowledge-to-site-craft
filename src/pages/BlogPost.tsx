@@ -5,6 +5,7 @@ import { Footer } from '@/components/sections/Footer';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight, Calendar, Clock, User, Share2 } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { QuizBanner } from '@/components/ui/QuizBanner';
 import { blogPosts } from './Blog';
 
 export default function BlogPost() {
@@ -316,6 +317,7 @@ export default function BlogPost() {
           </article>
         </main>
 
+        <div className="container-width pb-8"><QuizBanner /></div>
         <Footer />
       </div>
     </>

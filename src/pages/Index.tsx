@@ -10,6 +10,7 @@ import { Contact } from '@/components/sections/Contact';
 import { Footer } from '@/components/sections/Footer';
 import { Helmet } from 'react-helmet-async';
 import { useScrollToHash } from '@/hooks/useScrollToHash';
+import { QuizBanner } from '@/components/ui/QuizBanner';
 
 const Index = () => {
   useScrollToHash();
@@ -148,6 +149,7 @@ const Index = () => {
           <Process />
           <Testimonials />
           <FAQ />
+          <section className="container-width"><QuizBanner /></section>
           <Contact />
         </main>
         <Footer />

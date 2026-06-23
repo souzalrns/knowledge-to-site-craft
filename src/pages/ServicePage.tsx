@@ -1,5 +1,6 @@
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { QuizBanner } from '@/components/ui/QuizBanner';
 import { Helmet } from 'react-helmet-async';
 import { ArrowRight, ChevronRight, Clock, FileCheck, AlertTriangle, MessageCircle } from 'lucide-react';
 import {
@@ -298,6 +299,7 @@ export default function ServicePage() {
         </aside>
       </div>
       </main>
+      <div className="container-width pb-8"><QuizBanner /></div>
       <Footer />
     </>
   );

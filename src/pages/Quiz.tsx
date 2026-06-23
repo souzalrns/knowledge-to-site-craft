@@ -266,11 +266,32 @@ export default function Quiz() {
     <>
       <Helmet>
         <title>Quiz — Tenho Direito à Cidadania Portuguesa? | ViannaLegal</title>
-        <meta name="description" content="Descubra em 2 minutos se você tem direito à cidadania portuguesa. Quiz atualizado com a Lei Orgânica 1/2026. Gratuito e sem cadastro." />
+        <meta name="description" content="Descubra em 2 minutos se você tem direito à cidadania portuguesa. Quiz gratuito, atualizado com a Lei Orgânica 1/2026. Filhos, netos, bisnetos, cônjuges e residentes." />
         <link rel="canonical" href="https://viannalegal.com.br/quiz" />
+        <meta name="robots" content="index, follow, max-snippet:-1" />
         <meta property="og:title" content="Quiz — Tenho Direito à Cidadania Portuguesa?" />
-        <meta property="og:description" content="Responda 6 perguntas e saiba seu caminho para o passaporte europeu." />
+        <meta property="og:description" content="Responda 6 perguntas e descubra seu caminho para o passaporte europeu. Gratuito e atualizado com a Lei 1/2026." />
         <meta property="og:url" content="https://viannalegal.com.br/quiz" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://viannalegal.com.br/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://viannalegal.com.br" },
+            { "@type": "ListItem", "position": 2, "name": "Quiz — Cidadania Portuguesa", "item": "https://viannalegal.com.br/quiz" }
+          ]
+        })}</script>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Quiz",
+          "name": "Tenho Direito à Cidadania Portuguesa?",
+          "description": "Quiz gratuito para descobrir se você tem direito à cidadania portuguesa. Atualizado com a Lei Orgânica 1/2026.",
+          "url": "https://viannalegal.com.br/quiz",
+          "provider": { "@type": "Organization", "name": "ViannaLegal", "url": "https://viannalegal.com.br" },
+          "educationalLevel": "general public",
+          "inLanguage": "pt-BR"
+        })}</script>
       </Helmet>
 
       <Header />

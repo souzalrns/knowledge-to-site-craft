@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { QuizBanner } from '@/components/ui/QuizBanner';
 import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/sections/Footer';
@@ -372,6 +373,7 @@ export default function BuscaDocumentos() {
         </div>
       </section>
 
+      <div className="container-width pb-8"><QuizBanner /></div>
       <Footer />
     </>
   );
