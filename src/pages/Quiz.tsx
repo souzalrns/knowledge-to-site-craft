@@ -209,7 +209,16 @@ export default function Quiz() {
   const [leadPhone, setLeadPhone] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
-  const TOTAL_STEPS = 6;
+  // Calcula profundidade máxima da árvore dinamicamente
+  const TOTAL_STEPS = (() => {
+    const maxDepth = (key: string, visited = new Set<string>()): number => {
+      if (visited.has(key)) return 0;
+      visited.add(key);
+      if (key.startsWith('result_') || !QUESTIONS[key]) return 0;
+      return 1 + Math.max(...QUESTIONS[key].options.map(o => maxDepth(o.next, new Set(visited))));
+    };
+    return maxDepth('q1');
+  })();
 
   function startQuiz() {
     setHistory([]);
