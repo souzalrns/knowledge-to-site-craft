@@ -139,7 +139,13 @@ Se você reside em Portugal ou tem ascendência portuguesa, este é o momento id
 ---
 
 **Precisa de orientação sobre seu caso específico?** Entre em contato conosco para uma análise gratuita. Nossa equipe especializada pode avaliar sua situação e indicar o melhor caminho para sua cidadania portuguesa.
-    `,
+    
+
+## Fontes e Referências Oficiais
+
+- [Lei Orgânica n.º 2/2006 (texto consolidado com Lei 1/2026)](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
+- [Tribunal Constitucional de Portugal](https://www.tribunalconstitucional.pt)
+`,
   },
   {
     id: 2,
@@ -423,7 +429,13 @@ A ViannaLegal está pronta para avaliar seu caso gratuitamente e indicar o melho
 ---
 
 **Pronto para iniciar?** Agende uma análise gratuita com nossa equipe e descubra como podemos ajudar você a conquistar sua cidadania portuguesa.
-    `,
+    
+
+## Fontes e Referências Oficiais
+
+- [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt)
+- [Lei da Nacionalidade Portuguesa (DRE)](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
+`,
   },
   {
     id: 3,
@@ -673,7 +685,13 @@ Não espere mais para começar. Se você ainda não tem um dossiê forte, comece
 ---
 
 **Quer saber se seu vínculo é suficiente?** Agende uma análise gratuita com a ViannaLegal. Nossa equipe avaliará sua documentação e indicará os próximos passos.
-    `,
+    
+
+## Fontes e Referências Oficiais
+
+- [IRN — Informação sobre Nacionalidade Portuguesa](https://irn.justica.gov.pt/nacionalidade-portuguesa)
+- [Diário da República — Lei Orgânica 1/2026](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
+`,
   },
   {
     id: 4,
@@ -921,7 +939,13 @@ A cidadania portuguesa vale a espera. Com planejamento adequado, você pode mini
 ---
 
 **Quer iniciar seu processo com a melhor estratégia?** A ViannaLegal conhece os caminhos do IRN e pode orientar você para um processo mais eficiente. Agende sua análise gratuita.
-    `,
+    
+
+## Fontes e Referências Oficiais
+
+- [Portal IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt)
+- [Portal MJ.pt — Ministério da Justiça de Portugal](https://mj.gov.pt)
+`,
   },
   {
     id: 5,
@@ -1214,7 +1238,13 @@ Seja para aproveitar a mobilidade global, acessar oportunidades profissionais na
 ---
 
 **Pronto para conquistar todos esses benefícios?** A ViannaLegal pode ajudar você a obter sua cidadania portuguesa. Agende uma análise gratuita e comece sua jornada europeia.
-    `,
+    
+
+## Fontes e Referências Oficiais
+
+- [Henley Passport Index — Ranking de passaportes](https://www.henleyglobal.com/passport-index)
+- [Consulado-Geral de Portugal no Brasil](https://www.secomunidades.pt/web/brasilia)
+`,
   },
   {
     id: 6,
@@ -1630,7 +1660,13 @@ A ViannaLegal oferece serviço completo de obtenção, organização e validaç�
 ---
 
 **Precisa de ajuda com sua documentação?** Agende uma análise gratuita. Nossa equipe avaliará seu caso e indicará exatamente o que você precisa.
-    `,
+    
+
+## Fontes e Referências Oficiais
+
+- [IRN — Documentação para Nacionalidade](https://irn.justica.gov.pt/nacionalidade-portuguesa)
+- [Convenção da Apostilha da Haia (status por país)](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)
+`,
   },
   {
     id: 7,
@@ -1925,7 +1961,13 @@ A ViannaLegal tem experiência em processos de cônjuges e pode orientar você d
 ---
 
 **Casado(a) com português(a)?** Agende uma análise gratuita e descubra como iniciar seu processo de cidadania.
-    `,
+    
+
+## Fontes e Referências Oficiais
+
+- [IRN — Nacionalidade Portuguesa por Casamento](https://irn.justica.gov.pt/nacionalidade-portuguesa)
+- [Lei da Nacionalidade — Art. 3.º (casamento/UF)](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
+`,
   },
   {
     id: 8,
@@ -2261,7 +2303,13 @@ Com o prazo de 5 anos mantido após o veto do TC, este é um momento favorável 
 ---
 
 **Reside em Portugal há 5+ anos?** Agende uma análise gratuita com a ViannaLegal e descubra como conquistar sua cidadania portuguesa.
-    `,
+    
+
+## Fontes e Referências Oficiais
+
+- [AIMA — Agência para a Integração, Migrações e Asilo](https://aima.gov.pt)
+- [IRN — Naturalização por Residência](https://irn.justica.gov.pt/nacionalidade-portuguesa)
+`,
   },
   {
     id: 9,
@@ -2552,7 +2600,13 @@ Se você está tendo dificuldade, não desista. A ViannaLegal tem experiência e
 ---
 
 **Precisa de ajuda para encontrar documentos?** A ViannaLegal oferece serviço de busca documental em Portugal. Agende uma consulta.
-    `,
+    
+
+## Fontes e Referências Oficiais
+
+- [ANTT — Arquivo Nacional Torre do Tombo (registos históricos)](https://arquivos.pt)
+- [IRN — Conservatórias de Registo Civil em Portugal](https://irn.justica.gov.pt/conservatorias-registo-civil)
+`,
   },
   {
     id: 10,
@@ -2935,7 +2989,13 @@ A ViannaLegal acompanha dezenas de processos de netos anualmente e conhece os ca
 ---
 
 **Neto de português? Sua cidadania europeia está esperando.** Agende uma análise gratuita com a ViannaLegal. Nossa equipe avaliará seu caso e indicará o melhor caminho para sua aprovação.
-    `,
+    
+
+## Fontes e Referências Oficiais
+
+- [IRN — Cidadania Portuguesa para Netos](https://irn.justica.gov.pt/nacionalidade-portuguesa)
+- [Lei da Nacionalidade — Art. 1.º-B (netos)](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
+`,
   },
   {
     id: 11,
@@ -3076,6 +3136,12 @@ Se seu processo entrou em diligência, foi indeferido ou você simplesmente quer
 ---
 
 **Precisa de ajuda para acompanhar ou regularizar seu processo?** Fale conosco pelo WhatsApp. Análise inicial gratuita.
-    `,
+    
+
+## Fontes e Referências Oficiais
+
+- [Portal de Consulta de Nacionalidade — MJ.pt](https://nacionalidade.justica.gov.pt)
+- [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt)
+`,
   },
 ];
