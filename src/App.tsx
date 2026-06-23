@@ -14,6 +14,7 @@ import BlogPost from "./pages/BlogPost";
 import PoliticaPrivacidade from "./pages/PoliticaPrivacidade";
 import TermosUso from "./pages/TermosUso";
 import NotFound from "./pages/NotFound";
+import Quiz from "./pages/Quiz";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +34,7 @@ const App = () => (
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/politica-privacidade" element={<PoliticaPrivacidade />} />
             <Route path="/termos-uso" element={<TermosUso />} />
+            <Route path="/quiz" element={<Quiz />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
