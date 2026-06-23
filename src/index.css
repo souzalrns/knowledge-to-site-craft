@@ -32,7 +32,7 @@
 
     /* Muted tones */
     --muted: 40 15% 94%;
-    --muted-foreground: 160 15% 45%;
+    --muted-foreground: 160 20% 35%;
 
     /* Destructive */
     --destructive: 0 84% 60%;
@@ -48,7 +48,7 @@
     /* Custom Design Tokens */
     --gold: 42 50% 58%;
     --gold-light: 42 60% 75%;
-    --gold-dark: 42 40% 45%;
+    --gold-dark: 42 45% 38%;
     
     --portugal-green: 160 48% 20%;
     --portugal-red: 0 72% 45%;
