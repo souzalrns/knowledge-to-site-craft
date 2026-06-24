@@ -293,7 +293,7 @@ export default function BlogPost() {
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button variant="gold" size="lg" asChild>
-                    <a href="https://wa.me/351913134260" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/5521986669063" target="_blank" rel="noopener noreferrer">
                       Agendar análise gratuita
                       <ArrowRight className="w-4 h-4 ml-2" />
                     </a>
