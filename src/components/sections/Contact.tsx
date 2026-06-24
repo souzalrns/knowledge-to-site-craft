@@ -8,7 +8,7 @@ import { useToast } from '@/hooks/use-toast';
 import { useAnalytics } from '@/hooks/useAnalytics';
 
 const contactInfo = [
-  { icon: Phone,  label: 'WhatsApp',   value: '+351 913 134 260', href: 'https://wa.me/351913134260' },
+  { icon: Phone,  label: 'WhatsApp',   value: '+55 21 98666-9063', href: 'https://wa.me/5521986669063' },
   { icon: MapPin, label: 'Localização', value: 'Lisboa, Portugal', href: '#' },
   { icon: Clock,  label: 'Horário',     value: 'Seg-Sex: 9h às 18h', href: '#' },
 ];
@@ -60,7 +60,7 @@ export function Contact() {
         trackPixelLead({ content_name: 'Formulário Contato' });
         // Também abre WhatsApp como backup imediato
         const msg = `Olá! Meu nome é ${formData.name}.\n\nTelefone: ${formData.phone}\nE-mail: ${formData.email}\n\nMensagem: ${formData.message}`;
-        window.open(`https://wa.me/351913134260?text=${encodeURIComponent(msg)}`, '_blank', 'noopener,noreferrer');
+        window.open(`https://wa.me/5521986669063?text=${encodeURIComponent(msg)}`, '_blank', 'noopener,noreferrer');
       } else {
         throw new Error('Falha no envio');
       }
@@ -69,7 +69,7 @@ export function Contact() {
       setFormState('error');
       trackEvent('form_error', { section: 'contact' });
       const msg = `Olá! Meu nome é ${formData.name}.\n\nTelefone: ${formData.phone}\nE-mail: ${formData.email}\n\nMensagem: ${formData.message}`;
-      window.open(`https://wa.me/351913134260?text=${encodeURIComponent(msg)}`, '_blank', 'noopener,noreferrer');
+      window.open(`https://wa.me/5521986669063?text=${encodeURIComponent(msg)}`, '_blank', 'noopener,noreferrer');
       toast({
         title: 'Redirecionando para WhatsApp',
         description: 'Sua mensagem foi enviada via WhatsApp como alternativa.',
@@ -247,7 +247,7 @@ export function Contact() {
                   className="w-full min-h-[52px]"
                   onClick={() => {
                     trackConversion('lead_whatsapp', { section: 'contact' });
-                    window.open('https://wa.me/351913134260', '_blank', 'noopener,noreferrer');
+                    window.open('https://wa.me/5521986669063', '_blank', 'noopener,noreferrer');
                   }}
                 >
                   <MessageCircle className="w-5 h-5" />
