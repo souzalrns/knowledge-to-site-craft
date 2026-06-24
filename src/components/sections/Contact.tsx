@@ -6,9 +6,10 @@ import { Textarea } from '@/components/ui/textarea';
 import { useState } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import { useAnalytics } from '@/hooks/useAnalytics';
+import { SITE_CONFIG, waUrl } from '@/config/site';
 
 const contactInfo = [
-  { icon: Phone,  label: 'WhatsApp',   value: '+55 21 98666-9063', href: 'https://wa.me/5521986669063' },
+  { icon: Phone,  label: 'WhatsApp',   value: SITE_CONFIG.whatsapp.display, href: SITE_CONFIG.whatsapp.url },
   { icon: MapPin, label: 'Localização', value: 'Lisboa, Portugal', href: '#' },
   { icon: Clock,  label: 'Horário',     value: 'Seg-Sex: 9h às 18h', href: '#' },
 ];
@@ -60,7 +61,7 @@ export function Contact() {
         trackPixelLead({ content_name: 'Formulário Contato' });
         // Também abre WhatsApp como backup imediato
         const msg = `Olá! Meu nome é ${formData.name}.\n\nTelefone: ${formData.phone}\nE-mail: ${formData.email}\n\nMensagem: ${formData.message}`;
-        window.open(`https://wa.me/5521986669063?text=${encodeURIComponent(msg)}`, '_blank', 'noopener,noreferrer');
+        window.open(`${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("${encodeURIComponent(msg")})}`, '_blank', 'noopener,noreferrer');
       } else {
         throw new Error('Falha no envio');
       }
@@ -69,7 +70,7 @@ export function Contact() {
       setFormState('error');
       trackEvent('form_error', { section: 'contact' });
       const msg = `Olá! Meu nome é ${formData.name}.\n\nTelefone: ${formData.phone}\nE-mail: ${formData.email}\n\nMensagem: ${formData.message}`;
-      window.open(`https://wa.me/5521986669063?text=${encodeURIComponent(msg)}`, '_blank', 'noopener,noreferrer');
+      window.open(`${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("${encodeURIComponent(msg")})}`, '_blank', 'noopener,noreferrer');
       toast({
         title: 'Redirecionando para WhatsApp',
         description: 'Sua mensagem foi enviada via WhatsApp como alternativa.',
@@ -247,7 +248,7 @@ export function Contact() {
                   className="w-full min-h-[52px]"
                   onClick={() => {
                     trackConversion('lead_whatsapp', { section: 'contact' });
-                    window.open('https://wa.me/5521986669063', '_blank', 'noopener,noreferrer');
+                    window.open(SITE_CONFIG.whatsapp.url, '_blank', 'noopener,noreferrer');
                   }}
                 >
                   <MessageCircle className="w-5 h-5" />
