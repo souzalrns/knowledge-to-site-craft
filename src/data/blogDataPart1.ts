@@ -61,7 +61,7 @@ A forma de avaliação desses novos critérios ainda depende de regulamentação
 
 **Fase 3 — Montagem do processo e petição (30-60 dias):** Elaborar petição, organizar dossiê de vínculo efetivo, traduzir documentos quando necessário.
 
-**Fase 4 — Análise pelo IRN (18-36 meses):** O processo entra na fila da Conservatória dos Registos Centrais (CRC). Diligências podem surgir — têm prazo de resposta e precisam ser monitoradas.
+**Fase 4 — Análise pelo IRN (41 a 46 meses (maiores) / 2 a 4 meses (menores)):** O processo entra na fila da Conservatória dos Registos Centrais (CRC). Diligências podem surgir — têm prazo de resposta e precisam ser monitoradas.
 
 **Fase 5 — Registro e emissão do Cartão de Cidadão (2-4 meses)**
 
@@ -81,7 +81,7 @@ A forma de avaliação desses novos critérios ainda depende de regulamentação
 | Etapa | Prazo |
 |-------|-------|
 | Análise e organização | 1-6 meses |
-| Análise pelo IRN | 18-36 meses |
+| Análise pelo IRN | 41 a 46 meses (maiores) / 2 a 4 meses (menores) |
 | Registro e documentos | 2-4 meses |
 | **Total** | **24 a 42 meses** |
 

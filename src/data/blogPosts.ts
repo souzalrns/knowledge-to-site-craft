@@ -165,7 +165,7 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 |-----|---------------|
 | Filhos menores | **2 a 4 meses** |
 | Filhos maiores (inscrição) | **50 a 56 meses** |
-| Filhos maiores (transcrição) | **21 a 23 meses** |
+| Filhos maiores (transcrição) | **2 a 3 meses** |
 | Netos menores | **2 a 4 meses** |
 | Netos maiores | **41 a 46 meses** |
 | Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
@@ -488,7 +488,7 @@ Estes prazos referem-se ao tempo de análise **após o protocolo do pedido** —
 |-----|---------------|
 | Filhos menores | **2 a 4 meses** |
 | Filhos maiores (inscrição) | **50 a 56 meses** |
-| Filhos maiores (transcrição) | **21 a 23 meses** |
+| Filhos maiores (transcrição) | **2 a 3 meses** |
 | Netos menores | **2 a 4 meses** |
 | Netos maiores | **41 a 46 meses** |
 | Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
@@ -2084,7 +2084,7 @@ Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
 |---|---|
 | Filhos menores | **2 a 4 meses** |
 | Filhos maiores (inscrição) | **50 a 56 meses** |
-| Filhos maiores (transcrição) | **21 a 23 meses** |
+| Filhos maiores (transcrição) | **2 a 3 meses** |
 | Netos menores | **2 a 4 meses** |
 | Netos maiores | **41 a 46 meses** |
 | Casamento / União de facto | **50 a 54 meses** |

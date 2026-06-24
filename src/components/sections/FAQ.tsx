@@ -48,7 +48,7 @@ const faqGroups: FaqGroup[] = [
       {
         question: 'Neto de português tem direito à cidadania portuguesa?',
         answer:
-          'Sim! Netos de cidadãos portugueses têm direito à cidadania portuguesa, desde que comprovem vínculo efetivo com a comunidade portuguesa. A comprovação inclui: conhecimento do idioma português, visitas documentadas a Portugal, participação em comunidades lusófonas ou outros laços culturais. Prazo atual: 24-42 meses (varia com backlog IRN).',
+          'Sim! Netos de cidadãos portugueses têm direito à cidadania portuguesa, desde que comprovem vínculo efetivo com a comunidade portuguesa. A comprovação inclui: conhecimento do idioma português, visitas documentadas a Portugal, participação em comunidades lusófonas ou outros laços culturais. Prazo actual (dados IRN abr/mai 2026): 2 a 4 meses para menores, 41 a 46 meses para maiores.',
       },
       {
         question: 'Bisneto de português tem direito à cidadania?',
@@ -58,7 +58,7 @@ const faqGroups: FaqGroup[] = [
       {
         question: 'Filho de português nascido no Brasil tem direito automático?',
         answer:
-          'Sim! Filhos de cidadãos portugueses têm direito à cidadania portuguesa independentemente do local de nascimento. Filhos menores de idade têm processo simplificado (6-8 meses); filhos maiores passam por processo regular (12-14 meses). Não é necessário comprovar vínculo efetivo.',
+          'Sim! Filhos de cidadãos portugueses têm direito à cidadania portuguesa independentemente do local de nascimento. Filhos menores: 2 a 4 meses; filhos maiores por inscrição: 50 a 56 meses; por transcrição: 2 a 3 meses. Não é necessário comprovar vínculo efetivo.',
       },
     ],
   },
@@ -73,7 +73,7 @@ const faqGroups: FaqGroup[] = [
       {
         question: 'Quanto tempo demora o processo de cidadania portuguesa?',
         answer:
-          'Os prazos atualizados considerando o backlog do IRN são: Filhos menores: 6-12 meses | Filhos maiores: 12-24 meses | Netos: 24-42 meses | Cônjuges: 24-48 meses | Transcrição de casamento: 1-4 meses | Naturalização por residência: consultar. Prazos são estimativas e variam conforme conservatória e complexidade.',
+          'Prazos oficiais IRN (abr/mai 2026): Filhos menores: 2 a 4 meses | Filhos maiores (inscrição): 50 a 56 meses | Filhos maiores (transcrição): 2 a 3 meses | Netos menores: 2 a 4 meses | Netos maiores: 41 a 46 meses | Casamento/UF: 50 a 54 meses | Naturalização CPLP (7 anos): 27 a 30 meses | Bisnetos: 28 a 36 meses.',
       },
       {
         question: 'Quais documentos são necessários para cidadania portuguesa?',
@@ -113,7 +113,7 @@ const faqGroups: FaqGroup[] = [
       {
         question: 'Cidadania por casamento: quais os requisitos?',
         answer:
-          'Cônjuges de portugueses podem solicitar a cidadania após 3 anos de casamento civil ou união estável reconhecida. Requisitos: certidão de casamento, comprovação de cidadania do cônjuge português, manutenção do vínculo matrimonial durante o processo. Prazo médio: 24-48 meses. União estável deve ser registrada em cartório.',
+          'Cônjuges de portugueses podem solicitar a cidadania após 3 anos de casamento civil ou união estável reconhecida. Requisitos: certidão de casamento, comprovação de cidadania do cônjuge português, manutenção do vínculo matrimonial durante o processo. Prazo actual (dados IRN): 50 a 54 meses. União estável deve ser registrada em cartório.',
       },
       {
         question: 'O que é transcrição de casamento e quando é necessária?',
