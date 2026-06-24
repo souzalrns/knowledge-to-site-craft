@@ -1,6 +1,7 @@
 import { MapPin, Phone, Instagram, Facebook, MessageCircle } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
+import { SITE_CONFIG, waUrl } from '@/config/site';
 
 interface FooterLink {
   label: string;
@@ -64,7 +65,7 @@ export function Footer() {
             size="lg"
             className="shrink-0"
             onClick={() => window.open(
-              'https://wa.me/5521986669063?text=Olá! Vim pelo site e quero minha análise gratuita.',
+              '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Vim pelo site e quero minha análise gratuita.")}',
               '_blank', 'noopener,noreferrer'
             )}
           >
@@ -103,13 +104,13 @@ export function Footer() {
               Lisboa, Portugal
             </div>
             <a
-              href="https://wa.me/5521986669063"
+              href=SITE_CONFIG.whatsapp.url
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-primary-foreground/60 hover:text-gold transition-colors mt-2"
             >
               <Phone className="w-4 h-4 text-gold flex-shrink-0" />
-              +55 21 98666-9063
+              ' + SITE_CONFIG.whatsapp.display + '
             </a>
           </div>
 
