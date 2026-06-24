@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, FileText, Search, Users, Heart, Building, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import { SITE_CONFIG, waUrl } from '@/config/site';
 
 const services = [
   {
@@ -208,7 +209,7 @@ export function Services() {
             size="lg"
             onClick={() =>
               window.open(
-                'https://wa.me/5521986669063?text=Olá! Quero saber qual o melhor caminho de cidadania para o meu caso.',
+                '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Quero saber qual o melhor caminho de cidadania para o meu caso.")}',
                 '_blank',
                 'noopener,noreferrer'
 )
