@@ -3,6 +3,7 @@ import { Shield, Clock, Award, Users, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import consultantImage from '@/assets/consultant.jpg';
 import consultantImageWebp from '@/assets/consultant.webp';
+import { SITE_CONFIG, waUrl } from '@/config/site';
 
 const features = [
   {
@@ -134,7 +135,7 @@ export function About() {
               size="lg"
               onClick={() =>
                 window.open(
-                  'https://wa.me/5521986669063?text=Olá! Quero entender como vocês podem acelerar meu processo.',
+                  '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Quero entender como vocês podem acelerar meu processo.")}',
                   '_blank',
                   'noopener,noreferrer'
 )
