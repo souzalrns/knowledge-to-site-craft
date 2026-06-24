@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet-async';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/sections/Footer';
+import { Link } from 'react-router-dom';
 import { ArrowRight, ArrowLeft, CheckCircle, MessageCircle, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -26,6 +27,7 @@ interface Result {
   title: string;
   desc: string;
   docs: string[];
+  relatedArticles?: { slug: string; title: string }[];
 }
 
 // ── Perguntas ──────────────────────────────────────────────────
@@ -177,36 +179,64 @@ const RESULTS: Record<string, Result> = {
     title: 'Cidadania por filiação — via mais rápida',
     desc: 'Como filho(a) menor de cidadão(ã) português(a), você tem o caminho mais direto. O processo leva entre 6 e 8 meses e pode ser feito 100% online.',
     docs: ['Certidão de nascimento do filho (apostilada)', 'Certidão de nascimento do pai/mãe português(a)', 'Prova de nacionalidade portuguesa do pai/mãe', 'Certidão de casamento dos pais (se aplicável)'],
+    relatedArticles: [
+      { slug: 'cidadania-portuguesa-para-menores-de-idade-o-que-os-pais-precisam-saber', title: 'Cidadania para menores: o que os pais precisam saber' },
+      { slug: 'filho-vs-neto-diferencas-no-processo-de-cidadania-portuguesa', title: 'Filho vs. neto: diferenças no processo' },
+      { slug: 'checklist-final-antes-de-entregar-o-processo-de-cidadania-portuguesa', title: 'Checklist final antes de entregar o processo' },
+    ],
   },
   result_filho_maior: {
     type: 'green', icon: '✅', tag: 'Alta probabilidade',
     title: 'Cidadania por filiação — filho maior de idade',
     desc: 'Filho(a) maior de cidadão(ã) português(a) tem direito à nacionalidade. Prazo médio de 12 a 14 meses, 100% online.',
     docs: ['Certidão de nascimento do requerente (apostilada)', 'Certidão de nascimento do pai/mãe português(a)', 'Prova de nacionalidade portuguesa do pai/mãe', 'Certidão de casamento dos pais ou reconhecimento de paternidade'],
+    relatedArticles: [
+      { slug: 'filho-vs-neto-diferencas-no-processo-de-cidadania-portuguesa', title: 'Filho vs. neto: diferenças no processo' },
+      { slug: 'cidadania-portuguesa-para-quem-tem-pai-falecido', title: 'E se o pai já faleceu? Ainda tenho direito?' },
+      { slug: 'tempo-medio-de-aprovacao-por-tipo-de-processo-em-2026', title: 'Prazos reais por tipo de processo em 2026' },
+    ],
   },
   result_neto_forte: {
     type: 'green', icon: '🇵🇹', tag: 'Boa probabilidade',
     title: 'Cidadania por descendência — neto(a)',
     desc: 'Com linha de filiação comprovada e pai/mãe que também teve a nacionalidade portuguesa, a cadeia documental é sólida. Prazo médio: 24 a 42 meses.',
     docs: ['Certidão de nascimento do requerente (apostilada)', 'Certidão de nascimento do pai/mãe', 'Certidão de nascimento do avô/avó português(a)', 'Assento de nascimento do avô/avó nos registros portugueses', 'Certidão de casamento dos avós (se aplicável)', 'Certidão de óbito (se falecido)'],
+    relatedArticles: [
+      { slug: 'checklist-completa-de-documentos-para-netos-de-portugueses', title: 'Checklist completa de documentos para netos' },
+      { slug: 'tempo-medio-de-aprovacao-por-tipo-de-processo-em-2026', title: 'Prazos reais de aprovação em 2026' },
+      { slug: 'como-acompanhar-o-andamento-do-processo-de-cidadania-portuguesa', title: 'Como acompanhar o processo passo a passo' },
+    ],
   },
   result_neto_fraco: {
     type: 'yellow', icon: '⚠️', tag: 'Análise necessária',
     title: 'Descendência — caso requer atenção',
     desc: 'Quando o elo intermediário nunca teve a nacionalidade portuguesa, pode haver exigências adicionais de prova de vínculo. Não inviabiliza o processo, mas requer análise especializada.',
     docs: ['Certidão de nascimento do requerente (apostilada)', 'Certidão de nascimento do pai/mãe', 'Certidão de nascimento do avô/avó em Portugal', 'Documentos que comprovem a linha de descendência ininterrupta'],
+    relatedArticles: [
+      { slug: 'erros-comuns-na-arvore-genealogica-para-cidadania-portuguesa', title: 'Erros comuns na árvore genealógica' },
+      { slug: 'cidadania-portuguesa-para-quem-tem-documentos-perdidos', title: 'E se eu não tenho documentos do avô?' },
+      { slug: 'diferenca-entre-atribuicao-e-aquisicao-de-cidadania-portuguesa', title: 'Atribuição vs. Aquisição: entenda a diferença' },
+    ],
   },
   result_neto_verificar: {
     type: 'yellow', icon: '🔍', tag: 'Verificação necessária',
     title: 'Consulte um especialista para confirmar',
     desc: 'Seu perfil tem potencial, mas é preciso confirmar se seu pai/mãe já teve a nacionalidade portuguesa. Um especialista pode verificar isso rapidamente junto ao IRN.',
     docs: ['Certidão de nascimento do requerente', 'Certidão de nascimento do pai/mãe', 'Certidão de nascimento do avô/avó português(a)'],
+    relatedArticles: [
+      { slug: 'cidadania-portuguesa-perguntas-finais-antes-de-comecar', title: 'Perguntas antes de começar o processo' },
+      { slug: 'como-escolher-um-advogado-especialista-em-cidadania-portuguesa', title: 'Como escolher uma assessoria especializada' },
+    ],
   },
   result_bisneto_ok: {
     type: 'green', icon: '🆕', tag: 'Via disponível — Lei 1/2026',
     title: 'Bisneto com residência — novo caminho aberto',
     desc: 'A Lei Orgânica 1/2026 criou uma via inédita para bisnetos que residam legalmente em Portugal há pelo menos 5 anos. Você cumpre esse requisito.',
     docs: ['Certidão de nascimento do requerente (apostilada)', 'Certidão de nascimento do pai/mãe e do avô/avó', 'Certidão de nascimento do bisavô/bisavó português(a)', 'Prova de residência legal em Portugal (5+ anos)', 'Autorização de residência válida'],
+    relatedArticles: [
+      { slug: 'atualizacoes-da-lei-da-nacionalidade-portuguesa-em-2026', title: 'O que mudou com a Lei Orgânica 1/2026' },
+      { slug: 'guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026', title: 'Todas as formas de obter cidadania em 2026' },
+    ],
   },
   result_bisneto_aguardar: {
     type: 'yellow', icon: '⏳', tag: 'Quase lá',
@@ -225,6 +255,11 @@ const RESULTS: Record<string, Result> = {
     title: 'Cidadania por casamento / união de facto',
     desc: 'Com 3 ou mais anos de casamento ou união de facto com cidadão(ã) português(a), você tem direito a solicitar a nacionalidade. Prazo: 24 a 48 meses.',
     docs: ['Certidão de casamento ou prova de união de facto (apostilada)', 'Certidão de nascimento do requerente (apostilada)', 'Prova de nacionalidade portuguesa do cônjuge', 'Comprovantes da vida em comum (residência, finanças)'],
+    relatedArticles: [
+      { slug: 'cidadania-portuguesa-para-conjuges-3-ou-6-anos-de-casamento', title: 'Cidadania por casamento: 3 ou 6 anos?' },
+      { slug: 'cidadania-portuguesa-para-casais-em-uniao-de-facto-uniao-estavel', title: 'Cidadania por união de facto' },
+      { slug: 'tempo-medio-de-aprovacao-por-tipo-de-processo-em-2026', title: 'Prazos reais de aprovação em 2026' },
+    ],
   },
   result_conjuge_cedo: {
     type: 'orange', icon: '⏳', tag: 'Ainda não elegível',
@@ -237,6 +272,10 @@ const RESULTS: Record<string, Result> = {
     title: 'Naturalização — prazo cumprido',
     desc: 'Com 7 ou mais anos de residência legal em Portugal, você atingiu o prazo exigido pela Lei 1/2026 para solicitar a naturalização como brasileiro ou cidadão CPLP.',
     docs: ['Autorização de residência (histórico de 7 anos)', 'Certidão de nascimento apostilada', 'Comprovantes de residência contínua', 'Certificado de registo criminal (Brasil e Portugal)', 'Prova de meios de subsistência'],
+    relatedArticles: [
+      { slug: 'naturalizacao-por-residencia-em-portugal-requisitos-atualizados-2026', title: 'Naturalização por residência: requisitos 2026' },
+      { slug: 'cidadania-portuguesa-para-cidadaos-da-cplp', title: 'Cidadania para cidadãos da CPLP' },
+    ],
   },
   result_residencia_ok5: {
     type: 'green', icon: '🏠', tag: 'Elegível — outros países',
@@ -509,6 +548,26 @@ export default function Quiz() {
               <div className="border-l-4 border-gold bg-gold/10 rounded-r-xl p-4 mb-6 text-sm text-foreground/70 leading-relaxed">
                 <strong className="text-foreground">⚠️ Aviso legal:</strong> Este quiz é apenas informativo e não substitui análise jurídica individualizada. Cada caso tem suas particularidades. Consulte sempre um advogado especializado antes de iniciar seu processo.
               </div>
+
+              {/* Artigos relacionados */}
+              {r.relatedArticles && r.relatedArticles.length > 0 && (
+                <div className="bg-card rounded-2xl border border-border/50 p-6 mb-6">
+                  <p className="text-xs font-bold text-foreground uppercase tracking-wider mb-4">📖 Artigos relacionados ao seu perfil</p>
+                  <div className="flex flex-col gap-3">
+                    {r.relatedArticles.map(a => (
+                      <Link
+                        key={a.slug}
+                        to={`/blog/${a.slug}`}
+                        className="flex items-center gap-3 p-3 rounded-xl bg-muted/40 hover:bg-muted border border-border/50 hover:border-gold/40 transition-all group"
+                      >
+                        <span className="text-base">📄</span>
+                        <span className="text-sm font-medium text-foreground group-hover:text-primary leading-snug flex-1">{a.title}</span>
+                        <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-gold flex-shrink-0 transition-colors" />
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Lead capture */}
               <div className="bg-primary rounded-2xl p-8 text-primary-foreground">
