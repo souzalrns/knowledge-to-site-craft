@@ -41,7 +41,8 @@ export const servicesContent: Record<string, ServiceContent> = {
     heroTitle: 'Cidadania Portuguesa para Netos',
     heroSubtitle:
       'Você é neto de um português ou portuguesa e quer entender se tem direito à cidadania europeia? Veja os requisitos reais, o que muda com a Lei Orgânica 1/2026 e quanto tempo leva.',
-    heroDuration: '41 a 46 meses',
+    heroDuration: '41 a 46 meses*',
+    heroDurationNote: '* Estimativa baseada em dados das conservatórias (abr/mai 2026), ±5%. Pode variar.',
     intro: [
       'Ter um avô ou avó nascido em Portugal é, hoje, um dos caminhos mais buscados por brasileiros para conquistar a cidadania europeia. A boa notícia é que esse direito existe e é amplamente reconhecido pela lei portuguesa. A má notícia é que, diferente do processo para filhos, o caminho dos netos não é automático: a lei exige a comprovação de um "vínculo efetivo com a comunidade nacional portuguesa" — um critério que gera dúvida em quase todo processo que chega até nós.',
       'Esse requisito existe desde a reforma da Lei da Nacionalidade de 2020 e continua valendo com a Lei Orgânica n.º 1/2026 (em vigor desde 18 de maio de 2026), que reforçou o rigor na análise documental sem eliminar a via de netos. Na prática, isso significa que ser neto de português, por si só, não basta: é preciso reunir provas concretas de que você mantém uma ligação real com Portugal e a cultura portuguesa.',

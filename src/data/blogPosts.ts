@@ -170,7 +170,13 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 | Netos maiores | **41 a 46 meses** |
 | Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
 
-> 📋 **Fonte dos prazos:** Dados oficiais da Conservatória dos Registos Centrais (CRC Lisboa) e AC Porto, referentes ao estado do serviço de abril/maio de 2026, com margem de ±5%. Os prazos indicam o tempo de análise após protocolo do pedido. Processos com documentação incompleta ou diligências pendentes podem ultrapassar estes valores.
+> 📋 **Sobre estes prazos — leia antes de interpretar**
+>
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+>
+> Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
+>
+> **Nota positiva:** o IRN tem em curso um **concurso para 485 novos Oficiais de Registos** (procedimento de ingresso por tempo indeterminado, actualmente a decorrer), o que poderá, a médio prazo, contribuir para reduzir os prazos de análise. Acompanhe as actualizações em [irn.justica.gov.pt](https://irn.justica.gov.pt).
 
 ## O Que Não Mudou com a Lei 1/2026
 
@@ -1091,7 +1097,13 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 |---|---|
 | Casamento / União de facto | **50 a 54 meses** |
 
-> 📋 **Fonte dos prazos:** Dados oficiais da Conservatória dos Registos Centrais (CRC Lisboa) e AC Porto, referentes ao estado do serviço de abril/maio de 2026, com margem de ±5%. Os prazos indicam o tempo de análise após protocolo do pedido. Processos com documentação incompleta ou diligências pendentes podem ultrapassar estes valores.
+> 📋 **Sobre estes prazos — leia antes de interpretar**
+>
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+>
+> Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
+>
+> **Nota positiva:** o IRN tem em curso um **concurso para 485 novos Oficiais de Registos** (procedimento de ingresso por tempo indeterminado, actualmente a decorrer), o que poderá, a médio prazo, contribuir para reduzir os prazos de análise. Acompanhe as actualizações em [irn.justica.gov.pt](https://irn.justica.gov.pt).
 
 ## Cidadania por Casamento vs. por Descendência
 
@@ -1255,7 +1267,13 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 |---|---|
 | Naturalização (CPLP — 7 anos) | **27 a 30 meses** |
 
-> 📋 **Fonte dos prazos:** Dados oficiais da Conservatória dos Registos Centrais (CRC Lisboa) e AC Porto, referentes ao estado do serviço de abril/maio de 2026, com margem de ±5%. Os prazos indicam o tempo de análise após protocolo do pedido. Processos com documentação incompleta ou diligências pendentes podem ultrapassar estes valores.
+> 📋 **Sobre estes prazos — leia antes de interpretar**
+>
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+>
+> Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
+>
+> **Nota positiva:** o IRN tem em curso um **concurso para 485 novos Oficiais de Registos** (procedimento de ingresso por tempo indeterminado, actualmente a decorrer), o que poderá, a médio prazo, contribuir para reduzir os prazos de análise. Acompanhe as actualizações em [irn.justica.gov.pt](https://irn.justica.gov.pt).
 
 Para quem busca naturalização, o prazo de 7 anos ainda exige, após cumprido, o protocolo e a análise do pedido. O tempo total entre início da residência e obtenção do passaporte pode superar 8 a 9 anos.
 
@@ -1697,7 +1715,13 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 | Netos menores | **2 a 4 meses** |
 | Netos maiores | **41 a 46 meses** |
 
-> 📋 **Fonte dos prazos:** Dados oficiais da Conservatória dos Registos Centrais (CRC Lisboa) e AC Porto, referentes ao estado do serviço de abril/maio de 2026, com margem de ±5%. Os prazos indicam o tempo de análise após protocolo do pedido. Processos com documentação incompleta ou diligências pendentes podem ultrapassar estes valores.
+> 📋 **Sobre estes prazos — leia antes de interpretar**
+>
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+>
+> Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
+>
+> **Nota positiva:** o IRN tem em curso um **concurso para 485 novos Oficiais de Registos** (procedimento de ingresso por tempo indeterminado, actualmente a decorrer), o que poderá, a médio prazo, contribuir para reduzir os prazos de análise. Acompanhe as actualizações em [irn.justica.gov.pt](https://irn.justica.gov.pt).
 
 ## O Que Não Exige a Lei (desmistificando)
 
@@ -2091,7 +2115,13 @@ Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
 | Naturalização CPLP (7 anos) | **27 a 30 meses** |
 | Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
 
-> 📋 **Fonte dos prazos:** Dados oficiais da Conservatória dos Registos Centrais (CRC Lisboa) e AC Porto, referentes ao estado do serviço de abril/maio de 2026, com margem de ±5%. Os prazos indicam o tempo de análise após protocolo do pedido.
+> 📋 **Sobre estes prazos — leia antes de interpretar**
+>
+> Os prazos indicados são **estimativas** obtidas a partir das informações prestadas pelas conservatórias aos advogados ao abrigo do artigo 82.º do Código do Procedimento Administrativo (estado do serviço de abril/maio de 2026), com margem de ±5%. Referem-se ao tempo de **análise após o protocolo do pedido** — não incluem o tempo de preparação documental.
+>
+> Estes prazos **podem aumentar ou diminuir** ao longo do tempo em função do volume de processos pendentes, da capacidade de resposta do IRN e de eventuais reorganizações internas. Com mais de **700.000 processos pendentes** após a corrida às submissões de maio de 2026, a tendência actual é de aumento.
+>
+> **Nota positiva:** o IRN tem em curso um **concurso para 485 novos Oficiais de Registos** (procedimento de ingresso por tempo indeterminado, actualmente a decorrer), o que poderá, a médio prazo, contribuir para reduzir os prazos de análise. Acompanhe as actualizações em [irn.justica.gov.pt](https://irn.justica.gov.pt).
 
 Estes são cenários estimados — cada conservatória tem o seu próprio ritmo, e o volume de processos varia significativamente entre elas.
 
