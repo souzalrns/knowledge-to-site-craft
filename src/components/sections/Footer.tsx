@@ -64,7 +64,7 @@ export function Footer() {
             size="lg"
             className="shrink-0"
             onClick={() => window.open(
-              'https://wa.me/351913134260?text=Olá! Vim pelo site e quero minha análise gratuita.',
+              'https://wa.me/5521986669063?text=Olá! Vim pelo site e quero minha análise gratuita.',
               '_blank', 'noopener,noreferrer'
             )}
           >
@@ -103,13 +103,13 @@ export function Footer() {
               Lisboa, Portugal
             </div>
             <a
-              href="https://wa.me/351913134260"
+              href="https://wa.me/5521986669063"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-primary-foreground/60 hover:text-gold transition-colors mt-2"
             >
               <Phone className="w-4 h-4 text-gold flex-shrink-0" />
-              +351 913 134 260
+              +55 21 98666-9063
             </a>
           </div>
 
