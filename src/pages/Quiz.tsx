@@ -80,7 +80,7 @@ const NODES: Record<string, Node> = {
     kind: 'question',
     category: 'Filho(a) de português(a)',
     text: 'Você tem menos de 18 anos?',
-    hint: 'Para menores de idade o processo é muito mais rápido — leva apenas 2 a 4 meses.',
+    hint: 'Para menores de idade o processo é muito mais rápido — leva apenas 3 a 5 meses.',
     options: [
       { icon: '🧒', label: 'Sim, sou menor de 18 anos', next: 'result_filho_menor' },
       { icon: '🧑', label: 'Não, já sou maior de idade', next: 'result_filho_maior' },
@@ -115,8 +115,8 @@ const NODES: Record<string, Node> = {
         tag: 'Mais segura',
         pros: [
           '⏱️ Prazo total: ~6 a 8 anos (2 processos em sequência)',
-          'Pai/mãe pede como neto(a): 41–46 meses no IRN',
-          'Você pede como filho(a): apenas 2–4 meses depois',
+          'Pai/mãe pede como neto(a): 42–48 meses no IRN',
+          'Você pede como filho(a): apenas 3–5 meses depois',
           'Juridicamente mais sólida — cadeia completa',
           'Segundo passaporte (o seu) sai muito mais rápido',
         ],
@@ -131,7 +131,7 @@ const NODES: Record<string, Node> = {
         label: 'Opção 2 — Direta',
         tag: 'Mais rápida',
         pros: [
-          '⏱️ Prazo total: ~41 a 46 meses (1 processo direto)',
+          '⏱️ Prazo total: ~42 a 48 meses (1 processo direto)',
           'Um único processo — começa imediatamente',
           'Custo menor no total',
         ],
@@ -293,7 +293,7 @@ const NODES: Record<string, Node> = {
     kind: 'result',
     type: 'green', icon: '🇵🇹', tag: 'Boa probabilidade',
     title: 'Você tem perfil para pedir como neto(a) — diretamente',
-    desc: 'Com a certidão de nascimento do avô ou avó em mãos, seu processo como neto(a) tem base documental sólida. O IRN vai analisar o vínculo com Portugal (viagens, conhecimento da língua, ligações à comunidade portuguesa). Prazo estimado: 41 a 46 meses.',
+    desc: 'Com a certidão de nascimento do avô ou avó em mãos, seu processo como neto(a) tem base documental sólida. O IRN vai analisar o vínculo com Portugal (viagens, conhecimento da língua, ligações à comunidade portuguesa). Prazo estimado: 42 a 48 meses.',
     docs: ['Certidão de nascimento do avô/avó em Portugal (em inteiro teor)', 'Certidão de casamento do avô/avó', 'Certidão de óbito do avô/avó (se falecido)', 'Certidão de nascimento do pai/mãe (apostilada)', 'Certidão de nascimento do requerente (apostilada)', 'Documentos de vínculo efetivo com Portugal', 'Certidão criminal (federal + estadual, apostiladas)'],
     relatedArticles: [
       { slug: 'checklist-completa-de-documentos-para-netos-de-portugueses', title: 'Checklist completa de documentos para netos' },
