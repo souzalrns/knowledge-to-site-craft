@@ -14,6 +14,7 @@ import {
   ArrowRight,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { SITE_CONFIG, waUrl } from '@/config/site';
 
 const stepsPartOne = [
   {
@@ -182,7 +183,7 @@ export function Process() {
             size="lg"
             onClick={() =>
               window.open(
-                'https://wa.me/5521986669063?text=Olá! Vi o processo completo e quero iniciar minha análise gratuita.',
+                '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Vi o processo completo e quero iniciar minha análise gratuita.")}',
                 '_blank',
                 'noopener,noreferrer'
 )
