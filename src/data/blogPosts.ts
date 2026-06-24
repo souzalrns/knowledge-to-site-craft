@@ -2010,23 +2010,21 @@ A ViannaLegal tem experiência em processos de cônjuges e pode orientar você d
     metaDescription: 'Naturalização portuguesa por residência 2025. Requisitos de 5 anos, teste de português A2, documentos e passo a passo completo para brasileiros.',
     relatedSlugs: ['veto-tribunal-constitucional-dezembro-2025', 'documentos-cidadania-portuguesa-lista-completa', 'como-acompanhar-processo-cidadania-portuguesa'],
     content: `
-**Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor**
+**Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor desde 19 de maio de 2026**
 
 > ⚠️ **Aviso jurídico:** Este artigo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado antes de iniciar o seu processo.
 
-A naturalização por residência é o caminho para quem vive legalmente em Portugal mas não tem ascendência portuguesa nem está casado com um cidadão português. A Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026, alterou profundamente os prazos desta via — e a diferença entre CPLP e outros países é um dos pontos centrais que mais gera confusão.
+A naturalização por residência é o caminho para quem vive legalmente em Portugal mas não tem ascendência portuguesa nem está casado com um cidadão português. A Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026, é a alteração mais abrangente ao regime de cidadania em mais de uma década — e tem impacto directo e imediato em brasileiros.
 
-## O Prazo Vigente — Lei Orgânica 1/2026
+## Os Prazos Vigentes — Lei 1/2026
 
-A lei estabelece três prazos distintos consoante a origem do requerente:
+O prazo mínimo de residência subiu de 5 para 7 anos para cidadãos da CPLP e da UE, e de 5 para 10 anos para os demais.
 
-| Origem | Prazo mínimo | Base legal |
-|--------|-------------|------------|
-| **Países da CPLP** (Brasil, Angola, Moçambique, Cabo Verde, S. Tomé, Guiné-Bissau, Timor-Leste, Guiné Equatorial) | **7 anos** | Art. 6.º, n.º 1, al. a) Lei 1/2026 |
-| **Cidadãos da União Europeia** | **7 anos** | Art. 6.º, n.º 1, al. a) Lei 1/2026 |
-| **Todos os outros países** | **10 anos** | Art. 6.º, n.º 1 Lei 1/2026 |
-
-> ⚠️ **Importante para brasileiros:** O prazo é de **7 anos**, não 5. Apesar do veto do Tribunal Constitucional em dezembro de 2025 que manteve temporariamente o prazo de 5 anos, a Lei 1/2026 aprovada em abril e promulgada em maio de 2026 reintroduziu o prazo de 7 anos para cidadãos CPLP.
+| Origem | Prazo mínimo | Regime anterior |
+|--------|-------------|-----------------|
+| **CPLP** (Brasil, Angola, Moçambique, Cabo Verde, S. Tomé, Guiné-Bissau, Timor-Leste, Guiné Equatorial) | **7 anos** | 5 anos |
+| **União Europeia** | **7 anos** | 5 anos |
+| **Todos os outros países** | **10 anos** | 5-6 anos |
 
 ## Porquê Prazos Diferentes para CPLP?
 
@@ -2038,90 +2036,77 @@ Portugal reconhece a relação especial com os países lusófonos — língua co
 **2. Estatuto de Igualdade Brasil-Portugal**
 Brasileiros beneficiam adicionalmente do Tratado de Amizade, Cooperação e Consulta entre Brasil e Portugal (2000), que confere direitos especiais a brasileiros residentes em Portugal. Este estatuto é distinto e acumulável com os benefícios CPLP.
 
-**O que não muda:** mesmo com o prazo mais curto, os restantes requisitos (integração, idoneidade civil, meios de subsistência) aplicam-se igualmente a todos os requerentes.
+## Uma Mudança Importante: Como Se Conta o Prazo
 
-## Quem Conta Como CPLP?
+Este é um ponto que muita gente desconhece e que a Lei 1/2026 tornou mais restritivo.
 
-Os países da Comunidade dos Países de Língua Portuguesa são:
+Antes, era possível somar o tempo desde o primeiro pedido de residência, mesmo enquanto o título demorava a sair. Com a nova lei, a contagem começa na emissão efectiva do título — o período de espera pela autorização de residência deixa de ser computado.
 
-- 🇧🇷 Brasil
-- 🇦🇴 Angola
-- 🇲🇿 Moçambique
-- 🇨🇻 Cabo Verde
-- 🇸🇹 São Tomé e Príncipe
-- 🇬🇼 Guiné-Bissau
-- 🇹🇱 Timor-Leste
-- 🇬🇶 Guiné Equatorial
+Na prática, quem aguardou meses (ou anos) pela AIMA para ter o cartão de residência em mãos não pode incluir esse período de espera no cálculo. Isto pode atrasar a elegibilidade para naturalização mais do que o simples aumento de prazo sugere.
 
-Nota: Moçambique tem o português como língua oficial mas o inglês também é amplamente usado. Guiné Equatorial aderiu à CPLP em 2014.
+## Quem Está Protegido Pelas Regras Anteriores
 
-## Requisitos Completos para Naturalização
+As novas regras valem apenas para pedidos protocolados a partir de 19 de maio de 2026. Quem deu entrada antes dessa data segue integralmente pelas regras da legislação anterior.
+
+Se submeteu o pedido antes de 19 de maio de 2026, mantém:
+- Prazo de 5 anos (não os 7 agora exigidos para CPLP)
+- A forma anterior de contagem do prazo
+- Os restantes critérios anteriores à Lei 1/2026
+
+Veja o artigo completo: [o que muda para quem protocolou antes da Lei 1/2026](/blog/protocolo-antes-lei-1-2026-o-que-muda).
+
+## Novos Requisitos de Integração (além da residência)
+
+A Lei 1/2026 não se limitou a aumentar prazos. Adicionou também:
+
+Os candidatos à naturalização deverão comprovar domínio satisfatório da história e cultura do país, assinar uma declaração formal de respeito ao Estado de direito democrático, comprovar meios económicos de subsistência e não registar condenações criminais superiores a 3 anos em crimes de alta gravidade.
+
+**Teste de história e cultura:**
+É uma novidade importante — mesmo falantes nativos de português (como brasileiros) precisam de comprovar conhecimentos de história e cultura **portuguesas** específicamente. Os critérios exactos ainda aguardam regulamentação detalhada.
+
+**Declaração de respeito ao Estado de direito democrático:**
+Nova exigência formal sem equivalente no regime anterior.
+
+## Requisitos Completos
 
 ### 1. Tempo de Residência Legal
 
-O tempo conta apenas com residência **legal e efectiva** em Portugal:
-
-**Conta para o prazo:**
-- Autorização de Residência válida (qualquer tipo)
+**O que conta para o prazo:**
+- Autorização de Residência válida (qualquer tipo) — a contagem começa na emissão do cartão
 - Visto D7 (rendimentos passivos, aposentadoria)
-- Visto para empreendedores
+- Visto para empreendedores / Startup Visa
 - Reunificação familiar
 - Golden Visa (autorização de residência por investimento)
 
-**Não conta:**
-- Visto de turista (90 dias)
+**O que não conta:**
+- Visto de turista (90 dias Schengen)
 - Estadia irregular
-- Visto de curta duração (Schengen)
-- Períodos sem autorização válida
+- Período de espera pela emissão do título de residência (mudança da Lei 1/2026)
 
 **Caso especial — estudantes:**
-O tempo de estudo conta apenas por metade. Exemplo: 4 anos de licenciatura = 2 anos para efeitos de naturalização. São necessários anos adicionais de residência laboral ou outra para completar o prazo.
+O tempo de estudo conta apenas por metade. Exemplo: 4 anos de licenciatura = 2 anos para efeitos de naturalização. São necessários anos adicionais de residência laboral para completar o prazo.
 
-**Interrupções:** Ausências curtas (férias, viagens de negócios) não interrompem a contagem. Ausências superiores a 6 meses consecutivos podem afectar a continuidade — consulte um advogado se este for o seu caso.
+**Interrupções:** Ausências superiores a 6 meses consecutivos podem afectar a continuidade — consulte um advogado se este for o seu caso.
 
-### 2. Ligação Efectiva à Comunidade
-
-Portugal exige que o requerente demonstre integração real — não basta ter o título de residência. São elementos valorados:
-
-- Residência efectiva (não apenas título)
-- Participação no mercado de trabalho ou actividade económica
-- Conhecimento básico da língua e cultura portuguesas
-- Relações sociais e comunitárias
-- Registo no sistema fiscal (NIF activo) e de segurança social (NISS)
-
-> ⚠️ **Regulamentação pendente:** A Lei 1/2026 reforçou os requisitos de "integração efectiva" mas a regulamentação específica dos critérios de avaliação ainda não foi publicada. Os elementos acima baseiam-se na prática administrativa anterior.
-
-### 3. Conhecimento da Língua Portuguesa
+### 2. Língua Portuguesa
 
 Exige-se certificado de nível **A2** do Quadro Europeu Comum de Referência.
 
-**Quem está isento:**
-- Brasileiros com diplomas do ensino básico, secundário ou superior — o diploma serve como prova da língua materna
-- Cidadãos de todos os países da CPLP com escolaridade documentada em português
+**Quem está isento:** Brasileiros e cidadãos CPLP com diplomas de escolaridade em português. O diploma serve como prova de língua materna.
 
-**Quem precisa de fazer o exame:**
-- Cidadãos da UE não lusófonos
-- Cidadãos de países fora da CPLP
-- Qualquer pessoa sem documentação escolar que comprove o português
+**Quem precisa de fazer o exame:** Cidadãos da UE não lusófonos e cidadãos de países fora da CPLP.
 
-**Onde fazer o exame CAPLE:**
-- Instituto Camões (Lisboa, Porto e delegações)
-- Universidades parceiras em Portugal
-- Centros credenciados no estrangeiro
-- Custo: aproximadamente €80-100
+### 3. Conhecimento de História e Cultura Portuguesas
+
+Novidade da Lei 1/2026. Todos os requerentes precisam comprovar conhecimentos básicos de história e cultura de Portugal — independentemente de serem lusófonos ou não. O formato do teste ainda aguarda regulamentação específica.
 
 ### 4. Idoneidade Civil
 
-Impedem a naturalização:
-- Condenação por crime com **pena de prisão igual ou superior a 3 anos** (critério reforçado pela Lei 1/2026)
-- Indícios de actividade criminosa
-- Ameaça à segurança ou ordem pública
-
-Este requisito foi alargado pela Lei 1/2026 — aplica-se agora a mais modalidades de acesso à cidadania do que antes.
+Não pode obter a naturalização quem tenha sido condenado a **pena de prisão efectiva igual ou superior a 3 anos** por crimes graves (terrorismo, criminalidade violenta organizada, crimes contra o Estado). Critério reforçado pela Lei 1/2026.
 
 ### 5. Meios de Subsistência
 
-Comprovação de capacidade para se manter sem dependência do Estado:
+Comprovação de capacidade para se manter:
 - Contrato de trabalho e recibos de vencimento
 - Declarações de IRS dos últimos anos
 - Extractos bancários com movimentação regular
@@ -2129,61 +2114,35 @@ Comprovação de capacidade para se manter sem dependência do Estado:
 
 ## Documentação Necessária
 
-### Documentos de Residência
-- Autorização de Residência válida (original e cópia)
-- Histórico completo de autorizações anteriores (cobrindo o período exigido)
+**Residência legal:**
+- Autorização de Residência válida + histórico completo cobrindo o período exigido
 - Atestado de residência da Junta de Freguesia
 
-### Documentos de Identificação
+**Identificação:**
 - Certidão de nascimento apostilada e traduzida
-- Passaporte válido
-- NIF e NISS
+- Passaporte válido, NIF e NISS
 
-### Meios de Subsistência
-- Declarações de IRS (últimos 3-5 anos)
-- Recibos de vencimento ou declaração do empregador
-- Extractos bancários
+**Meios de subsistência:**
+- Declarações de IRS (últimos 3-5 anos), recibos de vencimento, extractos bancários
 
-### Idoneidade Civil
-- Registo criminal português (válido 3 meses — solicite próximo da data de protocolo)
+**Idoneidade:**
+- Registo criminal português (válido 3 meses — solicitar próximo da data de protocolo)
 - Registo criminal brasileiro federal e estadual (apostilado)
-- Registo criminal de outros países onde residiu mais de 1 ano
+- Registos de outros países onde residiu mais de 1 ano
 
-### Língua Portuguesa
+**Língua e integração:**
 - Diplomas de escolaridade brasileiros **ou** certificado CAPLE nível A2
+- Documentação de conhecimento de história/cultura (aguarda regulamentação)
 
-## Prazos Actuais de Análise
+## Prazos de Análise Actuais
 
-Com o [backlog de 700.000 processos pendentes](/blog/700-mil-processos-irn-o-que-significa-para-voce) após a corrida às submissões de maio de 2026, os prazos de análise são os seguintes (estimativas):
+Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa-para-voce) após a corrida de maio de 2026:
 
-| | Prazo oficial | Prazo real estimado (2026) |
-|---|---|---|
-| Naturalização por residência | 18 meses | **36-48 meses** |
+| | Prazo estimado (2026) |
+|---|---|
+| Naturalização por residência | **36-48 meses** após protocolo |
 
-A análise ocorre na Conservatória dos Registos Centrais (CRC) em Lisboa para a maioria dos processos de naturalização.
-
-## Passo a Passo do Processo
-
-**1. Verificar elegibilidade**
-Confirmar anos de residência legal, ausência de impedimentos e documentação completa.
-
-**2. Reunir documentação** (4-8 semanas)
-Começar pelos documentos com prazo de validade curto (registo criminal: 3 meses) mais próximo da data de protocolo.
-
-**3. Apostilar e traduzir documentos brasileiros**
-Apostilamento no Brasil (cartório conveniado), tradução juramentada em Portugal.
-
-**4. Protocolar o pedido**
-Presencialmente na Conservatória ou, quando disponível, online através do portal do IRN.
-
-**5. Acompanhar o processo**
-Através do [portal MJ.pt](/blog/como-acompanhar-processo-cidadania-portuguesa) com o número de processo atribuído no protocolo.
-
-**6. Responder a eventuais diligências**
-O IRN pode solicitar documentos adicionais. Responder rapidamente evita perdas de posição na fila.
-
-**7. Decisão e emissão da certidão**
-Após aprovação, é emitida a certidão de nascimento portuguesa que formaliza a cidadania.
+Para quem busca naturalização, o prazo de 7 anos ainda exige, após cumprido, o protocolo e a análise do pedido. O tempo total entre início da residência e obtenção do passaporte pode superar 8 a 9 anos.
 
 ## Custos Estimados
 
@@ -2192,17 +2151,23 @@ Após aprovação, é emitida a certidão de nascimento portuguesa que formaliza
 | Taxa de naturalização (IRN) | €250 |
 | Registo criminal Portugal | €15 |
 | Certificado CAPLE (se necessário) | €80-100 |
-| Certidão de nascimento apostilada (Brasil) | R$ 70-150 + apostila R$ 130 |
-| Registos criminais Brasil (federal + estadual) | gratuito a R$ 100 |
+| Certidão de nascimento apostilada | R$ 70-150 + apostila ~R$ 130 |
+| Registos criminais Brasil | gratuito a R$ 100 |
 | Traduções (por documento) | €30-80 |
 
-## Protegido pelas Regras Anteriores?
+## Vale a Pena Esperar 7 Anos?
 
-Se submeteu o pedido antes de 19 de maio de 2026, as regras que se aplicam ao seu processo são as que vigoravam nessa data — incluindo o prazo de 5 anos. O IRN confirmou publicamente esta posição. Veja o artigo completo sobre [o que muda para quem protocolou antes da Lei 1/2026](/blog/protocolo-antes-lei-1-2026-o-que-muda).
+A naturalização por residência é uma cidadania **derivada** — produz efeitos a partir da data de aprovação, não retroage ao nascimento. Isto significa que os filhos maiores de idade do naturalizado precisam de abrir o seu próprio processo; não herdam automaticamente a cidadania.
+
+Para quem tem ascendência portuguesa, a via por [descendência (netos, filhos)](/blog/guia-completo-cidadania-portuguesa-2025) pode ser mais vantajosa — não exige residência e é cidadania originária, com transmissibilidade plena.
+
+Para quem não tem ascendência, a naturalização por residência é o único caminho — e a data de início da residência legal é o activo mais importante a proteger.
+
+**Tem dúvidas sobre o seu caso?** A análise inicial é gratuita — fale connosco pelo WhatsApp.
 
 ## Fontes e Referências Oficiais
 
-- [Lei Orgânica n.º 1/2026 — texto consolidado (DRE)](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
+- [Lei Orgânica n.º 1/2026 — Diário da República (18 mai. 2026)](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [IRN — Naturalização por Residência](https://irn.justica.gov.pt/nacionalidade-portuguesa)
 - [AIMA — Agência para a Integração, Migrações e Asilo](https://aima.gov.pt)
 `,
