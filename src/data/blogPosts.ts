@@ -164,11 +164,11 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Filhos menores | **2 a 4 meses** |
-| Filhos maiores (inscrição) | **50 a 56 meses** |
+| Filhos menores | **3 a 5 meses** |
+| Filhos maiores (inscrição) | **4 a 6 meses** |
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
-| Netos menores | **2 a 4 meses** |
-| Netos maiores | **41 a 46 meses** |
+| Netos menores | **3 a 5 meses** |
+| Netos maiores | **42 a 48 meses** |
 | Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
@@ -493,11 +493,11 @@ Estes prazos referem-se ao tempo de análise **após o protocolo do pedido** —
 
 | Via | Prazo estimado |
 |-----|---------------|
-| Filhos menores | **2 a 4 meses** |
-| Filhos maiores (inscrição) | **50 a 56 meses** |
+| Filhos menores | **3 a 5 meses** |
+| Filhos maiores (inscrição) | **4 a 6 meses** |
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
-| Netos menores | **2 a 4 meses** |
-| Netos maiores | **41 a 46 meses** |
+| Netos menores | **3 a 5 meses** |
+| Netos maiores | **42 a 48 meses** |
 | Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
 
 ### Cidadania por Casamento / União de Facto
@@ -1713,8 +1713,8 @@ Com o [backlog de 700.000 processos](/blog/700-mil-processos-irn-o-que-significa
 
 | | Prazo estimado (junho 2026) |
 |---|---|
-| Netos menores | **2 a 4 meses** |
-| Netos maiores | **41 a 46 meses** |
+| Netos menores | **3 a 5 meses** |
+| Netos maiores | **42 a 48 meses** |
 
 > 📋 **Sobre estes prazos — leia antes de interpretar**
 >
@@ -2107,11 +2107,11 @@ Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
 
 | Tipo de processo | Prazo actual (dados IRN abr/mai 2026) |
 |---|---|
-| Filhos menores | **2 a 4 meses** |
-| Filhos maiores (inscrição) | **50 a 56 meses** |
+| Filhos menores | **3 a 5 meses** |
+| Filhos maiores (inscrição) | **4 a 6 meses** |
 | Transcrição de casamento (registo em PT) | **2 a 3 meses** |
-| Netos menores | **2 a 4 meses** |
-| Netos maiores | **41 a 46 meses** |
+| Netos menores | **3 a 5 meses** |
+| Netos maiores | **42 a 48 meses** |
 | Casamento / União de facto | **50 a 54 meses** |
 | Naturalização CPLP (7 anos) | **27 a 30 meses** |
 | Bisnetos (Art. 6.º n.º 8) | **28 a 36 meses** |
@@ -2299,7 +2299,7 @@ A forma de avaliação desses novos critérios ainda depende de regulamentação
 
 **Fase 3 — Montagem do processo e petição (30-60 dias):** Elaborar petição, organizar dossiê de vínculo efetivo, traduzir documentos quando necessário.
 
-**Fase 4 — Análise pelo IRN (41 a 46 meses (maiores) / 2 a 4 meses (menores)):** O processo entra na fila da Conservatória dos Registos Centrais (CRC). Diligências podem surgir — têm prazo de resposta e precisam ser monitoradas.
+**Fase 4 — Análise pelo IRN (42 a 48 meses (maiores) / 3 a 5 meses (menores)):** O processo entra na fila da Conservatória dos Registos Centrais (CRC). Diligências podem surgir — têm prazo de resposta e precisam ser monitoradas.
 
 **Fase 5 — Registro e emissão do Cartão de Cidadão (2-4 meses)**
 
@@ -2319,7 +2319,7 @@ A forma de avaliação desses novos critérios ainda depende de regulamentação
 | Etapa | Prazo |
 |-------|-------|
 | Análise e organização | 1-6 meses |
-| Análise pelo IRN | 41 a 46 meses (maiores) / 2 a 4 meses (menores) |
+| Análise pelo IRN | 42 a 48 meses (maiores) / 3 a 5 meses (menores) |
 | Registro e documentos | 2-4 meses |
 | **Total** | **24 a 42 meses** |
 
