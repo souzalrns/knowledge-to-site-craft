@@ -17,11 +17,23 @@ export const blogPosts = [
     metaDescription: 'Tribunal Constitucional português veta aumento do prazo de residência para cidadania. Residência continua em 5 anos. Saiba como isso afeta brasileiros.',
     relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'cidadania-portuguesa-por-residencia-passo-a-passo', 'backlog-irn-prazos-reais-2025'],
     content: `
+## ⚠️ Actualização — Lei Orgânica 1/2026 (maio de 2026)
+
+Este artigo descreve o veto do Tribunal Constitucional de dezembro de 2025. **Contudo, em maio de 2026 entrou em vigor a Lei Orgânica 1/2026**, aprovada após revisão parlamentar, que **alterou o regime anterior**:
+
+- **Prazo de residência para brasileiros/CPLP: aumentado para 7 anos** (o veto de dez/2025 tinha mantido 5 anos, mas a lei posterior reintroduziu o aumento)
+- **Via para bisnetos: criada** (nova, dependente de regulamentação ainda não publicada)
+- **Regime sefardita: extinto** para novas candidaturas
+
+O artigo abaixo documenta o contexto e o veto de dezembro de 2025, que é relevante para entender a evolução legislativa, mas os prazos vigentes são os da Lei 1/2026.
+
+---
+
 ## Introdução: Uma Decisão Histórica para Brasileiros
 
 Em dezembro de 2025, o Tribunal Constitucional português tomou uma decisão que impacta diretamente milhares de brasileiros que sonham com a cidadania europeia. O veto a quatro normas fundamentais da Lei da Nacionalidade, aprovada em outubro pelo Parlamento, representa uma vitória significativa para a [comunidade lusófona](/blog/dupla-cidadania-brasil-portugal-vantagens).
 
-Esta decisão mantém o prazo de [residência legal em **5 anos**](/blog/cidadania-portuguesa-por-residencia-passo-a-passo) para naturalização, rejeitando o aumento proposto para 7 anos (cidadãos da CPLP) ou 10 anos (demais nacionalidades). Para brasileiros que já residem em Portugal ou planejam se mudar, esta é uma notícia extremamente positiva.
+Esta decisão manteve temporariamente o prazo de [residência legal em **5 anos**](/blog/cidadania-portuguesa-por-residencia-passo-a-passo) para naturalização. Contudo, a Lei 1/2026 posteriormente aprovada reintroduziu o prazo de 7 anos para brasileiros e cidadãos CPLP.
 
 ## O Que Foi Vetado pelo Tribunal Constitucional?
 
@@ -195,9 +207,14 @@ Desde 2015, netos de portugueses podem requerer a cidadania. Com as alterações
 
 **Prazo atual:** 24-42 meses (devido ao backlog do IRN)
 
-### Bisnetos de Portugueses: Processo Sequencial
+### Bisnetos de Portugueses: Nova Via Directa (Lei 1/2026)
 
-Bisnetos não têm direito direto à cidadania. O caminho legal é:
+> ⚠️ **Actualização importante (maio de 2026):** A **Lei Orgânica 1/2026 criou uma via directa para bisnetos** de portugueses, sem necessidade do processo sequencial descrito abaixo. **Requisito:** residência legal em Portugal de pelo menos 5 anos. A regulamentação específica ainda não foi publicada.
+
+**Via directa (Lei 1/2026 — requer residência em Portugal de 5+ anos):**
+Para bisnetos que vivem legalmente em Portugal há 5 ou mais anos, existe agora uma via directa. Aguarda-se a publicação do decreto regulamentador.
+
+**Via sequencial — caminho alternativo:** O caminho para quem está no Brasil ou não cumpre o requisito de residência:
 
 1. O pai/mãe (neto do português) obtém a cidadania primeiro
 2. Depois, como filho de português, o bisneto pode solicitar
@@ -453,6 +470,8 @@ A ViannaLegal está pronta para avaliar seu caso gratuitamente e indicar o melho
     content: `
 ## O Que é Vínculo Efetivo com a Comunidade Portuguesa?
 
+> ⚠️ **Aviso importante (junho de 2026):** A Lei Orgânica 1/2026 alterou os requisitos de vínculo efetivo, mas o decreto regulamentador **ainda não foi publicado**. As informações sobre formas de comprovação descritas neste artigo baseiam-se na prática administrativa do IRN vigente até 2025, podendo ser alteradas quando a regulamentação for publicada.
+
 O vínculo efetivo é um requisito legal introduzido em 2022 para [netos de portugueses](/blog/cidadania-portuguesa-netos-guia-definitivo-2025) que desejam obter a cidadania portuguesa. Trata-se da demonstração de uma **ligação real e contínua** com Portugal, sua cultura, língua e comunidade.
 
 Este requisito foi criado para garantir que os novos cidadãos tenham uma conexão genuína com o país, indo além do mero vínculo sanguíneo. Para brasileiros, que compartilham a língua e muitos aspectos culturais com Portugal, a comprovação tende a ser mais natural, mas ainda assim requer [documentação adequada](/blog/documentos-cidadania-portuguesa-lista-completa).
@@ -472,9 +491,17 @@ A [Lei da Nacionalidade portuguesa](/blog/veto-tribunal-constitucional-dezembro-
 
 O vínculo efetivo surgiu como um meio-termo: permite que netos obtenham a cidadania, mas exige demonstração de ligação cultural.
 
-## As 6 Formas Oficiais de Comprovação
+## ⚠️ Atenção: A Regulamentação Ainda Não Foi Publicada
 
-O IRN (Instituto dos Registos e Notariado) aceita diversas formas de comprovação. Quanto mais elementos você apresentar, mais forte será seu dossiê.
+A Lei Orgânica 1/2026 alterou os requisitos de vínculo efetivo para netos, mas **a regulamentação específica que define formalmente os critérios de comprovação ainda não foi publicada** (situação em junho de 2026). O que existe até agora é a prática administrativa do IRN desenvolvida desde 2022, que orientou a análise dos processos durante esse período.
+
+Recomendamos acompanhar o [Diário da República](https://dre.pt) e o [portal do IRN](https://irn.justica.gov.pt) para a publicação do decreto regulamentador.
+
+## As Formas de Comprovação Aceites na Prática
+
+Com base na **prática administrativa do IRN** desde 2022 (antes da regulamentação formal da Lei 1/2026), as seguintes evidências têm sido aceites. **Atenção:** após a publicação do decreto regulamentador, estes critérios poderão ser alterados.
+
+O IRN avalia o **conjunto da prova** — não há lista fechada nem critérios pontuais obrigatórios. Quanto mais elementos apresentar, mais sólido será o dossiê.
 
 ### 1. Conhecimento da Língua Portuguesa
 
@@ -1993,7 +2020,7 @@ Com o [veto do Tribunal Constitucional](/blog/veto-tribunal-constitucional-dezem
 
 ### 1. Tempo de Residência Legal
 
-**Mínimo: 5 anos de residência legal em Portugal**
+**Mínimo: 7 anos de residência legal para brasileiros e cidadãos CPLP** (Lei Orgânica 1/2026, em vigor desde maio de 2026); **5 anos para outros países**
 
 O que conta como residência legal:
 - Autorização de Residência válida
@@ -2027,7 +2054,9 @@ Demonstração de integração na sociedade portuguesa:
 - Participação na vida social
 - Conhecimento básico da cultura portuguesa
 
-## O Veto do TC e o Prazo de 5 Anos
+## Actualização: Lei 1/2026 Reintroduz Prazo de 7 Anos para CPLP
+
+> ⚠️ **Importante:** Apesar do veto do TC em dezembro de 2025, a **Lei Orgânica 1/2026 (em vigor desde maio de 2026)** reintroduziu o prazo de 7 anos para brasileiros e cidadãos CPLP. O artigo abaixo descreve o contexto histórico do veto, mas o prazo vigente actualmente é de 7 anos.
 
 Em dezembro de 2025, o Tribunal Constitucional vetou o aumento do prazo de residência que havia sido aprovado pelo Parlamento:
 
@@ -2677,6 +2706,8 @@ Se o avô português se naturalizou brasileiro, é possível que tenha perdido a
 O governo português quis garantir que novos cidadãos tenham conexão genuína, não apenas interesse no passaporte.
 
 ### Como o IRN Avalia
+
+> ⚠️ **Regulamentação pendente (junho de 2026):** A Lei Orgânica 1/2026 reforçou os requisitos de vínculo efetivo para netos, mas o decreto regulamentador ainda não foi publicado. Os critérios abaixo baseiam-se na **prática administrativa do IRN até 2025** e podem ser alterados. Acompanhe o [Diário da República](https://dre.pt) para actualizações.
 
 Não há lista fechada do que comprova vínculo. O IRN avalia o **conjunto da prova**, considerando:
 
