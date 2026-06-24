@@ -7,6 +7,7 @@ import {
 } from '@/components/ui/accordion';
 import { Button } from '@/components/ui/button';
 import { MessageCircle } from 'lucide-react';
+import { SITE_CONFIG, waUrl } from '@/config/site';
 
 interface FaqItem {
   question: string;
@@ -153,7 +154,7 @@ const faqGroups: FaqGroup[] = [
       {
         question: 'Vocês oferecem consultoria gratuita?',
         answer:
-          'Sim! Oferecemos uma análise inicial gratuita via WhatsApp onde avaliamos: sua elegibilidade para cidadania portuguesa, documentos que você já possui, estimativa de prazo e custos, e próximos passos recomendados. Agende sua consulta gratuita pelo WhatsApp +55 21 98666-9063.',
+          'Sim! Oferecemos uma análise inicial gratuita via WhatsApp onde avaliamos: sua elegibilidade para cidadania portuguesa, documentos que você já possui, estimativa de prazo e custos, e próximos passos recomendados. Agende sua consulta gratuita pelo WhatsApp ' + SITE_CONFIG.whatsapp.display + '.',
       },
     ],
   },
@@ -193,7 +194,7 @@ export function FAQ() {
                 size="sm"
                 onClick={() =>
                   window.open(
-                    'https://wa.me/5521986669063?text=Olá! Tenho uma dúvida sobre cidadania portuguesa que não encontrei no site.',
+                    '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Tenho uma dúvida sobre cidadania portuguesa que não encontrei no site.")}',
                     '_blank',
                     'noopener,noreferrer'
 )
