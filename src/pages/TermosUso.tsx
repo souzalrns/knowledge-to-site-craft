@@ -3,6 +3,7 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/sections/Footer';
 import { useScrollToHash } from '@/hooks/useScrollToHash';
 import { motion } from 'framer-motion';
+import { SITE_CONFIG, waUrl } from '@/config/site';
 
 export default function TermosUso() {
   useScrollToHash();
@@ -144,7 +145,7 @@ export default function TermosUso() {
                     10. Contato
                   </h2>
                   <p>
-                    Para dúvidas sobre estes termos, entre em contato pelo WhatsApp: +55 21 98666-9063.
+                    Para dúvidas sobre estes termos, entre em contato pelo WhatsApp: ' + SITE_CONFIG.whatsapp.display + '.
                   </p>
                 </div>
               </motion.div>
