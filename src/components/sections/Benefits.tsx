@@ -122,7 +122,7 @@ export function Benefits() {
             size="lg"
             onClick={() =>
               window.open(
-                'https://wa.me/351913134260?text=Olá! Quero entender quais vantagens da cidadania portuguesa se aplicam ao meu caso.',
+                'https://wa.me/5521986669063?text=Olá! Quero entender quais vantagens da cidadania portuguesa se aplicam ao meu caso.',
                 '_blank',
                 'noopener,noreferrer'
 )
