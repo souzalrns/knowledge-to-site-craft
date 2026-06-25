@@ -3,6 +3,7 @@ import { useAnalytics } from '@/hooks/useAnalytics';
 import { Helmet } from 'react-helmet-async';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Header } from '@/components/layout/Header';
+import { SchemaQuiz } from '@/components/seo/SchemaMarkup';
 import { Footer } from '@/components/sections/Footer';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ArrowLeft, CheckCircle, MessageCircle, Send, AlertTriangle, Info } from 'lucide-react';
@@ -732,6 +733,7 @@ export default function Quiz() {
         <title>Quiz Cidadania Portuguesa — Descubra se Você Tem Direito | ViannaLegal</title>
         <meta name="description" content="Responda algumas perguntas e descubra em minutos se você tem direito à cidadania portuguesa e qual é o caminho mais adequado para o seu perfil." />
       </Helmet>
+      <SchemaQuiz />
       <Header />
 
       <main className="min-h-screen bg-gradient-to-b from-background to-muted/20 py-12">
