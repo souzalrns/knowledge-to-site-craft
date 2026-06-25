@@ -104,7 +104,7 @@ export function Footer() {
               Lisboa, Portugal
             </div>
             <a
-              href=SITE_CONFIG.whatsapp.url
+              href={SITE_CONFIG.whatsapp.url}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-primary-foreground/60 hover:text-gold transition-colors mt-2"
