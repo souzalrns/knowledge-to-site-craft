@@ -13,6 +13,7 @@ import { useScrollToHash } from '@/hooks/useScrollToHash';
 import { useAnalytics } from '@/hooks/useAnalytics';
 import { useEffect, useRef } from 'react';
 import { QuizBanner } from '@/components/ui/QuizBanner';
+import { SchemaHomepage } from '@/components/seo/SchemaMarkup';
 
 const Index = () => {
   useScrollToHash();
@@ -162,7 +163,8 @@ const Index = () => {
       </Helmet>
       
       <div className="min-h-screen bg-background">
-        <Header />
+        <SchemaHomepage />
+      <Header />
         <main>
           <Hero />
           <Services />
