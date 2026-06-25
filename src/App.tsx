@@ -1,3 +1,4 @@
+import React from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -43,6 +44,35 @@ const PageLoader = () => (
   </div>
 );
 
+
+// Error Boundary para capturar erros de runtime
+class ErrorBoundary extends React.Component<
+  { children: React.ReactNode },
+  { hasError: boolean; error: Error | null }
+> {
+  constructor(props: { children: React.ReactNode }) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
+  static getDerivedStateFromError(error: Error) {
+    return { hasError: true, error };
+  }
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div style={{ padding: '2rem', fontFamily: 'monospace', background: '#fff' }}>
+          <h1 style={{ color: 'red' }}>Erro ao carregar</h1>
+          <pre style={{ whiteSpace: 'pre-wrap', fontSize: '12px' }}>
+            {this.state.error?.message}
+            {this.state.error?.stack}
+          </pre>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
@@ -53,6 +83,7 @@ const queryClient = new QueryClient({
 });
 
 const App = () => (
+  <ErrorBoundary>
   <HelmetProvider>
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
@@ -79,6 +110,7 @@ const App = () => (
       </TooltipProvider>
     </QueryClientProvider>
   </HelmetProvider>
+  </ErrorBoundary>
 );
 
 export default App;
