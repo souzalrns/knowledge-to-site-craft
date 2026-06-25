@@ -243,7 +243,7 @@ export default function Blog() {
                   o melhor caminho para sua cidadania portuguesa.
                 </p>
                 <Button variant="gold" size="lg" asChild>
-                  <a href=SITE_CONFIG.whatsapp.url target="_blank" rel="noopener noreferrer">
+                  <a href={SITE_CONFIG.whatsapp.url} target="_blank" rel="noopener noreferrer">
                     Agendar análise gratuita
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </a>
