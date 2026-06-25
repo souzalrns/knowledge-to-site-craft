@@ -1,38 +1,42 @@
 import { motion } from 'framer-motion';
-import { Shield, Clock, Award, Users, ArrowRight, Heart } from 'lucide-react';
+import { Shield, Clock, Award, Users, ArrowRight, Heart, GraduationCap, Scale } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import consultantImage from '@/assets/consultant.jpg';
 import consultantImageWebp from '@/assets/consultant.webp';
 import { SITE_CONFIG, waUrl } from '@/config/site';
+import { useAnalytics } from '@/hooks/useAnalytics';
 
-const features = [
+const credentials = [
   {
-    icon: Shield,
-    title: 'Segurança jurídica total',
-    description: 'Cada processo é montado para não ter diligências. Documentação certa na primeira vez.',
+    icon: GraduationCap,
+    title: 'Licenciada pela Universidade de Lisboa',
+    description: 'Com formação especializada em Registos e Notariado pela Universidade Portucalense.',
+  },
+  {
+    icon: Scale,
+    title: 'Ordem dos Advogados de Portugal',
+    description: 'Inscrição ativa na OA. Actuação em Tribunais Judiciais, Conservatórias e função Notarial.',
   },
   {
     icon: Clock,
-    title: 'Sem perder posição na fila',
-    description: 'Protocolamos rápido para você entrar na fila do IRN o quanto antes. Cada mês importa.',
-  },
-  {
-    icon: Award,
-    title: 'Especialistas, não generalistas',
-    description: '+10 anos dedicados exclusivamente à cidadania portuguesa. Conhecemos o IRN por dentro.',
+    title: '20+ anos de experiência',
+    description: 'Em Departamentos Jurídicos, revisão e negociação de contratos e gestão de documentação complexa.',
   },
   {
     icon: Users,
-    title: 'Atendimento real, do início ao fim',
-    description: 'Um especialista acompanha o seu caso — não um chatbot, não uma fila de atendimento.',
+    title: 'Atendimento dedicado, do início ao fim',
+    description: 'A Kathia acompanha pessoalmente cada processo — não um assistente, não um chatbot.',
   },
 ];
 
 export function About() {
+  const { trackWhatsAppClick } = useAnalytics();
+
   return (
     <section id="quem-somos" className="section-padding">
       <div className="container-width">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+
           {/* Image Side */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
@@ -46,17 +50,22 @@ export function About() {
                 <source srcSet={consultantImageWebp} type="image/webp" />
                 <img
                   src={consultantImage}
-                  alt="Kathia Vianna — Advogada especialista em Nacionalidade Portuguesa"
+                  alt="Kathia Vianna — Advogada, Ordem dos Advogados de Portugal"
                   className="w-full h-[500px] object-cover"
                   loading="lazy"
                   width={800}
                   height={1000}
                 />
               </picture>
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
+              {/* Nome sobre a foto */}
+              <div className="absolute bottom-6 left-6 text-white">
+                <p className="font-display text-2xl font-bold">Kathia Vianna</p>
+                <p className="text-sm text-white/80">Advogada · Ordem dos Advogados de Portugal</p>
+              </div>
             </div>
 
-            {/* Floating Card */}
+            {/* Floating Card — credencial verificável */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -84,7 +93,7 @@ export function About() {
             transition={{ duration: 0.8 }}
           >
             <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
-              Quem Somos
+              Quem está por trás do processo
             </span>
 
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
@@ -93,25 +102,25 @@ export function About() {
             </h2>
 
             <p className="text-muted-foreground text-lg mb-4 leading-relaxed">
-              Quando um pai obtém a cidadania portuguesa, ele não está a fazer só um documento.
-              Está a abrir uma porta para os filhos estudarem na Europa sem pagar fortuna,
-              trabalharem em qualquer país da UE sem visto, viverem onde quiserem — e passarem
-              esse direito para os netos, e os netos para os bisnetos.
+              Quando um pai obtém a cidadania portuguesa, não está apenas a tratar de um
+              documento. Está a abrir uma porta para os filhos estudarem na Europa, trabalharem
+              em qualquer país da UE, viverem onde quiserem — e passarem esse direito para os
+              netos, e os netos para os bisnetos.
             </p>
 
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Ninguém sabe que portas vão aparecer no futuro. Mas quem tem o passaporte vai ter
-              a liberdade de escolher. É esse o valor real da dupla cidadania — não o documento,
-              mas as possibilidades que ele representa.
+              Ninguém sabe que portas vão aparecer no futuro. Mas quem tem o passaporte
+              vai ter a liberdade de escolher. É esse o valor real da dupla cidadania —
+              não o documento, mas as possibilidades que ele representa para a família.
             </p>
 
-            {/* Features Grid */}
+            {/* Credenciais reais */}
             <div className="grid sm:grid-cols-2 gap-6 mb-8">
-              {features.map((feature, index) => {
-                const Icon = feature.icon;
+              {credentials.map((item, index) => {
+                const Icon = item.icon;
                 return (
                   <motion.div
-                    key={feature.title}
+                    key={item.title}
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -122,8 +131,12 @@ export function About() {
                       <Icon className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-foreground mb-1 text-base">{feature.title}</h3>
-                      <p className="text-sm text-muted-foreground">{feature.description}</p>
+                      <h3 className="font-semibold text-foreground mb-1 text-sm leading-snug">
+                        {item.title}
+                      </h3>
+                      <p className="text-xs text-muted-foreground leading-relaxed">
+                        {item.description}
+                      </p>
                     </div>
                   </motion.div>
                 );
@@ -133,13 +146,14 @@ export function About() {
             <Button
               variant="gold"
               size="lg"
-              onClick={() =>
+              onClick={() => {
+                trackWhatsAppClick('about');
                 window.open(
                   waUrl(SITE_CONFIG.whatsappMessages.about),
                   '_blank',
                   'noopener,noreferrer'
-                )
-              }
+                );
+              }}
             >
               Começar a construir essa herança
               <ArrowRight className="w-5 h-5" />
