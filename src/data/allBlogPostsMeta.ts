@@ -1,0 +1,1331 @@
+// ViannaLegal — Metadados dos artigos (SEM conteúdo)
+// Usado na listagem /blog — título, excerpt, categoria, data
+// ~58KB em vez de 379KB — 6x mais leve
+
+import { FileText, TrendingUp, Scale, Heart, Home, Users, Search, Clock, MapPin } from 'lucide-react';
+
+export interface BlogPostMeta {
+  id: number;
+  slug: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  readTime: string;
+  author: string;
+  category: string;
+  icon?: unknown;
+  featured?: boolean;
+  metaDescription?: string;
+  relatedSlugs?: string[];
+}
+
+// 82 artigos — apenas metadados
+export const allBlogPostsMeta: BlogPostMeta[] = [
+  {
+{
+    id: 1,
+    slug: 'veto-tribunal-constitucional-dezembro-2025',
+    title: 'Veto do Tribunal Constitucional Dez/2025: Residência em 5 Anos Mantida',
+    excerpt: 'O Tribunal Constitucional vetou quatro normas da nova Lei da Nacionalidade. O prazo de residência permanece em 5 anos, não subindo para 7/10 anos como previsto. Entenda o que isso significa para brasileiros.',
+    date: '17 Dez 2024',
+    readTime: '12 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Scale,
+    featured: true,
+    metaDescription: 'Tribunal Constitucional português veta aumento do prazo de residência para cidadania. Residência continua em 5 anos. Saiba como isso afeta brasileiros.',
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'cidadania-portuguesa-por-residencia-passo-a-passo', 'backlog-irn-prazos-reais-2025'],
+  },
+
+  {
+{
+    id: 2,
+    slug: 'guia-completo-cidadania-portuguesa-2025',
+    title: 'Guia Completo 2025: Cidadania Portuguesa por Descendência',
+    excerpt: 'Tudo sobre o processo de cidadania portuguesa para filhos, netos e bisnetos. Documentos obrigatórios, prazos atualizados com backlog IRN, custos e comprovação de vínculo efetivo explicados passo a passo.',
+    date: '15 Dez 2024',
+    readTime: '18 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: true,
+    metaDescription: 'Guia definitivo para cidadania portuguesa por descendência em 2025. Filhos, netos, bisnetos: documentos, prazos, custos e vínculo efetivo explicados.',
+    relatedSlugs: ['documentos-cidadania-portuguesa-lista-completa', 'vinculo-efetivo-como-comprovar', 'cidadania-portuguesa-netos-guia-definitivo-2025'],
+  },
+
+  {
+{
+    id: 3,
+    slug: 'vinculo-efetivo-como-comprovar',
+    title: 'Vínculo Efetivo: Como Comprovar Ligação com Portugal',
+    excerpt: 'Descubra as 6 formas aceitas de comprovação de vínculo efetivo com a comunidade portuguesa, essencial para netos e bisnetos. Dicas práticas e exemplos reais de documentação aceita.',
+    date: '12 Dez 2024',
+    readTime: '14 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: TrendingUp,
+    featured: false,
+    metaDescription: 'Aprenda a comprovar vínculo efetivo para cidadania portuguesa. 6 formas aceitas, exemplos práticos e dicas para [netos de portugueses](/blog/cidadania-portuguesa-netos-guia-definitivo-2025) em 2025.',
+    relatedSlugs: ['cidadania-portuguesa-netos-guia-definitivo-2025', 'guia-completo-cidadania-portuguesa-2025', 'como-buscar-certidoes-portuguesas-portugal'],
+  },
+
+  {
+{
+    id: 4,
+    slug: 'backlog-irn-prazos-reais-2025',
+    title: 'Backlog IRN: Prazos Reais da Cidadania Portuguesa em 2025',
+    excerpt: 'Análise atualizada dos tempos de espera nas conservatórias portuguesas. Como o backlog do IRN afeta seu processo e estratégias para otimizar o tempo de aprovação.',
+    date: '10 Dez 2024',
+    readTime: '11 min',
+    author: 'Kathia Vianna',
+    category: 'Análise',
+    icon: Clock,
+    featured: false,
+    metaDescription: 'Prazos reais de cidadania portuguesa em 2025. Backlog IRN explicado: tempos por tipo de processo, conservatórias mais rápidas e estratégias de otimização.',
+    relatedSlugs: ['como-acompanhar-processo-cidadania-portuguesa', 'documentos-cidadania-portuguesa-lista-completa', 'guia-completo-cidadania-portuguesa-2025'],
+  },
+
+  {
+{
+    id: 5,
+    slug: 'dupla-cidadania-brasil-portugal-vantagens',
+    title: 'Vantagens da Dupla Cidadania Brasil-Portugal em 2025',
+    excerpt: 'Descubra os benefícios exclusivos do passaporte português: acesso a 190+ países, trabalho na Europa, saúde e educação de qualidade, e transmissão para futuras gerações.',
+    date: '8 Dez 2024',
+    readTime: '13 min',
+    author: 'Kathia Vianna',
+    category: 'Benefícios',
+    icon: TrendingUp,
+    featured: false,
+    metaDescription: 'Vantagens da dupla cidadania Brasil-Portugal: passaporte para 190+ países, trabalho na UE, saúde, educação e benefícios exclusivos. Guia completo 2025.',
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'cidadania-portuguesa-por-residencia-passo-a-passo', 'cidadania-portuguesa-por-casamento-guia-completo'],
+  },
+
+  {
+{
+    id: 6,
+    slug: 'documentos-cidadania-portuguesa-lista-completa',
+    title: 'Lista Completa de Documentos para Cidadania Portuguesa',
+    excerpt: 'Checklist definitivo de documentos por tipo de processo: filhos, netos, cônjuges e naturalização. Saiba exatamente o que providenciar antes de iniciar.',
+    date: '5 Dez 2024',
+    readTime: '15 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    metaDescription: 'Lista completa de documentos para cidadania portuguesa 2025. Checklists por tipo: filhos, netos, cônjuges, residência. Apostilamento, tradução e taxas.',
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'como-buscar-certidoes-portuguesas-portugal', 'cidadania-portuguesa-netos-guia-definitivo-2025'],
+  },
+
+  {
+{
+    id: 7,
+    slug: 'cidadania-portuguesa-por-casamento-guia-completo',
+    title: 'Cidadania Portuguesa por Casamento: Guia Completo 2025',
+    excerpt: 'Tudo sobre obter cidadania portuguesa através do casamento com cidadão português. Requisitos, documentos, prazos e diferenças entre casamento e união de facto.',
+    date: '3 Dez 2024',
+    readTime: '12 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: Heart,
+    featured: false,
+    metaDescription: 'Cidadania portuguesa por casamento 2025. Requisitos, 3 anos mínimos, [documentos necessários](/blog/documentos-cidadania-portuguesa-lista-completa), união de facto e passo a passo completo.',
+    relatedSlugs: ['documentos-cidadania-portuguesa-lista-completa', 'vinculo-efetivo-como-comprovar', 'dupla-cidadania-brasil-portugal-vantagens'],
+  },
+
+  {
+{
+    id: 8,
+    slug: 'cidadania-portuguesa-por-residencia-passo-a-passo',
+    title: 'Cidadania Portuguesa por Residência: Passo a Passo 2025',
+    excerpt: 'Guia completo para naturalização por tempo de residência em Portugal. 5 anos de residência legal, teste de português A2, documentos e processo explicados.',
+    date: '1 Dez 2024',
+    readTime: '14 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: Home,
+    featured: false,
+    metaDescription: 'Naturalização portuguesa por residência 2025. Requisitos de 5 anos, teste de português A2, documentos e passo a passo completo para brasileiros.',
+    relatedSlugs: ['veto-tribunal-constitucional-dezembro-2025', 'documentos-cidadania-portuguesa-lista-completa', 'como-acompanhar-processo-cidadania-portuguesa'],
+  },
+
+  {
+{
+    id: 9,
+    slug: 'como-buscar-certidoes-portuguesas-portugal',
+    title: 'Como Buscar Certidões Portuguesas em Portugal',
+    excerpt: 'Guia prático para encontrar certidões de nascimento, casamento e óbito de antepassados portugueses. Conservatórias, arquivos históricos e pesquisa genealógica.',
+    date: '28 Nov 2024',
+    readTime: '11 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: Search,
+    featured: false,
+    metaDescription: 'Como buscar certidões portuguesas: conservatórias, arquivos distritais, registros paroquiais e genealogia. Guia completo para descendentes.',
+    relatedSlugs: ['documentos-cidadania-portuguesa-lista-completa', 'cidadania-portuguesa-netos-guia-definitivo-2025', 'vinculo-efetivo-como-comprovar'],
+  },
+
+  {
+{
+    id: 10,
+    slug: 'cidadania-portuguesa-netos-guia-definitivo-2025',
+    title: 'Cidadania Portuguesa para Netos: Guia Definitivo 2025',
+    excerpt: 'O guia mais completo sobre cidadania portuguesa para netos de portugueses. Vínculo efetivo, documentos, prazos reais, estratégias de aprovação e casos práticos.',
+    date: '25 Nov 2024',
+    readTime: '20 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: Users,
+    featured: true,
+    metaDescription: 'Cidadania portuguesa para netos 2025: guia definitivo. Vínculo efetivo, documentos, prazos IRN, estratégias de aprovação e passo a passo completo.',
+    relatedSlugs: ['vinculo-efetivo-como-comprovar', 'documentos-cidadania-portuguesa-lista-completa', 'como-buscar-certidoes-portuguesas-portugal'],
+  },
+
+  {
+{
+    id: 11,
+    slug: 'como-acompanhar-processo-cidadania-portuguesa',
+    title: 'Como Acompanhar o Processo de Cidadania Portuguesa: Guia do Portal MJ.pt',
+    excerpt: 'Aprenda a consultar seu [processo de nacionalidade portuguesa](/blog/guia-completo-cidadania-portuguesa-2025) no portal MJ.pt. Entenda as 7 bolinhas de status, a senha de acesso e o que fazer em cada etapa.',
+    date: '23 Jun 2026',
+    readTime: '10 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: Search,
+    featured: false,
+    metaDescription: 'Guia completo para acompanhar processo de cidadania portuguesa no MJ.pt. Consulta de Nacionalidade, 7 bolinhas de status, senha de acesso e prazos.',
+    relatedSlugs: ['backlog-irn-prazos-reais-2025', 'documentos-cidadania-portuguesa-lista-completa', 'guia-completo-cidadania-portuguesa-2025'],
+  },
+
+  {
+{
+    id: 12,
+    slug: 'bisnetos-via1-vs-via2-cidadania-portuguesa',
+    title: 'Bisnetos e a Cidadania Portuguesa: Via 1 (Atribuição) vs Via 2 (Aquisição) — Qual a Diferença?',
+    excerpt: 'A Lei Orgânica 1/2026 criou duas vias distintas para bisnetos de portugueses. Entenda a diferença crucial entre atribuição originária e aquisição derivada — e por que isso afecta o que você pode transmitir aos seus filhos.',
+    date: '23 Jun 2026',
+    readTime: '10 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Scale,
+    featured: true,
+    relatedSlugs: ['cidadania-portuguesa-netos-guia-definitivo-2025', 'guia-completo-cidadania-portuguesa-2025', 'vinculo-efetivo-como-comprovar'],
+    metaDescription: 'Entenda a diferença entre Via 1 (atribuição originária) e Via 2 (aquisição derivada) para bisnetos na cidadania portuguesa — Lei 1/2026. Veja qual se aplica ao seu caso.',
+  },
+
+  {
+{
+    id: 13,
+    slug: 'protocolo-antes-lei-1-2026-o-que-muda',
+    title: 'Protocolei Meu Pedido Antes de 19 de Maio de 2026 — O Que Muda para Mim?',
+    excerpt: 'O IRN confirmou: a data de submissão determina qual lei se aplica ao seu processo. Quem entrou antes da Lei 1/2026 mantém as regras anteriores — mesmo que a análise ocorra depois. Entenda os seus direitos.',
+    date: '23 Jun 2026',
+    readTime: '7 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: Clock,
+    featured: false,
+    relatedSlugs: ['veto-tribunal-constitucional-dezembro-2025', 'backlog-irn-prazos-reais-2025', 'como-acompanhar-processo-cidadania-portuguesa'],
+    metaDescription: 'Quem submeteu o pedido de cidadania portuguesa antes de 19 de maio de 2026 mantém as regras antigas. O IRN confirmou: vale a data de submissão, não a de análise.',
+  },
+
+  {
+{
+    id: 14,
+    slug: '700-mil-processos-irn-o-que-significa-para-voce',
+    title: '700.000 Processos Pendentes no IRN: O Que Isso Significa para o Seu Caso?',
+    excerpt: 'O número de processos pendentes no IRN atingiu 700.000 após a Lei 1/2026 — um recorde histórico. Entenda o impacto real nos prazos, o que o IRN fez para responder ao colapso e como posicionar melhor o seu pedido.',
+    date: '23 Jun 2026',
+    readTime: '8 min',
+    author: 'Kathia Vianna',
+    category: 'Análise',
+    icon: TrendingUp,
+    featured: true,
+    relatedSlugs: ['backlog-irn-prazos-reais-2025', 'como-acompanhar-processo-cidadania-portuguesa', 'documentos-cidadania-portuguesa-lista-completa'],
+    metaDescription: 'O IRN tem 700.000 processos de cidadania pendentes após a Lei 1/2026. Saiba o que isso muda nos prazos reais e como proteger o seu processo.',
+  },
+
+  {
+{
+    id: 15,
+    slug: 'filhos-nascidos-em-portugal-nova-lei-2026',
+    title: 'Filhos Nascidos em Portugal: O Que Mudou com a Lei 1/2026?',
+    excerpt: 'A nova lei alterou profundamente as regras para filhos de estrangeiros nascidos em Portugal. Os progenitores precisam agora de 5 anos de residência legal — o dobro do exigido antes. Entenda quem é afectado e o que fazer.',
+    date: '23 Jun 2026',
+    readTime: '8 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Users,
+    featured: false,
+    relatedSlugs: ['protocolo-antes-lei-1-2026-o-que-muda', 'cidadania-portuguesa-por-residencia-passo-a-passo', 'documentos-cidadania-portuguesa-lista-completa'],
+    metaDescription: 'A Lei 1/2026 exige agora 5 anos de residência legal dos pais para que filhos nascidos em Portugal sejam portugueses. Saiba quem é afectado e quais as alternativas.',
+  },
+
+  {
+{
+    id: 1,
+    slug: 'nacionalidade-portuguesa-para-netos-guia-completo-2026',
+    title: 'Nacionalidade Portuguesa para Netos: Guia Completo Atualizado 2026',
+    excerpt: 'Neto de português tem direito à cidadania europeia — mas o processo não é automático. Entenda o que é vínculo efetivo, quais documentos reunir, quanto tempo leva e o que mudou com a Lei Orgânica 1/2026.',
+    date: '18 Jun 2026',
+    readTime: '18 min',
+    author: 'Kathia Vianna',
+    category: 'Guias Pilares',
+    icon: FileText,
+    featured: true,
+    metaDescription: 'Neto de português tem direito à cidadania europeia — mas o processo não é automático. Vínculo efetivo, documentos, prazos reais e Lei Orgânica 1/2026.',
+  },
+
+  {
+{
+    id: 2,
+    slug: 'nacionalidade-portuguesa-para-filhos-guia-completo-2026',
+    title: 'Nacionalidade Portuguesa para Filhos: Guia Completo e Atualizado 2026',
+    excerpt: 'Filho de português tem direito automático à cidadania portuguesa, independentemente da idade. Entenda as diferenças entre menores e maiores de idade, documentos e prazos reais em 2026.',
+    date: '18 Jun 2026',
+    readTime: '14 min',
+    author: 'Kathia Vianna',
+    category: 'Guias Pilares',
+    icon: FileText,
+    featured: true,
+    metaDescription: 'Filho de português tem direito automático à cidadania portuguesa, independentemente da idade. Diferenças entre menores e maiores, documentos e prazos 2026.',
+  },
+
+  {
+{
+    id: 3,
+    slug: 'nacionalidade-portuguesa-por-casamento-uniao-facto-2026',
+    title: 'Nacionalidade Portuguesa por Casamento ou União de Facto em 2026',
+    excerpt: 'Casado(a) com português(a) há mais de 3 anos? Entenda o processo completo: transcrição de casamento, documentos, prazos e o que a Lei Orgânica 1/2026 não alterou.',
+    date: '18 Jun 2026',
+    readTime: '13 min',
+    author: 'Kathia Vianna',
+    category: 'Guias Pilares',
+    icon: FileText,
+    featured: true,
+    metaDescription: 'Casado(a) com português(a) há mais de 3 anos? Processo completo: transcrição, documentos, prazos. O prazo de 3 anos foi mantido pela Lei Orgânica 1/2026.',
+  },
+
+  {
+{
+    id: 4,
+    slug: 'quanto-custa-nacionalidade-portuguesa-2026',
+    title: 'Quanto Custa a Nacionalidade Portuguesa em 2026? Valores Reais e Despesas Totais',
+    excerpt: 'Guia completo de custos: taxas do IRN, apostilas, certidões, pesquisa genealógica e honorários de assessoria — por tipo de processo.',
+    date: '18 Jun 2026',
+    readTime: '12 min',
+    author: 'Kathia Vianna',
+    category: 'Custos e Planejamento',
+    icon: TrendingUp,
+    featured: false,
+    metaDescription: 'Custos reais da cidadania portuguesa em 2026: taxas IRN (€175-250), apostilas (R$60-90/doc), pesquisa genealógica e honorários. Estimativas por tipo de processo.',
+  },
+
+  {
+{
+    id: 20,
+    slug: 'passaporte-portugues-como-solicitar-apos-aprovacao-da-cidadania',
+    title: 'Passaporte Português: Como Solicitar Após Aprovação da Cidadania',
+    excerpt: 'Leis podem sofrer alterações. Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A aprovação do processo de cidadania portuguesa é motivo de celebração — mas ...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Passaporte Português: Como Solicitar Após Aprovação da Cidadania',
+  },
+
+  {
+{
+    id: 21,
+    slug: 'naturalizacao-por-residencia-em-portugal-requisitos-atualizados-2026',
+    title: 'Naturalização por Residência em Portugal: Requisitos Atualizados 2026',
+    excerpt: 'Leis podem sofrer alterações. Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A naturalização por residência é o caminho para quem construiu vida em Portug...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Home,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Naturalização por Residência em Portugal: Requisitos Atualizados 2026',
+  },
+
+  {
+{
+    id: 22,
+    slug: 'como-escolher-um-advogado-especialista-em-cidadania-portuguesa',
+    title: 'Como Escolher um Advogado Especialista em Cidadania Portuguesa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Com o crescimento do interesse pela cidadania portuguesa, cresceu também o número de escritórios e assessor...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Como Escolher um Advogado Especialista em Cidadania Portuguesa',
+  },
+
+  {
+{
+    id: 23,
+    slug: 'quanto-custa-o-processo-de-cidadania-portuguesa-para-netos',
+    title: 'Quanto Custa o Processo de Cidadania Portuguesa para Netos?',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. O processo de cidadania portuguesa para netos é o mais buscado — e também o que tem maior variação de custo...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: Users,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Quanto Custa o Processo de Cidadania Portuguesa para Netos?',
+  },
+
+  {
+{
+    id: 24,
+    slug: 'cidadania-portuguesa-para-conjuges-3-ou-6-anos-de-casamento',
+    title: 'Cidadania Portuguesa para Cônjuges: 3 ou 6 Anos de Casamento?',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Esta é uma das dúvidas mais comuns — e mais simples de responder: o prazo mínimo de casamento para pedir ci...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: Heart,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Cônjuges: 3 ou 6 Anos de Casamento?',
+  },
+
+  {
+{
+    id: 25,
+    slug: 'checklist-completa-de-documentos-para-netos-de-portugueses',
+    title: 'Checklist Completa de Documentos para Netos de Portugueses',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Uma versão focada e prática da checklist de documentos especificamente para processos de netos — o tipo de ...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Checklist Completa de Documentos para Netos de Portugueses',
+  },
+
+  {
+{
+    id: 26,
+    slug: 'cidadania-portuguesa-para-brasileiros-que-moram-no-brasil-em-2026',
+    title: 'Cidadania Portuguesa para Brasileiros que Moram no Brasil em 2026',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Uma das dúvidas mais comuns de brasileiros interessados em cidadania portuguesa é: &quot;preciso me mudar p...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Brasileiros que Moram no Brasil em 2026',
+  },
+
+  {
+{
+    id: 27,
+    slug: 'prazo-de-validade-dos-documentos-na-cidadania-portuguesa',
+    title: 'Prazo de Validade dos Documentos na Cidadania Portuguesa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Um dos erros que mais atrasa processos de cidadania portuguesa é apresentar documentos com prazo de validad...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Prazo de Validade dos Documentos na Cidadania Portuguesa',
+  },
+
+  {
+{
+    id: 28,
+    slug: 'cidadania-portuguesa-para-menores-de-idade-o-que-os-pais-precisam-saber',
+    title: 'Cidadania Portuguesa para Menores de Idade: O que os Pais Precisam Saber',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. O processo de cidadania portuguesa para menores de idade é o mais rápido e simples entre todos os caminhos ...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: Heart,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Menores de Idade: O que os Pais Precisam Saber',
+  },
+
+  {
+{
+    id: 29,
+    slug: 'como-obter-a-certidao-de-antecedentes-criminais-para-portugal',
+    title: 'Como Obter a Certidão de Antecedentes Criminais para Portugal',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A certidão de antecedentes criminais — também chamada de certidão de registo criminal — é exigida em alguns...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Como Obter a Certidão de Antecedentes Criminais para Portugal',
+  },
+
+  {
+{
+    id: 30,
+    slug: 'beneficios-de-ter-passaporte-portugues-em-2026',
+    title: 'Benefícios de Ter Passaporte Português em 2026',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. O passaporte português é consistentemente classificado entre os mais poderosos do mundo em termos de acesso...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Benefícios de Ter Passaporte Português em 2026',
+  },
+
+  {
+{
+    id: 31,
+    slug: 'como-corrigir-erros-em-certidoes-para-cidadania-portuguesa',
+    title: 'Como Corrigir Erros em Certidões para Cidadania Portuguesa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Erros em certidões — tanto brasileiras quanto portuguesas — são mais comuns do que se imagina, especialment...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Como Corrigir Erros em Certidões para Cidadania Portuguesa',
+  },
+
+  {
+{
+    id: 32,
+    slug: 'cidadania-portuguesa-e-direito-de-votar-na-europa',
+    title: 'Cidadania Portuguesa e Direito de Votar na Europa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Além de viajar e trabalhar, a cidadania portuguesa garante direitos políticos — incluindo o direito de voto...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa e Direito de Votar na Europa',
+  },
+
+  {
+{
+    id: 33,
+    slug: 'cidadania-portuguesa-para-filhos-de-pais-separados',
+    title: 'Cidadania Portuguesa para Filhos de Pais Separados',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A separação ou divórcio dos pais não impede a cidadania portuguesa para filhos. Mas cria algumas especifici...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: Heart,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Filhos de Pais Separados',
+  },
+
+  {
+{
+    id: 34,
+    slug: 'o-que-fazer-apos-a-aprovacao-da-cidadania-portuguesa',
+    title: 'O Que Fazer Após a Aprovação da Cidadania Portuguesa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A aprovação do processo de cidadania portuguesa é o momento mais esperado. Mas há alguns passos práticos qu...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'O Que Fazer Após a Aprovação da Cidadania Portuguesa',
+  },
+
+  {
+{
+    id: 35,
+    slug: 'diferenca-entre-atribuicao-e-aquisicao-de-cidadania-portuguesa',
+    title: 'Diferença entre Atribuição e Aquisição de Cidadania Portuguesa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A lei portuguesa distingue dois mecanismos fundamentalmente diferentes para se tornar cidadão português: a ...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Diferença entre Atribuição e Aquisição de Cidadania Portuguesa',
+  },
+
+  {
+{
+    id: 36,
+    slug: 'cidadania-portuguesa-para-quem-tem-avo-que-perdeu-a-nacionalidade',
+    title: 'Cidadania Portuguesa para Quem Tem Avó que Perdeu a Nacionalidade',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Uma situação que surge com frequência em famílias com ancestrais portugueses emigrados há décadas é a quest...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Quem Tem Avó que Perdeu a Nacionalidade',
+  },
+
+  {
+{
+    id: 37,
+    slug: 'cidadania-portuguesa-para-brasileiros-em-sao-paulo',
+    title: 'Cidadania Portuguesa para Brasileiros em São Paulo',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. São Paulo concentra a maior colônia portuguesa fora de Portugal — e é, consequentemente, o estado com o mai...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Brasileiros em São Paulo',
+  },
+
+  {
+{
+    id: 38,
+    slug: 'cidadania-portuguesa-para-brasileiros-no-rio-de-janeiro',
+    title: 'Cidadania Portuguesa para Brasileiros no Rio de Janeiro',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. O Rio de Janeiro tem uma das comunidades luso-brasileiras mais antigas e expressivas do Brasil. Grande part...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Brasileiros no Rio de Janeiro',
+  },
+
+  {
+{
+    id: 39,
+    slug: 'cidadania-portuguesa-para-brasileiros-no-sul-do-brasil',
+    title: 'Cidadania Portuguesa para Brasileiros no Sul do Brasil',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. O Sul do Brasil — Paraná, Santa Catarina e Rio Grande do Sul — tem uma história de imigração europeia diver...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Brasileiros no Sul do Brasil',
+  },
+
+  {
+{
+    id: 40,
+    slug: 'cidadania-portuguesa-para-quem-mora-em-portugal',
+    title: 'Cidadania Portuguesa para Quem Mora em Portugal',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Para quem já mora em Portugal, o acesso à cidadania portuguesa pode ser diferente em alguns aspectos prátic...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Quem Mora em Portugal',
+  },
+
+  {
+{
+    id: 41,
+    slug: 'cidadania-portuguesa-para-adotados-por-portugueses',
+    title: 'Cidadania Portuguesa para Adotados por Portugueses',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A adoção por cidadãos portugueses pode gerar direito à cidadania portuguesa — mas os requisitos dependem do...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Adotados por Portugueses',
+  },
+
+  {
+{
+    id: 42,
+    slug: 'cidadania-portuguesa-e-heranca-o-que-os-descendentes-precisam-saber',
+    title: 'Cidadania Portuguesa e Herança: O que os Descendentes Precisam Saber',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Ter cidadania portuguesa — ou ser descendente de portugueses — pode ter implicações em processos de herança...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa e Herança: O que os Descendentes Precisam Saber',
+  },
+
+  {
+{
+    id: 43,
+    slug: 'filho-vs-neto-diferencas-no-processo-de-cidadania-portuguesa',
+    title: 'Filho vs. Neto: Diferenças no Processo de Cidadania Portuguesa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Dois dos processos de cidadania portuguesa mais comuns — o de filhos e o de netos — têm diferenças signific...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: Heart,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Filho vs. Neto: Diferenças no Processo de Cidadania Portuguesa',
+  },
+
+  {
+{
+    id: 44,
+    slug: 'pedir-cidadania-no-brasil-ou-em-portugal-vantagens-e-desvantagens',
+    title: 'Pedir Cidadania no Brasil ou em Portugal: Vantagens e Desvantagens',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Para a maioria dos processos de cidadania portuguesa, o requerente tem escolha: conduzir o processo do Bras...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Pedir Cidadania no Brasil ou em Portugal: Vantagens e Desvantagens',
+  },
+
+  {
+{
+    id: 45,
+    slug: 'traducao-juramentada-de-documentos-para-cidadania-portuguesa',
+    title: 'Tradução Juramentada de Documentos para Cidadania Portuguesa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A tradução juramentada de documentos é uma etapa que surge em alguns processos de cidadania portuguesa — ma...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Tradução Juramentada de Documentos para Cidadania Portuguesa',
+  },
+
+  {
+{
+    id: 46,
+    slug: 'cidadania-portuguesa-para-casais-em-uniao-de-facto-uniao-estavel',
+    title: 'Cidadania Portuguesa para Casais em União de Facto (União Estável)',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A união de facto — equivalente à união estável brasileira — é reconhecida pela lei portuguesa como via para...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Casais em União de Facto (União Estável)',
+  },
+
+  {
+{
+    id: 47,
+    slug: 'como-acompanhar-o-andamento-do-processo-de-cidadania-portuguesa',
+    title: 'Como Acompanhar o Andamento do Processo de Cidadania Portuguesa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Um dos momentos que mais gera ansiedade no processo de cidadania portuguesa é a espera — especialmente dura...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: Search,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Como Acompanhar o Andamento do Processo de Cidadania Portuguesa',
+  },
+
+  {
+{
+    id: 48,
+    slug: 'cidadania-portuguesa-e-servico-militar-obrigatorio',
+    title: 'Cidadania Portuguesa e Serviço Militar Obrigatório',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Uma das perguntas mais frequentes de quem está considerando a cidadania portuguesa — especialmente homens e...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa e Serviço Militar Obrigatório',
+  },
+
+  {
+{
+    id: 49,
+    slug: 'como-acelerar-o-processo-de-cidadania-portuguesa',
+    title: 'Como Acelerar o Processo de Cidadania Portuguesa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A pergunta que todo solicitante faz em algum momento: existe alguma forma de fazer o processo andar mais rá...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Como Acelerar o Processo de Cidadania Portuguesa',
+  },
+
+  {
+{
+    id: 50,
+    slug: 'cidadania-portuguesa-para-cidadaos-da-cplp',
+    title: 'Cidadania Portuguesa para Cidadãos da CPLP',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Os cidadãos dos países da Comunidade dos Países de Língua Portuguesa (CPLP) têm condições diferenciadas em ...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: Users,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Cidadãos da CPLP',
+  },
+
+  {
+{
+    id: 51,
+    slug: 'atualizacao-de-dados-no-processo-de-cidadania-ja-iniciado',
+    title: 'Atualização de Dados no Processo de Cidadania Já Iniciado',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Durante os meses ou anos de espera pela análise do IRN, a vida continua. Casamentos, divórcios, mudanças de...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Atualização de Dados no Processo de Cidadania Já Iniciado',
+  },
+
+  {
+{
+    id: 52,
+    slug: 'atualizacoes-da-lei-da-nacionalidade-portuguesa-em-2026',
+    title: 'Atualizações da Lei da Nacionalidade Portuguesa em 2026',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A Lei Orgânica n.º 1/2026 é a reforma mais significativa da Lei da Nacionalidade Portuguesa desde 2020. Est...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Atualizações da Lei da Nacionalidade Portuguesa em 2026',
+  },
+
+  {
+{
+    id: 53,
+    slug: 'cidadania-portuguesa-para-quem-tem-antepassados-de-macau-ou-goa',
+    title: 'Cidadania Portuguesa para Quem Tem Antepassados de Macau ou Goa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Macau e Goa foram territórios sob administração portuguesa por séculos — Goa até 1961 e Macau até 1999. Fam...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Quem Tem Antepassados de Macau ou Goa',
+  },
+
+  {
+{
+    id: 54,
+    slug: 'como-usar-o-portal-eportugal-no-processo-de-cidadania',
+    title: 'Como Usar o Portal ePortugal no Processo de Cidadania',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. O portal ePortugal (eportugal.gov.pt) é a plataforma digital do governo português para serviços públicos on...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: Search,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Como Usar o Portal ePortugal no Processo de Cidadania',
+  },
+
+  {
+{
+    id: 55,
+    slug: 'cidadania-portuguesa-para-descendentes-de-emigrantes',
+    title: 'Cidadania Portuguesa para Descendentes de Emigrantes',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A grande maioria dos brasileiros que busca cidadania portuguesa é descendente de emigrantes — portugueses q...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Descendentes de Emigrantes',
+  },
+
+  {
+{
+    id: 56,
+    slug: 'checklist-final-antes-de-entregar-o-processo-de-cidadania-portuguesa',
+    title: 'Checklist Final Antes de Entregar o Processo de Cidadania Portuguesa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Antes de distribuir o processo à conservatória, uma revisão final pode evitar meses de atraso por erros que...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Checklist Final Antes de Entregar o Processo de Cidadania Portuguesa',
+  },
+
+  {
+{
+    id: 57,
+    slug: 'cidadania-portuguesa-para-quem-tem-pai-falecido',
+    title: 'Cidadania Portuguesa para Quem Tem Pai Falecido',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Uma situação muito comum nos processos de cidadania portuguesa é a do requerente cujo pai ou mãe — o elo de...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Quem Tem Pai Falecido',
+  },
+
+  {
+{
+    id: 58,
+    slug: 'cidadania-portuguesa-para-quem-tem-documentos-perdidos',
+    title: 'Cidadania Portuguesa para Quem Tem Documentos Perdidos',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. &quot;Minha família não tem nenhum documento do meu avô português.&quot; Essa frase chega com frequência — ...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Quem Tem Documentos Perdidos',
+  },
+
+  {
+{
+    id: 59,
+    slug: 'cidadania-portuguesa-para-filhos-nascidos-fora-do-casamento',
+    title: 'Cidadania Portuguesa para Filhos Nascidos Fora do Casamento',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A filiação fora do casamento não impede a cidadania portuguesa — mas cria uma especificidade importante na ...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: Heart,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Filhos Nascidos Fora do Casamento',
+  },
+
+  {
+{
+    id: 60,
+    slug: 'cidadania-portuguesa-e-nome-portugues-como-alterar-apos-a-aprovacao',
+    title: 'Cidadania Portuguesa e Nome Português: Como Alterar Após a Aprovação',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Ao obter a cidadania portuguesa, alguns requerentes têm interesse em usar o nome em sua forma portuguesa — ...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa e Nome Português: Como Alterar Após a Aprovação',
+  },
+
+  {
+{
+    id: 61,
+    slug: 'cidadania-portuguesa-para-brasileiros-no-nordeste',
+    title: 'Cidadania Portuguesa para Brasileiros no Nordeste',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. O Nordeste brasileiro tem forte presença da imigração portuguesa histórica — especialmente em Pernambuco, B...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Brasileiros no Nordeste',
+  },
+
+  {
+{
+    id: 62,
+    slug: 'guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026',
+    title: 'Guia Definitivo: Todas as Formas de Obter Cidadania Portuguesa em 2026',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Este artigo consolida em um único lugar todas as vias disponíveis para obter a cidadania portuguesa em 2026...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Guia Definitivo: Todas as Formas de Obter Cidadania Portuguesa em 2026',
+  },
+
+  {
+{
+    id: 63,
+    slug: 'cidadania-portuguesa-e-acesso-a-universidade-na-europa',
+    title: 'Cidadania Portuguesa e Acesso à Universidade na Europa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Um dos benefícios mais concretos da cidadania portuguesa para jovens é o acesso à educação superior europei...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Benefícios',
+    icon: TrendingUp,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa e Acesso à Universidade na Europa',
+  },
+
+  {
+{
+    id: 64,
+    slug: 'erros-comuns-na-arvore-genealogica-para-cidadania-portuguesa',
+    title: 'Erros Comuns na Árvore Genealógica para Cidadania Portuguesa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Construir a árvore genealógica para o processo de cidadania portuguesa é um passo fundamental — e repleto d...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Erros Comuns na Árvore Genealógica para Cidadania Portuguesa',
+  },
+
+  {
+{
+    id: 65,
+    slug: 'cidadania-portuguesa-para-brasileiros-com-dupla-nacionalidade-nao-portuguesa',
+    title: 'Cidadania Portuguesa para Brasileiros com Dupla Nacionalidade Não-Portuguesa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Muitos brasileiros têm não apenas a cidadania brasileira, mas também uma terceira cidadania — italiana, ale...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Brasileiros com Dupla Nacionalidade Não-Portuguesa',
+  },
+
+  {
+{
+    id: 66,
+    slug: 'tempo-medio-de-aprovacao-por-tipo-de-processo-em-2026',
+    title: 'Tempo Médio de Aprovação por Tipo de Processo em 2026',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Este artigo consolida os prazos médios de aprovação por tipo de processo, com base no comportamento observa...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Análise',
+    icon: Clock,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Tempo Médio de Aprovação por Tipo de Processo em 2026',
+  },
+
+  {
+{
+    id: 67,
+    slug: 'cidadania-portuguesa-para-brasileiros-em-belo-horizonte-e-minas-gerais',
+    title: 'Cidadania Portuguesa para Brasileiros em Belo Horizonte e Minas Gerais',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Minas Gerais tem uma das maiores comunidades de descendentes de portugueses do Brasil — resultado de século...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Brasileiros em Belo Horizonte e Minas Gerais',
+  },
+
+  {
+{
+    id: 68,
+    slug: 'cidadania-portuguesa-para-brasileiros-em-curitiba-e-parana',
+    title: 'Cidadania Portuguesa para Brasileiros em Curitiba e Paraná',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. O Paraná tem uma composição migratória diversificada — além de portugueses, recebeu ucranianos, poloneses, ...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Brasileiros em Curitiba e Paraná',
+  },
+
+  {
+{
+    id: 69,
+    slug: 'consulado-de-portugal-no-brasil-onde-fica-e-para-que-serve',
+    title: 'Consulado de Portugal no Brasil: Onde Fica e Para Que Serve',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. O papel dos consulados de Portugal no Brasil é frequentemente confundido com o papel da conservatória no pr...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: MapPin,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Consulado de Portugal no Brasil: Onde Fica e Para Que Serve',
+  },
+
+  {
+{
+    id: 70,
+    slug: 'por-que-processos-de-cidadania-portuguesa-sao-indeferidos-e-como-recorrer',
+    title: 'Por Que Processos de Cidadania Portuguesa São Indeferidos e Como Recorrer',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. O indeferimento de um pedido de cidadania portuguesa é frustrante — mas não necessariamente o fim. Entender...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Por Que Processos de Cidadania Portuguesa São Indeferidos e Como Recorrer',
+  },
+
+  {
+{
+    id: 71,
+    slug: 'documentos-digitais-vs-fisicos-no-processo-de-cidadania-portuguesa',
+    title: 'Documentos Digitais vs. Físicos no Processo de Cidadania Portuguesa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. À medida que a digitalização avança, surge a dúvida: quais documentos do processo de cidadania portuguesa p...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Documentos Digitais vs. Físicos no Processo de Cidadania Portuguesa',
+  },
+
+  {
+{
+    id: 72,
+    slug: 'cidadania-portuguesa-mitos-e-verdades',
+    title: 'Cidadania Portuguesa: Mitos e Verdades',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Com a popularização do tema da cidadania portuguesa, proliferaram informações incorretas, meias-verdades e ...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Análise',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa: Mitos e Verdades',
+  },
+
+  {
+{
+    id: 73,
+    slug: 'cidadania-portuguesa-para-brasileiros-em-brasilia-e-centro-oeste',
+    title: 'Cidadania Portuguesa para Brasileiros em Brasília e Centro-Oeste',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Brasília e o Centro-Oeste têm características migratórias particulares — a capital federal foi construída a...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Scale,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Brasileiros em Brasília e Centro-Oeste',
+  },
+
+  {
+{
+    id: 74,
+    slug: 'cidadania-portuguesa-e-aquisicao-de-imoveis-em-portugal',
+    title: 'Cidadania Portuguesa e Aquisição de Imóveis em Portugal',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Comprar imóvel em Portugal é um assunto que frequentemente aparece junto ao processo de cidadania — especia...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa e Aquisição de Imóveis em Portugal',
+  },
+
+  {
+{
+    id: 75,
+    slug: 'beneficios-fiscais-para-novos-cidadaos-portugueses',
+    title: 'Benefícios Fiscais para Novos Cidadãos Portugueses',
+    excerpt: 'As regras fiscais mudam frequentemente — recomendamos consultar contador especializado em tributação internacional para o seu caso específico. A cidadania portuguesa não cria automaticamente obrigaçõe...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Benefícios',
+    icon: TrendingUp,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Benefícios Fiscais para Novos Cidadãos Portugueses',
+  },
+
+  {
+{
+    id: 76,
+    slug: 'como-preparar-a-entrevista-no-irn-para-cidadania-portuguesa',
+    title: 'Como Preparar a Entrevista no IRN para Cidadania Portuguesa',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. A maioria dos processos de cidadania portuguesa — especialmente por descendência (filhos e netos) conduzido...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Como Preparar a Entrevista no IRN para Cidadania Portuguesa',
+  },
+
+  {
+{
+    id: 77,
+    slug: 'cidadania-portuguesa-o-que-acontece-se-eu-viver-entre-brasil-e-portugal',
+    title: 'Cidadania Portuguesa: O Que Acontece se Eu Viver Entre Brasil e Portugal',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Um número crescente de brasileiros com cidadania portuguesa (ou buscando-a) tem um estilo de vida que divid...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa: O Que Acontece se Eu Viver Entre Brasil e Portugal',
+  },
+
+  {
+{
+    id: 78,
+    slug: 'cidadania-portuguesa-para-descendentes-de-emigrantes-que-voltaram-a-portugal',
+    title: 'Cidadania Portuguesa para Descendentes de Emigrantes que Voltaram a Portugal',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Existe um perfil específico de família luso-brasileira que tem particularidades no processo de cidadania: a...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Descendentes de Emigrantes que Voltaram a Portugal',
+  },
+
+  {
+{
+    id: 79,
+    slug: 'cidadania-portuguesa-e-acesso-a-beneficios-sociais-na-europa',
+    title: 'Cidadania Portuguesa e Acesso a Benefícios Sociais na Europa',
+    excerpt: 'Os benefícios sociais dependem de residência e contribuição, não apenas de cidadania. Recomendamos verificar as regras específicas de cada país. Um dos aspectos mais práticos da cidadania portuguesa p...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Benefícios',
+    icon: TrendingUp,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa e Acesso a Benefícios Sociais na Europa',
+  },
+
+  {
+{
+    id: 80,
+    slug: 'como-manter-a-cidadania-portuguesa-ativa-apos-a-aprovacao',
+    title: 'Como Manter a Cidadania Portuguesa Ativa Após a Aprovação',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Após conquistar a cidadania portuguesa, uma dúvida comum é: existe alguma obrigação para mantê-la? A respos...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Como Manter a Cidadania Portuguesa Ativa Após a Aprovação',
+  },
+
+  {
+{
+    id: 81,
+    slug: 'cidadania-portuguesa-para-quem-tem-processo-parado-ha-anos',
+    title: 'Cidadania Portuguesa para Quem Tem Processo Parado Há Anos',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. &quot;Dei entrada no processo há 3 anos e não tenho nenhuma notícia.&quot; Essa situação é mais comum do qu...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa para Quem Tem Processo Parado Há Anos',
+  },
+
+  {
+{
+    id: 82,
+    slug: 'cidadania-portuguesa-perguntas-finais-antes-de-comecar',
+    title: 'Cidadania Portuguesa — Perguntas Finais Antes de Começar',
+    excerpt: 'Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados. Este é o artigo final da nossa série sobre cidadania portuguesa. Se você chegou até aqui, provavelmente est...',
+    date: '23 Jun 2026',
+    readTime: '5 min',
+    author: 'Kathia Vianna',
+    category: 'Guias',
+    icon: FileText,
+    featured: false,
+    relatedSlugs: ['guia-completo-cidadania-portuguesa-2025', 'documentos-cidadania-portuguesa-lista-completa', 'backlog-irn-prazos-reais-2025'],
+    metaDescription: 'Cidadania Portuguesa — Perguntas Finais Antes de Começar',
+  }
+];
