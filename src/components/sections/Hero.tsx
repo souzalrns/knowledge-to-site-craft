@@ -7,26 +7,29 @@ import heroImageWebp from '@/assets/hero-lisbon.webp';
 import { SITE_CONFIG, waUrl } from '@/config/site';
 
 const trustMarkers = [
-  '+2.000 processos aprovados',
+  '+2.000 famílias atendidas',
   'Processo 100% online',
-  'Especialistas em Portugal',
+  'Especialistas em cidadania portuguesa',
 ];
 
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background Image — LCP: eager load, explicit dimensions, high fetchpriority */}
+      {/* Background Image */}
       <div className="absolute inset-0">
-        <img
-          src={heroImage}
-          alt="Lisboa ao pôr do sol — Torre de Belém"
-          className="w-full h-full object-cover"
-          loading="eager"
-          fetchPriority="high"
-          width={1920}
-          height={1080}
-          decoding="sync"
-        />
+        <picture>
+          <source srcSet={heroImageWebp} type="image/webp" />
+          <img
+            src={heroImage}
+            alt="Lisboa ao pôr do sol — Torre de Belém"
+            className="w-full h-full object-cover"
+            loading="eager"
+            fetchPriority="high"
+            width={1920}
+            height={1080}
+            decoding="sync"
+          />
+        </picture>
         <div className="absolute inset-0 hero-overlay" />
       </div>
 
@@ -37,7 +40,8 @@ export function Hero() {
       {/* Content */}
       <div className="relative container-width pt-28 pb-16">
         <div className="max-w-2xl">
-          {/* Urgency badge */}
+
+          {/* Badge */}
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -45,19 +49,19 @@ export function Hero() {
             className="inline-flex items-center gap-2 bg-gold/20 backdrop-blur-sm border border-gold/30 px-4 py-2 rounded-full text-gold mb-6"
           >
             <Sparkles className="w-4 h-4" aria-hidden="true" />
-            <span className="text-sm font-medium">ViannaLegal · Atualizado com a Lei Orgânica 1/2026</span>
+            <span className="text-sm font-medium">Atualizado com a Lei Orgânica 1/2026</span>
           </motion.div>
 
-          {/* H1 — benefit-first */}
+          {/* H1 — conceito de herança */}
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-5"
           >
-            Cidadania Portuguesa
+            A herança que nenhum
             <br />
-            <span className="text-gradient">para Brasileiros.</span>
+            <span className="text-gradient">inventário divide.</span>
           </motion.h1>
 
           {/* Subheadline */}
@@ -67,9 +71,9 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-lg md:text-xl text-primary-foreground/85 mb-4 leading-relaxed"
           >
-            Assessoria especializada para quem tem descendência portuguesa.
-            Mais de 2.000 famílias já têm passaporte europeu — processo 100% online,
-            sem precisar viajar.
+            A dupla cidadania é o presente que um pai deixa para os filhos —
+            e que os filhos deixam para os netos. Passa de geração em geração,
+            abre portas que você nem imagina ainda, e nunca perde o valor.
           </motion.p>
 
           {/* Urgency nudge */}
@@ -81,8 +85,8 @@ export function Hero() {
           >
             <Clock className="w-4 h-4 shrink-0" aria-hidden="true" />
             <span>
-              Processos de netos levam 24–42 meses.{' '}
-              <strong className="text-gold">Quanto antes você iniciar, mais cedo recebe.</strong>
+              A fila do IRN não para.{' '}
+              <strong className="text-gold">Quem entra hoje, sai na frente.</strong>
             </span>
           </motion.div>
 
@@ -114,19 +118,19 @@ export function Hero() {
               className="shadow-gold text-base font-bold"
               onClick={() =>
                 window.open(
-                  '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Vim pelo site e gostaria de uma análise gratuita sobre cidadania portuguesa.")}',
+                  waUrl(SITE_CONFIG.whatsappMessages.default),
                   '_blank',
                   'noopener,noreferrer'
-)
+                )
               }
             >
-              Análise Gratuita — Falar Agora
+              Quero deixar essa herança
               <ArrowRight className="w-5 h-5" aria-hidden="true" />
             </Button>
 
             <Button variant="heroOutline" size="xl" asChild>
-              <Link to="/cidadania-portuguesa">
-                Ver modalidades
+              <Link to="/quiz">
+                Descobrir se tenho direito
               </Link>
             </Button>
           </motion.div>
@@ -138,7 +142,7 @@ export function Hero() {
             transition={{ delay: 0.65 }}
             className="mt-4 text-xs text-primary-foreground/50"
           >
-            Sem compromisso. Análise feita por especialista, não por robô.
+            Análise gratuita, sem compromisso. Feita por especialista, não por robô.
           </motion.p>
         </div>
 
@@ -151,10 +155,10 @@ export function Hero() {
           aria-label="Estatísticas ViannaLegal"
         >
           {[
-            { value: '2.000+', label: 'Processos aprovados' },
-            { value: '190+', label: 'Países sem visto' },
-            { value: '98%', label: 'Taxa de aprovação' },
-            { value: '10+', label: 'Anos de experiência' },
+            { value: '2.000+', label: 'Famílias com passaporte europeu' },
+            { value: '190+',   label: 'Países sem visto' },
+            { value: '98%',    label: 'Taxa de aprovação' },
+            { value: '∞',      label: 'Gerações que herdam' },
           ].map((stat) => (
             <div
               key={stat.label}
