@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import {
   Plane,
   GraduationCap,
@@ -67,7 +66,7 @@ export function Benefits() {
 
       <div className="container-width relative">
         {/* Section Header */}
-        <motion.div
+        <div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -83,14 +82,14 @@ export function Benefits() {
             Um único documento abre 27 países de oportunidades — para você e para as próximas
             gerações da sua família.
           </p>
-        </motion.div>
+        </div>
 
         {/* Benefits Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-14">
           {benefits.map((benefit, index) => {
             const Icon = benefit.icon;
             return (
-              <motion.div
+              <div
                 key={benefit.title}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -103,13 +102,13 @@ export function Benefits() {
                 </div>
                 <h3 className="font-display text-lg font-semibold mb-2">{benefit.title}</h3>
                 <p className="text-primary-foreground/70 text-sm">{benefit.description}</p>
-              </motion.div>
+              </div>
             );
           })}
         </div>
 
         {/* Closing CTA — this section previously had no conversion path */}
-        <motion.div
+        <div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -131,7 +130,7 @@ export function Benefits() {
             Quero abrir essas portas para a minha família
             <ArrowRight className="w-5 h-5" />
           </Button>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

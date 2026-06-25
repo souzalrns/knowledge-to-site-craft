@@ -2,7 +2,6 @@ import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/sections/Footer';
 import { useScrollToHash } from '@/hooks/useScrollToHash';
-import { motion } from 'framer-motion';
 import { SITE_CONFIG, waUrl } from '@/config/site';
 
 export default function TermosUso() {
@@ -26,7 +25,7 @@ export default function TermosUso() {
         <main className="pt-24">
           <section className="py-16">
             <div className="container-width max-w-4xl">
-              <motion.div
+              <div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
               >
@@ -148,7 +147,7 @@ export default function TermosUso() {
                     Para dúvidas sobre estes termos, entre em contato pelo WhatsApp: ' + SITE_CONFIG.whatsapp.display + '.
                   </p>
                 </div>
-              </motion.div>
+              </div>
             </div>
           </section>
         </main>

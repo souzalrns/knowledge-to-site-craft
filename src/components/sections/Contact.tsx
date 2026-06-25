@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { Phone, MapPin, Clock, Send, MessageCircle, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -117,7 +116,7 @@ export function Contact() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
 
           {/* Formulário */}
-          <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
+          <div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
             <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
               Entre em Contato
             </span>
@@ -131,7 +130,7 @@ export function Contact() {
             </p>
 
             {formState === 'success' ? (
-              <motion.div
+              <div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 className="rounded-2xl bg-emerald-50 border border-emerald-200 p-8 text-center"
@@ -144,7 +143,7 @@ export function Contact() {
                   Recebemos o seu contacto e um especialista responderá em até 24h.<br />
                   Também abrimos o WhatsApp para uma resposta mais rápida.
                 </p>
-              </motion.div>
+              </div>
             ) : (
               /* Netlify Forms: data-netlify="true" e o campo hidden form-name são obrigatórios */
               <form
@@ -216,10 +215,10 @@ export function Contact() {
                 </Button>
               </form>
             )}
-          </motion.div>
+          </div>
 
           {/* Info lateral */}
-          <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="lg:pl-8">
+          <div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="lg:pl-8">
             <div className="bg-primary rounded-3xl p-8 lg:p-10 text-primary-foreground h-full flex flex-col">
               <h3 className="font-display text-2xl font-bold mb-6">Prefere falar agora?</h3>
               <p className="text-primary-foreground/80 mb-8">
@@ -259,7 +258,7 @@ export function Contact() {
                 </Button>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

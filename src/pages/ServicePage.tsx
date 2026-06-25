@@ -1,5 +1,4 @@
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
 import { QuizBanner } from '@/components/ui/QuizBanner';
 import { Helmet } from 'react-helmet-async';
 import { ArrowRight, ChevronRight, Clock, FileCheck, AlertTriangle, MessageCircle } from 'lucide-react';
@@ -111,7 +110,7 @@ export default function ServicePage() {
 
       {/* Hero */}
       <header className="container-width mb-14">
-        <motion.div
+        <div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -140,7 +139,7 @@ export default function ServicePage() {
               <ArrowRight className="w-5 h-5" />
             </Button>
           </div>
-        </motion.div>
+        </div>
       </header>
 
       <div className="container-width grid lg:grid-cols-3 gap-12">

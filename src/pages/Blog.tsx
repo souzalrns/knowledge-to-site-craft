@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 import { useScrollToHash } from '@/hooks/useScrollToHash';
 import { ArrowRight, Calendar, Clock, User, TrendingUp, FileText, Scale, Heart, Home, Users, Search, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
 
 import { allBlogPostsMeta as blogPosts } from '@/data/allBlogPostsMeta';
 import { SITE_CONFIG, waUrl } from '@/config/site';
@@ -88,7 +87,7 @@ export default function Blog() {
           {/* Hero Section */}
           <section className="py-16 bg-muted/50">
             <div className="container-width">
-              <motion.div
+              <div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 className="text-center max-w-3xl mx-auto"
@@ -104,7 +103,7 @@ export default function Blog() {
                   Artigos detalhados com tudo que você precisa saber: legislação atualizada, 
                   vínculo efetivo, documentos, prazos reais do IRN e estratégias de aprovação.
                 </p>
-              </motion.div>
+              </div>
             </div>
           </section>
 
@@ -118,7 +117,7 @@ export default function Blog() {
                 {featuredPosts.map((post, index) => {
                   const Icon = post.icon;
                   return (
-                    <motion.article
+                    <article
                       key={post.id}
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
@@ -162,7 +161,7 @@ export default function Blog() {
                           </Link>
                         </Button>
                       </div>
-                    </motion.article>
+                    </article>
                   );
                 })}
               </div>
@@ -179,7 +178,7 @@ export default function Blog() {
                 {regularPosts.map((post, index) => {
                   const Icon = post.icon;
                   return (
-                    <motion.article
+                    <article
                       key={post.id}
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
@@ -220,7 +219,7 @@ export default function Blog() {
                           </Link>
                         </Button>
                       </div>
-                    </motion.article>
+                    </article>
                   );
                 })}
               </div>
@@ -230,7 +229,7 @@ export default function Blog() {
           {/* CTA Section */}
           <section className="py-16">
             <div className="container-width">
-              <motion.div
+              <div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 className="text-center p-8 bg-gradient-to-br from-portugal-green/10 to-gold/10 rounded-2xl border border-border"
@@ -248,7 +247,7 @@ export default function Blog() {
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </a>
                 </Button>
-              </motion.div>
+              </div>
             </div>
           </section>
         </main>

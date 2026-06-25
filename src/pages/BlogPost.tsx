@@ -4,7 +4,6 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/sections/Footer';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight, Calendar, Clock, User, Share2 } from 'lucide-react';
-import { motion } from 'framer-motion';
 import { QuizBanner } from '@/components/ui/QuizBanner';
 import { allBlogPostsMeta as blogPosts } from '@/data/allBlogPostsMeta';
 import { SchemaArticle, SchemaBreadcrumb, SchemaFAQ } from '@/components/seo/SchemaMarkup';
@@ -255,7 +254,7 @@ export default function BlogPost() {
           {/* Article Header */}
           <article className="py-12">
             <div className="container-width max-w-4xl">
-              <motion.header
+              <header
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 className="mb-8"
@@ -301,10 +300,10 @@ export default function BlogPost() {
                     <span>Compartilhar</span>
                   </button>
                 </div>
-              </motion.header>
+              </header>
 
               {/* Article Content */}
-              <motion.div
+              <div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 }}
@@ -313,7 +312,7 @@ export default function BlogPost() {
               />
 
               {/* CTA Box */}
-              <motion.div
+              <div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
@@ -339,7 +338,7 @@ export default function BlogPost() {
                     </Link>
                   </Button>
                 </div>
-              </motion.div>
+              </div>
 
 
               {/* ── Artigos Relacionados ─────────────────────── */}

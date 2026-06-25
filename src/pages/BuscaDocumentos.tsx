@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { QuizBanner } from '@/components/ui/QuizBanner';
 import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/layout/Header';
@@ -54,7 +53,7 @@ export default function BuscaDocumentos() {
       {/* Hero Section */}
       <section className="pt-32 pb-16 bg-primary">
         <div className="container-width">
-          <motion.div
+          <div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-4xl mx-auto"
@@ -77,14 +76,14 @@ export default function BuscaDocumentos() {
               <MessageCircle className="w-5 h-5" />
               Consultar Especialista
             </Button>
-          </motion.div>
+          </div>
         </div>
       </section>
 
       {/* Busca vs Pesquisa */}
       <section className="section-padding">
         <div className="container-width">
-          <motion.div
+          <div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -96,10 +95,10 @@ export default function BuscaDocumentos() {
             <p className="text-muted-foreground text-lg">
               Entenda a diferença entre os dois serviços para escolher o mais adequado ao seu caso.
             </p>
-          </motion.div>
+          </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <motion.div
+            <div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -130,9 +129,9 @@ export default function BuscaDocumentos() {
                   <span className="text-muted-foreground">Localização de certidões de nascimento e batismo</span>
                 </li>
               </ul>
-            </motion.div>
+            </div>
 
-            <motion.div
+            <div
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -163,7 +162,7 @@ export default function BuscaDocumentos() {
                   <span className="text-muted-foreground">Reconstrução da árvore genealógica</span>
                 </li>
               </ul>
-            </motion.div>
+            </div>
           </div>
         </div>
       </section>
@@ -172,7 +171,7 @@ export default function BuscaDocumentos() {
       <section className="section-padding bg-muted/50">
         <div className="container-width">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <motion.div
+            <div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -207,9 +206,9 @@ export default function BuscaDocumentos() {
                   </div>
                 </div>
               </div>
-            </motion.div>
+            </div>
 
-            <motion.div
+            <div
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -264,7 +263,7 @@ export default function BuscaDocumentos() {
                   </div>
                 </li>
               </ul>
-            </motion.div>
+            </div>
           </div>
         </div>
       </section>
@@ -272,7 +271,7 @@ export default function BuscaDocumentos() {
       {/* Documentos Brasileiros */}
       <section className="section-padding">
         <div className="container-width">
-          <motion.div
+          <div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -288,10 +287,10 @@ export default function BuscaDocumentos() {
               Para processos de cidadania portuguesa, os documentos brasileiros precisam 
               atender a requisitos específicos para serem aceitos em Portugal.
             </p>
-          </motion.div>
+          </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <motion.div
+            <div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -314,9 +313,9 @@ export default function BuscaDocumentos() {
                   para processos de cidadania portuguesa.
                 </p>
               </div>
-            </motion.div>
+            </div>
 
-            <motion.div
+            <div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -340,7 +339,7 @@ export default function BuscaDocumentos() {
                   Consulte a lista em cartoriosdoamazonas.org.br/apostilamento-de-haia
                 </p>
               </div>
-            </motion.div>
+            </div>
           </div>
         </div>
       </section>
@@ -348,7 +347,7 @@ export default function BuscaDocumentos() {
       {/* CTA Section */}
       <section className="section-padding bg-primary">
         <div className="container-width">
-          <motion.div
+          <div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -370,7 +369,7 @@ export default function BuscaDocumentos() {
               <MessageCircle className="w-5 h-5" />
               Falar com Especialista em Paleografia
             </Button>
-          </motion.div>
+          </div>
         </div>
       </section>
 

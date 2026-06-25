@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { Star, Quote, Shield, Award, CheckCircle } from 'lucide-react';
 
 const testimonials = [
@@ -92,7 +91,7 @@ export function Testimonials() {
     <section id="depoimentos" className="section-padding bg-background">
       <div className="container-width">
         {/* Section Header */}
-        <motion.div
+        <div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -109,10 +108,10 @@ export function Testimonials() {
             Resultados reais, com prazos reais. Veja o que aconteceu depois que essas
             famílias decidiram dar o primeiro passo.
           </p>
-        </motion.div>
+        </div>
 
         {/* Testimonials Grid */}
-        <motion.div
+        <div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -120,7 +119,7 @@ export function Testimonials() {
           className="grid md:grid-cols-2 lg:grid-cols-4 gap-6"
         >
           {testimonials.map((testimonial, index) => (
-            <motion.div
+            <div
               key={index}
               variants={itemVariants}
               className={`bg-card rounded-2xl p-6 shadow-subtle border border-border/50 relative ${
@@ -157,12 +156,12 @@ export function Testimonials() {
                   {testimonial.service}
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
 
         {/* Trust Badges */}
-        <motion.div
+        <div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -204,7 +203,7 @@ export function Testimonials() {
               <div className="text-muted-foreground text-xs">Lei da Nacionalidade</div>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { QuizBanner } from '@/components/ui/QuizBanner';
 import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/layout/Header';
@@ -109,7 +108,7 @@ export default function CidadaniaPortuguesa() {
       <Header />
       <section className="pt-32 pb-16 bg-primary">
         <div className="container-width">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center max-w-4xl mx-auto">
+          <div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center max-w-4xl mx-auto">
             <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">Cidadania Portuguesa</span>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6">
               Sua Jornada para a <span className="text-gold">Cidadania Europeia</span>
@@ -121,7 +120,7 @@ export default function CidadaniaPortuguesa() {
               <MessageCircle className="w-5 h-5" />
               Falar com Especialista
             </Button>
-          </motion.div>
+          </div>
         </div>
       </section>
       <section className="section-padding">
@@ -131,7 +130,7 @@ export default function CidadaniaPortuguesa() {
               const Icon = service.icon;
               const isEven = index % 2 === 0;
               return (
-                <motion.div key={service.id} id={service.id} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className={`grid lg:grid-cols-2 gap-12 items-center`}>
+                <div key={service.id} id={service.id} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className={`grid lg:grid-cols-2 gap-12 items-center`}>
                   <div className={isEven ? '' : 'lg:order-2'}>
                     <div className="flex items-center gap-3 mb-4">
                       <div className="w-12 h-12 rounded-xl bg-gold/10 flex items-center justify-center">
@@ -174,7 +173,7 @@ export default function CidadaniaPortuguesa() {
                       </Button>
                     </div>
                   </div>
-                </motion.div>
+                </div>
               );
             })}
           </div>
@@ -182,14 +181,14 @@ export default function CidadaniaPortuguesa() {
       </section>
       <section className="section-padding bg-primary">
         <div className="container-width">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center max-w-3xl mx-auto">
+          <div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center max-w-3xl mx-auto">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-primary-foreground mb-6">Pronto para iniciar sua jornada?</h2>
             <p className="text-primary-foreground/80 text-lg mb-8">Nossa equipe está pronta para analisar seu caso e orientá-lo em cada etapa do processo.</p>
             <Button variant="gold" size="xl" onClick={() => window.open(SITE_CONFIG.whatsapp.url, '_blank', 'noopener,noreferrer')}>
               <MessageCircle className="w-5 h-5" />
               Falar no WhatsApp
             </Button>
-          </motion.div>
+          </div>
         </div>
       </section>
       <div className="container-width pb-8"><QuizBanner /></div>

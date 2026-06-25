@@ -1,10 +1,9 @@
 import { MessageCircle } from 'lucide-react';
-import { motion } from 'framer-motion';
 import { SITE_CONFIG, waUrl } from '@/config/site';
 
 export function WhatsAppButton() {
   return (
-    <motion.a
+    <a
       href={SITE_CONFIG.whatsapp.url}
       target="_blank"
       rel="noopener noreferrer"
@@ -31,6 +30,6 @@ export function WhatsAppButton() {
       <span className="absolute right-full mr-3 bg-foreground text-background text-sm font-medium px-3 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
         Fale conosco no WhatsApp
       </span>
-    </motion.a>
+    </a>
   );
 }

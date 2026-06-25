@@ -2,7 +2,6 @@ import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/sections/Footer';
 import { useScrollToHash } from '@/hooks/useScrollToHash';
-import { motion } from 'framer-motion';
 import { SITE_CONFIG, waUrl } from '@/config/site';
 
 export default function PoliticaPrivacidade() {
@@ -26,7 +25,7 @@ export default function PoliticaPrivacidade() {
         <main className="pt-24">
           <section className="py-16">
             <div className="container-width max-w-4xl">
-              <motion.div
+              <div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
               >
@@ -125,7 +124,7 @@ export default function PoliticaPrivacidade() {
                     revise esta página regularmente para estar ciente de quaisquer alterações.
                   </p>
                 </div>
-              </motion.div>
+              </div>
             </div>
           </section>
         </main>

@@ -1,10 +1,9 @@
-import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Sparkles, ArrowRight } from 'lucide-react';
 
 export function QuizBanner() {
   return (
-    <motion.div
+    <div
       initial={{ opacity: 0, y: 16 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
@@ -33,6 +32,6 @@ export function QuizBanner() {
         Fazer o quiz
         <ArrowRight className="w-4 h-4" />
       </Link>
-    </motion.div>
+    </div>
   );
 }

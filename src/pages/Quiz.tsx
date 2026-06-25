@@ -779,7 +779,7 @@ export default function Quiz() {
             </div>
           )}
 
-          <AnimatePresence mode="wait">
+          
             <motion.div
               key={currentKey}
               initial={{ opacity: 0, y: 16 }}
@@ -1039,7 +1039,7 @@ export default function Quiz() {
               })()}
 
             </motion.div>
-          </AnimatePresence>
+          
 
           {/* Navegação */}
           <div className="flex justify-between mt-6">

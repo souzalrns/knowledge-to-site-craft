@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { ArrowRight, FileText, Search, Users, Heart, Building, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
@@ -111,7 +110,7 @@ export function Services() {
     <section id="servicos" className="section-padding bg-muted/50">
       <div className="container-width">
         {/* Section Header */}
-        <motion.div
+        <div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -128,10 +127,10 @@ export function Services() {
             Venha dar esse grande passo com a gente. Oferecemos suporte completo desde a
             pesquisa genealógica até a obtenção do passaporte europeu.
           </p>
-        </motion.div>
+        </div>
 
         {/* Urgency reframe */}
-        <motion.div
+        <div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
@@ -139,10 +138,10 @@ export function Services() {
         >
           <Clock className="w-4 h-4 shrink-0" />
           <span>Quanto antes você iniciar, mais cedo entra na fila de análise do IRN.</span>
-        </motion.div>
+        </div>
 
         {/* Services Grid */}
-        <motion.div
+        <div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -157,7 +156,7 @@ export function Services() {
             };
 
             return (
-              <motion.div
+              <div
                 key={service.title}
                 variants={itemVariants}
                 className="group bg-card rounded-2xl p-6 shadow-subtle card-hover border border-border/50 flex flex-col"
@@ -192,13 +191,13 @@ export function Services() {
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
                   </Link>
                 </div>
-              </motion.div>
+              </div>
             );
           })}
-        </motion.div>
+        </div>
 
         {/* CTA */}
-        <motion.div
+        <div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -220,7 +219,7 @@ export function Services() {
           <Link to="/cidadania-portuguesa" className="text-sm text-muted-foreground hover:text-primary transition-colors">
             ou veja todos os detalhes de cada serviço
           </Link>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

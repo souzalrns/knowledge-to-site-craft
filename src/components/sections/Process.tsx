@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import {
   MessageCircle,
   FileSearch,
@@ -93,7 +92,7 @@ function TimelineStep({
 }) {
   const Icon = step.icon;
   return (
-    <motion.div
+    <div
       initial={{ opacity: 0, x: isLeft ? -30 : 30 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
@@ -121,7 +120,7 @@ function TimelineStep({
       </div>
 
       <div className="hidden lg:block flex-1" />
-    </motion.div>
+    </div>
   );
 }
 
@@ -130,7 +129,7 @@ export function Process() {
     <section id="processo" className="section-padding">
       <div className="container-width">
         {/* Section Header */}
-        <motion.div
+        <div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -146,7 +145,7 @@ export function Process() {
             Ao entrar em contato conosco, seguimos uma série de passos para garantir
             o melhor entendimento e sucesso no processo de obtenção da cidadania.
           </p>
-        </motion.div>
+        </div>
 
         {/* Timeline part 1 */}
         <div className="relative">
@@ -159,7 +158,7 @@ export function Process() {
         </div>
 
         {/* Mid-timeline CTA — captures leads who decided after seeing the process is clear */}
-        <motion.div
+        <div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -185,7 +184,7 @@ export function Process() {
             Começar agora — é gratuito
             <ArrowRight className="w-5 h-5" />
           </Button>
-        </motion.div>
+        </div>
 
         {/* Timeline part 2 */}
         <div className="relative">

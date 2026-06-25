@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { SchemaFAQ } from '@/components/seo/SchemaMarkup';
 import {
   Accordion,
@@ -169,7 +168,7 @@ export function FAQ() {
       <div className="container-width">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left Column - Header */}
-          <motion.div
+          <div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -206,10 +205,10 @@ export function FAQ() {
                 Falar com especialista
               </Button>
             </div>
-          </motion.div>
+          </div>
 
           {/* Right Column - FAQ Accordion grouped by topic */}
-          <motion.div
+          <div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -238,7 +237,7 @@ export function FAQ() {
                 </Accordion>
               </div>
             ))}
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

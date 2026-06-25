@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { AlertCircle, X } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -9,7 +8,7 @@ export function UrgencyBanner() {
   if (!isVisible) return null;
 
   return (
-    <motion.div
+    <div
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -50 }}
@@ -38,6 +37,6 @@ export function UrgencyBanner() {
           <X className="w-4 h-4" />
         </button>
       </div>
-    </motion.div>
+    </div>
   );
 }

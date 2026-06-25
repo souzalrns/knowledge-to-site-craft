@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { ArrowRight, Heart, GraduationCap, Scale, MapPin, FileCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import consultantImage from '@/assets/consultant.jpg';
@@ -38,7 +37,7 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
           {/* Image Side */}
-          <motion.div
+          <div
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -67,7 +66,7 @@ export function About() {
             </div>
 
             {/* Floating Card */}
-            <motion.div
+            <div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -83,11 +82,11 @@ export function About() {
                   <div className="text-sm text-muted-foreground">famílias. Uma herança cada.</div>
                 </div>
               </div>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
 
           {/* Content Side */}
-          <motion.div
+          <div
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -121,7 +120,7 @@ export function About() {
               {credentials.map((item, index) => {
                 const Icon = item.icon;
                 return (
-                  <motion.div
+                  <div
                     key={item.title}
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -140,7 +139,7 @@ export function About() {
                         {item.description}
                       </p>
                     </div>
-                  </motion.div>
+                  </div>
                 );
               })}
             </div>
@@ -160,7 +159,7 @@ export function About() {
               Começar a construir essa herança
               <ArrowRight className="w-5 h-5" />
             </Button>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
