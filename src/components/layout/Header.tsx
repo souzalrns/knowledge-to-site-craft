@@ -80,7 +80,7 @@ export function Header() {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-5">
             <a
-              href=SITE_CONFIG.whatsapp.url
+              href={SITE_CONFIG.whatsapp.url}
               target="_blank"
               rel="noopener noreferrer"
               className={cn(
@@ -142,7 +142,7 @@ export function Header() {
                   Análise Gratuita
                 </Button>
                 <a
-                  href=SITE_CONFIG.whatsapp.url
+                  href={SITE_CONFIG.whatsapp.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 text-sm text-muted-foreground hover:text-gold transition-colors py-1"
