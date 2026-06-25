@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useAnalytics } from '@/hooks/useAnalytics';
 import { Helmet } from 'react-helmet-async';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -674,8 +674,14 @@ const NODES: Record<string, Node> = {
 
 // ── Componente principal ────────────────────────────────────────
 export default function Quiz() {
-  const { trackEvent } = useAnalytics();
+  const { trackQuizStart, trackQuizStep, trackQuizResult, trackQuizLead, trackWhatsAppClick } = useAnalytics();
   const [history, setHistory] = useState<string[]>(['q1']);
+
+  // Rastrear início do quiz ao montar
+  useEffect(() => {
+    trackQuizStart();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const [showLead, setShowLead] = useState(false);
   const [leadData, setLeadData] = useState({ name: '', email: '', whatsapp: '' });
   const [sent, setSent] = useState(false);
@@ -684,9 +690,13 @@ export default function Quiz() {
   const currentNode = NODES[currentKey];
 
   function goTo(key: string) {
-    trackEvent('quiz_step', { from: currentKey, to: key });
+    trackQuizStep(currentKey, key);
     setHistory(prev => [...prev, key]);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Rastrear chegada a resultado
+    if (key.startsWith('result_')) {
+      trackQuizResult(key);
+    }
   }
 
   function goBack() {
@@ -705,7 +715,7 @@ export default function Quiz() {
 
   async function handleLead(e: React.FormEvent) {
     e.preventDefault();
-    trackEvent('quiz_lead', { result: currentKey });
+    trackQuizLead(currentKey);
     try {
       await fetch('/', {
         method: 'POST',
