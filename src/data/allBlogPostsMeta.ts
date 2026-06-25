@@ -22,7 +22,6 @@ export interface BlogPostMeta {
 // 82 artigos — apenas metadados
 export const allBlogPostsMeta: BlogPostMeta[] = [
   {
-{
     id: 1,
     slug: 'veto-tribunal-constitucional-dezembro-2025',
     title: 'Veto do Tribunal Constitucional Dez/2025: Residência em 5 Anos Mantida',
@@ -38,7 +37,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 2,
     slug: 'guia-completo-cidadania-portuguesa-2025',
     title: 'Guia Completo 2025: Cidadania Portuguesa por Descendência',
@@ -54,7 +52,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 3,
     slug: 'vinculo-efetivo-como-comprovar',
     title: 'Vínculo Efetivo: Como Comprovar Ligação com Portugal',
@@ -70,7 +67,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 4,
     slug: 'backlog-irn-prazos-reais-2025',
     title: 'Backlog IRN: Prazos Reais da Cidadania Portuguesa em 2025',
@@ -86,7 +82,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 5,
     slug: 'dupla-cidadania-brasil-portugal-vantagens',
     title: 'Vantagens da Dupla Cidadania Brasil-Portugal em 2025',
@@ -102,7 +97,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 6,
     slug: 'documentos-cidadania-portuguesa-lista-completa',
     title: 'Lista Completa de Documentos para Cidadania Portuguesa',
@@ -118,7 +112,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 7,
     slug: 'cidadania-portuguesa-por-casamento-guia-completo',
     title: 'Cidadania Portuguesa por Casamento: Guia Completo 2025',
@@ -134,7 +127,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 8,
     slug: 'cidadania-portuguesa-por-residencia-passo-a-passo',
     title: 'Cidadania Portuguesa por Residência: Passo a Passo 2025',
@@ -150,7 +142,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 9,
     slug: 'como-buscar-certidoes-portuguesas-portugal',
     title: 'Como Buscar Certidões Portuguesas em Portugal',
@@ -166,7 +157,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 10,
     slug: 'cidadania-portuguesa-netos-guia-definitivo-2025',
     title: 'Cidadania Portuguesa para Netos: Guia Definitivo 2025',
@@ -182,7 +172,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 11,
     slug: 'como-acompanhar-processo-cidadania-portuguesa',
     title: 'Como Acompanhar o Processo de Cidadania Portuguesa: Guia do Portal MJ.pt',
@@ -198,7 +187,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 12,
     slug: 'bisnetos-via1-vs-via2-cidadania-portuguesa',
     title: 'Bisnetos e a Cidadania Portuguesa: Via 1 (Atribuição) vs Via 2 (Aquisição) — Qual a Diferença?',
@@ -214,7 +202,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 13,
     slug: 'protocolo-antes-lei-1-2026-o-que-muda',
     title: 'Protocolei Meu Pedido Antes de 19 de Maio de 2026 — O Que Muda para Mim?',
@@ -230,7 +217,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 14,
     slug: '700-mil-processos-irn-o-que-significa-para-voce',
     title: '700.000 Processos Pendentes no IRN: O Que Isso Significa para o Seu Caso?',
@@ -246,7 +232,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 15,
     slug: 'filhos-nascidos-em-portugal-nova-lei-2026',
     title: 'Filhos Nascidos em Portugal: O Que Mudou com a Lei 1/2026?',
@@ -262,7 +247,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 1,
     slug: 'nacionalidade-portuguesa-para-netos-guia-completo-2026',
     title: 'Nacionalidade Portuguesa para Netos: Guia Completo Atualizado 2026',
@@ -277,7 +261,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 2,
     slug: 'nacionalidade-portuguesa-para-filhos-guia-completo-2026',
     title: 'Nacionalidade Portuguesa para Filhos: Guia Completo e Atualizado 2026',
@@ -292,7 +275,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 3,
     slug: 'nacionalidade-portuguesa-por-casamento-uniao-facto-2026',
     title: 'Nacionalidade Portuguesa por Casamento ou União de Facto em 2026',
@@ -307,7 +289,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 4,
     slug: 'quanto-custa-nacionalidade-portuguesa-2026',
     title: 'Quanto Custa a Nacionalidade Portuguesa em 2026? Valores Reais e Despesas Totais',
@@ -322,7 +303,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 20,
     slug: 'passaporte-portugues-como-solicitar-apos-aprovacao-da-cidadania',
     title: 'Passaporte Português: Como Solicitar Após Aprovação da Cidadania',
@@ -338,7 +318,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 21,
     slug: 'naturalizacao-por-residencia-em-portugal-requisitos-atualizados-2026',
     title: 'Naturalização por Residência em Portugal: Requisitos Atualizados 2026',
@@ -354,7 +333,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 22,
     slug: 'como-escolher-um-advogado-especialista-em-cidadania-portuguesa',
     title: 'Como Escolher um Advogado Especialista em Cidadania Portuguesa',
@@ -370,7 +348,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 23,
     slug: 'quanto-custa-o-processo-de-cidadania-portuguesa-para-netos',
     title: 'Quanto Custa o Processo de Cidadania Portuguesa para Netos?',
@@ -386,7 +363,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 24,
     slug: 'cidadania-portuguesa-para-conjuges-3-ou-6-anos-de-casamento',
     title: 'Cidadania Portuguesa para Cônjuges: 3 ou 6 Anos de Casamento?',
@@ -402,7 +378,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 25,
     slug: 'checklist-completa-de-documentos-para-netos-de-portugueses',
     title: 'Checklist Completa de Documentos para Netos de Portugueses',
@@ -418,7 +393,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 26,
     slug: 'cidadania-portuguesa-para-brasileiros-que-moram-no-brasil-em-2026',
     title: 'Cidadania Portuguesa para Brasileiros que Moram no Brasil em 2026',
@@ -434,7 +408,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 27,
     slug: 'prazo-de-validade-dos-documentos-na-cidadania-portuguesa',
     title: 'Prazo de Validade dos Documentos na Cidadania Portuguesa',
@@ -450,7 +423,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 28,
     slug: 'cidadania-portuguesa-para-menores-de-idade-o-que-os-pais-precisam-saber',
     title: 'Cidadania Portuguesa para Menores de Idade: O que os Pais Precisam Saber',
@@ -466,7 +438,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 29,
     slug: 'como-obter-a-certidao-de-antecedentes-criminais-para-portugal',
     title: 'Como Obter a Certidão de Antecedentes Criminais para Portugal',
@@ -482,7 +453,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 30,
     slug: 'beneficios-de-ter-passaporte-portugues-em-2026',
     title: 'Benefícios de Ter Passaporte Português em 2026',
@@ -498,7 +468,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 31,
     slug: 'como-corrigir-erros-em-certidoes-para-cidadania-portuguesa',
     title: 'Como Corrigir Erros em Certidões para Cidadania Portuguesa',
@@ -514,7 +483,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 32,
     slug: 'cidadania-portuguesa-e-direito-de-votar-na-europa',
     title: 'Cidadania Portuguesa e Direito de Votar na Europa',
@@ -530,7 +498,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 33,
     slug: 'cidadania-portuguesa-para-filhos-de-pais-separados',
     title: 'Cidadania Portuguesa para Filhos de Pais Separados',
@@ -546,7 +513,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 34,
     slug: 'o-que-fazer-apos-a-aprovacao-da-cidadania-portuguesa',
     title: 'O Que Fazer Após a Aprovação da Cidadania Portuguesa',
@@ -562,7 +528,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 35,
     slug: 'diferenca-entre-atribuicao-e-aquisicao-de-cidadania-portuguesa',
     title: 'Diferença entre Atribuição e Aquisição de Cidadania Portuguesa',
@@ -578,7 +543,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 36,
     slug: 'cidadania-portuguesa-para-quem-tem-avo-que-perdeu-a-nacionalidade',
     title: 'Cidadania Portuguesa para Quem Tem Avó que Perdeu a Nacionalidade',
@@ -594,7 +558,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 37,
     slug: 'cidadania-portuguesa-para-brasileiros-em-sao-paulo',
     title: 'Cidadania Portuguesa para Brasileiros em São Paulo',
@@ -610,7 +573,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 38,
     slug: 'cidadania-portuguesa-para-brasileiros-no-rio-de-janeiro',
     title: 'Cidadania Portuguesa para Brasileiros no Rio de Janeiro',
@@ -626,7 +588,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 39,
     slug: 'cidadania-portuguesa-para-brasileiros-no-sul-do-brasil',
     title: 'Cidadania Portuguesa para Brasileiros no Sul do Brasil',
@@ -642,7 +603,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 40,
     slug: 'cidadania-portuguesa-para-quem-mora-em-portugal',
     title: 'Cidadania Portuguesa para Quem Mora em Portugal',
@@ -658,7 +618,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 41,
     slug: 'cidadania-portuguesa-para-adotados-por-portugueses',
     title: 'Cidadania Portuguesa para Adotados por Portugueses',
@@ -674,7 +633,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 42,
     slug: 'cidadania-portuguesa-e-heranca-o-que-os-descendentes-precisam-saber',
     title: 'Cidadania Portuguesa e Herança: O que os Descendentes Precisam Saber',
@@ -690,7 +648,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 43,
     slug: 'filho-vs-neto-diferencas-no-processo-de-cidadania-portuguesa',
     title: 'Filho vs. Neto: Diferenças no Processo de Cidadania Portuguesa',
@@ -706,7 +663,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 44,
     slug: 'pedir-cidadania-no-brasil-ou-em-portugal-vantagens-e-desvantagens',
     title: 'Pedir Cidadania no Brasil ou em Portugal: Vantagens e Desvantagens',
@@ -722,7 +678,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 45,
     slug: 'traducao-juramentada-de-documentos-para-cidadania-portuguesa',
     title: 'Tradução Juramentada de Documentos para Cidadania Portuguesa',
@@ -738,7 +693,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 46,
     slug: 'cidadania-portuguesa-para-casais-em-uniao-de-facto-uniao-estavel',
     title: 'Cidadania Portuguesa para Casais em União de Facto (União Estável)',
@@ -754,7 +708,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 47,
     slug: 'como-acompanhar-o-andamento-do-processo-de-cidadania-portuguesa',
     title: 'Como Acompanhar o Andamento do Processo de Cidadania Portuguesa',
@@ -770,7 +723,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 48,
     slug: 'cidadania-portuguesa-e-servico-militar-obrigatorio',
     title: 'Cidadania Portuguesa e Serviço Militar Obrigatório',
@@ -786,7 +738,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 49,
     slug: 'como-acelerar-o-processo-de-cidadania-portuguesa',
     title: 'Como Acelerar o Processo de Cidadania Portuguesa',
@@ -802,7 +753,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 50,
     slug: 'cidadania-portuguesa-para-cidadaos-da-cplp',
     title: 'Cidadania Portuguesa para Cidadãos da CPLP',
@@ -818,7 +768,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 51,
     slug: 'atualizacao-de-dados-no-processo-de-cidadania-ja-iniciado',
     title: 'Atualização de Dados no Processo de Cidadania Já Iniciado',
@@ -834,7 +783,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 52,
     slug: 'atualizacoes-da-lei-da-nacionalidade-portuguesa-em-2026',
     title: 'Atualizações da Lei da Nacionalidade Portuguesa em 2026',
@@ -850,7 +798,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 53,
     slug: 'cidadania-portuguesa-para-quem-tem-antepassados-de-macau-ou-goa',
     title: 'Cidadania Portuguesa para Quem Tem Antepassados de Macau ou Goa',
@@ -866,7 +813,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 54,
     slug: 'como-usar-o-portal-eportugal-no-processo-de-cidadania',
     title: 'Como Usar o Portal ePortugal no Processo de Cidadania',
@@ -882,7 +828,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 55,
     slug: 'cidadania-portuguesa-para-descendentes-de-emigrantes',
     title: 'Cidadania Portuguesa para Descendentes de Emigrantes',
@@ -898,7 +843,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 56,
     slug: 'checklist-final-antes-de-entregar-o-processo-de-cidadania-portuguesa',
     title: 'Checklist Final Antes de Entregar o Processo de Cidadania Portuguesa',
@@ -914,7 +858,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 57,
     slug: 'cidadania-portuguesa-para-quem-tem-pai-falecido',
     title: 'Cidadania Portuguesa para Quem Tem Pai Falecido',
@@ -930,7 +873,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 58,
     slug: 'cidadania-portuguesa-para-quem-tem-documentos-perdidos',
     title: 'Cidadania Portuguesa para Quem Tem Documentos Perdidos',
@@ -946,7 +888,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 59,
     slug: 'cidadania-portuguesa-para-filhos-nascidos-fora-do-casamento',
     title: 'Cidadania Portuguesa para Filhos Nascidos Fora do Casamento',
@@ -962,7 +903,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 60,
     slug: 'cidadania-portuguesa-e-nome-portugues-como-alterar-apos-a-aprovacao',
     title: 'Cidadania Portuguesa e Nome Português: Como Alterar Após a Aprovação',
@@ -978,7 +918,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 61,
     slug: 'cidadania-portuguesa-para-brasileiros-no-nordeste',
     title: 'Cidadania Portuguesa para Brasileiros no Nordeste',
@@ -994,7 +933,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 62,
     slug: 'guia-definitivo-todas-as-formas-de-obter-cidadania-portuguesa-em-2026',
     title: 'Guia Definitivo: Todas as Formas de Obter Cidadania Portuguesa em 2026',
@@ -1010,7 +948,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 63,
     slug: 'cidadania-portuguesa-e-acesso-a-universidade-na-europa',
     title: 'Cidadania Portuguesa e Acesso à Universidade na Europa',
@@ -1026,7 +963,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 64,
     slug: 'erros-comuns-na-arvore-genealogica-para-cidadania-portuguesa',
     title: 'Erros Comuns na Árvore Genealógica para Cidadania Portuguesa',
@@ -1042,7 +978,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 65,
     slug: 'cidadania-portuguesa-para-brasileiros-com-dupla-nacionalidade-nao-portuguesa',
     title: 'Cidadania Portuguesa para Brasileiros com Dupla Nacionalidade Não-Portuguesa',
@@ -1058,7 +993,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 66,
     slug: 'tempo-medio-de-aprovacao-por-tipo-de-processo-em-2026',
     title: 'Tempo Médio de Aprovação por Tipo de Processo em 2026',
@@ -1074,7 +1008,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 67,
     slug: 'cidadania-portuguesa-para-brasileiros-em-belo-horizonte-e-minas-gerais',
     title: 'Cidadania Portuguesa para Brasileiros em Belo Horizonte e Minas Gerais',
@@ -1090,7 +1023,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 68,
     slug: 'cidadania-portuguesa-para-brasileiros-em-curitiba-e-parana',
     title: 'Cidadania Portuguesa para Brasileiros em Curitiba e Paraná',
@@ -1106,7 +1038,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 69,
     slug: 'consulado-de-portugal-no-brasil-onde-fica-e-para-que-serve',
     title: 'Consulado de Portugal no Brasil: Onde Fica e Para Que Serve',
@@ -1122,7 +1053,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 70,
     slug: 'por-que-processos-de-cidadania-portuguesa-sao-indeferidos-e-como-recorrer',
     title: 'Por Que Processos de Cidadania Portuguesa São Indeferidos e Como Recorrer',
@@ -1138,7 +1068,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 71,
     slug: 'documentos-digitais-vs-fisicos-no-processo-de-cidadania-portuguesa',
     title: 'Documentos Digitais vs. Físicos no Processo de Cidadania Portuguesa',
@@ -1154,7 +1083,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 72,
     slug: 'cidadania-portuguesa-mitos-e-verdades',
     title: 'Cidadania Portuguesa: Mitos e Verdades',
@@ -1170,7 +1098,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 73,
     slug: 'cidadania-portuguesa-para-brasileiros-em-brasilia-e-centro-oeste',
     title: 'Cidadania Portuguesa para Brasileiros em Brasília e Centro-Oeste',
@@ -1186,7 +1113,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 74,
     slug: 'cidadania-portuguesa-e-aquisicao-de-imoveis-em-portugal',
     title: 'Cidadania Portuguesa e Aquisição de Imóveis em Portugal',
@@ -1202,7 +1128,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 75,
     slug: 'beneficios-fiscais-para-novos-cidadaos-portugueses',
     title: 'Benefícios Fiscais para Novos Cidadãos Portugueses',
@@ -1218,7 +1143,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 76,
     slug: 'como-preparar-a-entrevista-no-irn-para-cidadania-portuguesa',
     title: 'Como Preparar a Entrevista no IRN para Cidadania Portuguesa',
@@ -1234,7 +1158,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 77,
     slug: 'cidadania-portuguesa-o-que-acontece-se-eu-viver-entre-brasil-e-portugal',
     title: 'Cidadania Portuguesa: O Que Acontece se Eu Viver Entre Brasil e Portugal',
@@ -1250,7 +1173,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 78,
     slug: 'cidadania-portuguesa-para-descendentes-de-emigrantes-que-voltaram-a-portugal',
     title: 'Cidadania Portuguesa para Descendentes de Emigrantes que Voltaram a Portugal',
@@ -1266,7 +1188,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 79,
     slug: 'cidadania-portuguesa-e-acesso-a-beneficios-sociais-na-europa',
     title: 'Cidadania Portuguesa e Acesso a Benefícios Sociais na Europa',
@@ -1282,7 +1203,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 80,
     slug: 'como-manter-a-cidadania-portuguesa-ativa-apos-a-aprovacao',
     title: 'Como Manter a Cidadania Portuguesa Ativa Após a Aprovação',
@@ -1298,7 +1218,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 81,
     slug: 'cidadania-portuguesa-para-quem-tem-processo-parado-ha-anos',
     title: 'Cidadania Portuguesa para Quem Tem Processo Parado Há Anos',
@@ -1314,7 +1233,6 @@ export const allBlogPostsMeta: BlogPostMeta[] = [
   },
 
   {
-{
     id: 82,
     slug: 'cidadania-portuguesa-perguntas-finais-antes-de-comecar',
     title: 'Cidadania Portuguesa — Perguntas Finais Antes de Começar',
