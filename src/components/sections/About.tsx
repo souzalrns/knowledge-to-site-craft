@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Shield, Clock, Award, Users, ArrowRight } from 'lucide-react';
+import { Shield, Clock, Award, Users, ArrowRight, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import consultantImage from '@/assets/consultant.jpg';
 import consultantImageWebp from '@/assets/consultant.webp';
@@ -8,23 +8,23 @@ import { SITE_CONFIG, waUrl } from '@/config/site';
 const features = [
   {
     icon: Shield,
-    title: 'Segurança Total',
-    description: 'Transparência, ética e profissionalismo em cada etapa do seu processo.',
+    title: 'Segurança jurídica total',
+    description: 'Cada processo é montado para não ter diligências. Documentação certa na primeira vez.',
   },
   {
     icon: Clock,
-    title: 'Agilidade Real',
-    description: 'Processos otimizados para evitar diligências e atrasos evitáveis.',
+    title: 'Sem perder posição na fila',
+    description: 'Protocolamos rápido para você entrar na fila do IRN o quanto antes. Cada mês importa.',
   },
   {
     icon: Award,
-    title: 'Experiência Comprovada',
-    description: '+10 anos e mais de 2.000 processos conduzidos com êxito.',
+    title: 'Especialistas, não generalistas',
+    description: '+10 anos dedicados exclusivamente à cidadania portuguesa. Conhecemos o IRN por dentro.',
   },
   {
     icon: Users,
-    title: 'Atendimento Dedicado',
-    description: 'Um especialista acompanha o seu caso do início ao fim — não um chatbot.',
+    title: 'Atendimento real, do início ao fim',
+    description: 'Um especialista acompanha o seu caso — não um chatbot, não uma fila de atendimento.',
   },
 ];
 
@@ -66,11 +66,11 @@ export function About() {
             >
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-gold/20 flex items-center justify-center">
-                  <Award className="w-6 h-6 text-gold" />
+                  <Heart className="w-6 h-6 text-gold" />
                 </div>
                 <div>
                   <div className="font-display text-2xl font-bold text-foreground">2.000+</div>
-                  <div className="text-sm text-muted-foreground">Cidadanias conquistadas</div>
+                  <div className="text-sm text-muted-foreground">famílias. Uma herança cada.</div>
                 </div>
               </div>
             </motion.div>
@@ -88,21 +88,21 @@ export function About() {
             </span>
 
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
-              A diferença entre <span className="text-primary">esperar e conquistar</span> sua
-              cidadania
+              Um investimento que{' '}
+              <span className="text-primary">os seus filhos vão agradecer</span>
             </h2>
 
-            <p className="text-muted-foreground text-lg mb-6">
-              A maioria dos processos não falha por falta de direito — falha por documentação
-              incompleta, prazos perdidos ou orientação genérica. Na ViannaLegal, cada caso é
-              acompanhado por um especialista que conhece exatamente o que o IRN exige, evitando
-              as diligências que mais atrasam pedidos.
+            <p className="text-muted-foreground text-lg mb-4 leading-relaxed">
+              Quando um pai obtém a cidadania portuguesa, ele não está a fazer só um documento.
+              Está a abrir uma porta para os filhos estudarem na Europa sem pagar fortuna,
+              trabalharem em qualquer país da UE sem visto, viverem onde quiserem — e passarem
+              esse direito para os netos, e os netos para os bisnetos.
             </p>
 
-            <p className="text-muted-foreground mb-8">
-              Resultado: mais de 2.000 famílias brasileiras já têm passaporte europeu nas mãos,
-              com processo 100% online — você não precisa viajar, ir a cartório ou falar
-              português de Portugal para conseguir.
+            <p className="text-muted-foreground mb-8 leading-relaxed">
+              Ninguém sabe que portas vão aparecer no futuro. Mas quem tem o passaporte vai ter
+              a liberdade de escolher. É esse o valor real da dupla cidadania — não o documento,
+              mas as possibilidades que ele representa.
             </p>
 
             {/* Features Grid */}
@@ -135,13 +135,13 @@ export function About() {
               size="lg"
               onClick={() =>
                 window.open(
-                  '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Quero entender como vocês podem acelerar meu processo.")}',
+                  waUrl(SITE_CONFIG.whatsappMessages.about),
                   '_blank',
                   'noopener,noreferrer'
-)
+                )
               }
             >
-              Conversar com um especialista
+              Começar a construir essa herança
               <ArrowRight className="w-5 h-5" />
             </Button>
           </motion.div>
