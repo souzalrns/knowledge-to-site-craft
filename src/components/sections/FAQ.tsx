@@ -195,8 +195,7 @@ export function FAQ() {
               <Button
                 variant="gold"
                 size="sm"
-                onClick={() =>
-                  window.open(
+                onClick={() => window.open(
                     '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Tenho uma dúvida sobre cidadania portuguesa que não encontrei no site.")}',
                     '_blank',
                     'noopener,noreferrer'
