@@ -6,7 +6,8 @@ import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight, Calendar, Clock, User, Share2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { QuizBanner } from '@/components/ui/QuizBanner';
-import { allBlogPosts as blogPosts } from '@/data/allBlogPosts';
+import { allBlogPostsMeta as blogPosts } from '@/data/allBlogPostsMeta';
+import { allBlogPostsContent } from '@/data/allBlogPostsContent';
 import { SITE_CONFIG, waUrl } from '@/config/site';
 
 export default function BlogPost() {
