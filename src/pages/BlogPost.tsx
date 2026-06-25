@@ -255,8 +255,6 @@ export default function BlogPost() {
           <article className="py-12">
             <div className="container-width max-w-4xl">
               <header
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
                 className="mb-8"
               >
                 <div className="flex items-center gap-2 mb-4">
@@ -304,18 +302,12 @@ export default function BlogPost() {
 
               {/* Article Content */}
               <div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1 }}
                 className="prose prose-lg max-w-none"
                 dangerouslySetInnerHTML={{ __html: formatContent(post.content || '') }}
               />
 
               {/* CTA Box */}
               <div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
                 className="mt-12 p-8 bg-gradient-to-br from-portugal-green/10 to-gold/10 rounded-2xl border border-border"
               >
                 <h3 className="font-display text-2xl font-semibold text-foreground mb-3">

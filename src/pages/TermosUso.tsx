@@ -26,8 +26,6 @@ export default function TermosUso() {
           <section className="py-16">
             <div className="container-width max-w-4xl">
               <div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
               >
                 <h1 className="font-display text-4xl font-bold text-foreground mb-8">
                   Termos de Uso

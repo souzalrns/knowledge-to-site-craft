@@ -38,10 +38,6 @@ export function About() {
 
           {/* Image Side */}
           <div
-            initial={{ opacity: 0, x: -40 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
             className="relative"
           >
             <div className="relative rounded-3xl overflow-hidden shadow-elevated">
@@ -67,10 +63,6 @@ export function About() {
 
             {/* Floating Card */}
             <div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.4 }}
               className="absolute -bottom-6 -right-6 bg-card rounded-2xl p-6 shadow-elevated border border-border max-w-xs"
             >
               <div className="flex items-center gap-4">
@@ -87,10 +79,6 @@ export function About() {
 
           {/* Content Side */}
           <div
-            initial={{ opacity: 0, x: 40 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
           >
             <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
               Quem trata do seu processo
@@ -122,10 +110,6 @@ export function About() {
                 return (
                   <div
                     key={item.title}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: 0.2 + index * 0.1 }}
                     className="flex gap-3"
                   >
                     <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">

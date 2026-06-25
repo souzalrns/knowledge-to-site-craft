@@ -88,8 +88,6 @@ export default function Blog() {
           <section className="py-16 bg-muted/50">
             <div className="container-width">
               <div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
                 className="text-center max-w-3xl mx-auto"
               >
                 <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
@@ -119,9 +117,6 @@ export default function Blog() {
                   return (
                     <article
                       key={post.id}
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: index * 0.1 }}
                       className="bg-card rounded-2xl overflow-hidden shadow-subtle border border-border/50 group"
                     >
                       <div className="p-8">
@@ -180,9 +175,6 @@ export default function Blog() {
                   return (
                     <article
                       key={post.id}
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: index * 0.1 }}
                       className="bg-card rounded-2xl overflow-hidden shadow-subtle border border-border/50"
                     >
                       <div className="p-6">
@@ -230,8 +222,6 @@ export default function Blog() {
           <section className="py-16">
             <div className="container-width">
               <div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
                 className="text-center p-8 bg-gradient-to-br from-portugal-green/10 to-gold/10 rounded-2xl border border-border"
               >
                 <h3 className="font-display text-2xl font-semibold text-foreground mb-3">

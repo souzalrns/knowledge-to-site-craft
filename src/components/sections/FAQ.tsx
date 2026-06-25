@@ -169,9 +169,6 @@ export function FAQ() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left Column - Header */}
           <div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
             className="lg:sticky lg:top-32 lg:self-start"
           >
             <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
@@ -209,9 +206,6 @@ export function FAQ() {
 
           {/* Right Column - FAQ Accordion grouped by topic */}
           <div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
             className="space-y-10"
           >
             {faqGroups.map((group) => (

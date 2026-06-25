@@ -773,7 +773,6 @@ export default function Quiz() {
                 <motion.div
                   className="bg-primary h-1.5 rounded-full"
                   animate={{ width: `${progress}%` }}
-                  transition={{ duration: 0.4 }}
                 />
               </div>
             </div>
@@ -782,10 +781,6 @@ export default function Quiz() {
           
             <motion.div
               key={currentKey}
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -16 }}
-              transition={{ duration: 0.25 }}
             >
 
               {/* ── PERGUNTA ─────────────────────────────────── */}

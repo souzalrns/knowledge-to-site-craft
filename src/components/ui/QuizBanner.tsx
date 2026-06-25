@@ -4,9 +4,6 @@ import { Sparkles, ArrowRight } from 'lucide-react';
 export function QuizBanner() {
   return (
     <div
-      initial={{ opacity: 0, y: 16 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
       className="my-10 rounded-2xl bg-gradient-to-r from-primary to-primary/80 p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-5 shadow-elevated border border-primary/20"
     >
       <div className="flex items-start gap-4">

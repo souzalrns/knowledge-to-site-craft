@@ -9,9 +9,6 @@ export function UrgencyBanner() {
 
   return (
     <div
-      initial={{ opacity: 0, y: -50 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -50 }}
       className="bg-gradient-to-r from-portugal-green to-portugal-red text-white py-3 px-4 relative"
     >
       <div className="container-width flex items-center justify-center gap-3 text-center">

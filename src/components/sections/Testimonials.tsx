@@ -92,9 +92,6 @@ export function Testimonials() {
       <div className="container-width">
         {/* Section Header */}
         <div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
@@ -112,16 +109,11 @@ export function Testimonials() {
 
         {/* Testimonials Grid */}
         <div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
           className="grid md:grid-cols-2 lg:grid-cols-4 gap-6"
         >
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              variants={itemVariants}
               className={`bg-card rounded-2xl p-6 shadow-subtle border border-border/50 relative ${
                 index < 2 ? 'lg:col-span-2' : ''
               }`}
@@ -162,9 +154,6 @@ export function Testimonials() {
 
         {/* Trust Badges */}
         <div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
           className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4"
         >
           <div className="flex items-center gap-3 bg-muted/50 px-4 py-4 rounded-xl">

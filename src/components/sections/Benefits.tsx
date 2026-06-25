@@ -67,9 +67,6 @@ export function Benefits() {
       <div className="container-width relative">
         {/* Section Header */}
         <div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
@@ -91,10 +88,6 @@ export function Benefits() {
             return (
               <div
                 key={benefit.title}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.08 }}
                 className="bg-primary-foreground/5 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/10 hover:bg-primary-foreground/10 transition-colors group"
               >
                 <div className="w-12 h-12 rounded-xl bg-gold/20 flex items-center justify-center mb-4 group-hover:bg-gold/30 transition-colors">
@@ -109,9 +102,6 @@ export function Benefits() {
 
         {/* Closing CTA — this section previously had no conversion path */}
         <div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
           className="text-center"
         >
           <p className="text-primary-foreground/80 mb-5">

@@ -54,8 +54,6 @@ export default function BuscaDocumentos() {
       <section className="pt-32 pb-16 bg-primary">
         <div className="container-width">
           <div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-4xl mx-auto"
           >
             <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
@@ -84,9 +82,6 @@ export default function BuscaDocumentos() {
       <section className="section-padding">
         <div className="container-width">
           <div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
             className="text-center max-w-3xl mx-auto mb-16"
           >
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
@@ -99,9 +94,6 @@ export default function BuscaDocumentos() {
 
           <div className="grid md:grid-cols-2 gap-8">
             <div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
               className="bg-card rounded-3xl p-8 border border-border/50"
             >
               <div className="w-14 h-14 rounded-xl bg-gold/10 flex items-center justify-center mb-6">
@@ -132,9 +124,6 @@ export default function BuscaDocumentos() {
             </div>
 
             <div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
               className="bg-card rounded-3xl p-8 border border-border/50"
             >
               <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
@@ -172,9 +161,6 @@ export default function BuscaDocumentos() {
         <div className="container-width">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
             >
               <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
                 Especialidade
@@ -209,9 +195,6 @@ export default function BuscaDocumentos() {
             </div>
 
             <div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
               className="bg-card rounded-3xl p-8 border border-border/50"
             >
               <h3 className="font-display text-xl font-bold text-foreground mb-6">
@@ -272,9 +255,6 @@ export default function BuscaDocumentos() {
       <section className="section-padding">
         <div className="container-width">
           <div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
             className="text-center max-w-3xl mx-auto mb-16"
           >
             <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
@@ -291,9 +271,6 @@ export default function BuscaDocumentos() {
 
           <div className="grid md:grid-cols-2 gap-8">
             <div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
               className="bg-card rounded-3xl p-8 border border-border/50"
             >
               <div className="w-14 h-14 rounded-xl bg-gold/10 flex items-center justify-center mb-6">
@@ -316,10 +293,6 @@ export default function BuscaDocumentos() {
             </div>
 
             <div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
               className="bg-card rounded-3xl p-8 border border-border/50"
             >
               <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
@@ -348,9 +321,6 @@ export default function BuscaDocumentos() {
       <section className="section-padding bg-primary">
         <div className="container-width">
           <div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
             className="text-center max-w-3xl mx-auto"
           >
             <h2 className="font-display text-3xl md:text-4xl font-bold text-primary-foreground mb-6">

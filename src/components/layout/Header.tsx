@@ -115,9 +115,6 @@ export function Header() {
       <AnimatePresence>
         {mobileMenuOpen && (
           <div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
             className="lg:hidden bg-card border-t border-border"
           >
             <div className="container-width py-6 flex flex-col gap-4">

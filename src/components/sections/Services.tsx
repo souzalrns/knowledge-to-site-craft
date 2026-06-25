@@ -111,9 +111,6 @@ export function Services() {
       <div className="container-width">
         {/* Section Header */}
         <div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
           className="text-center max-w-3xl mx-auto mb-12"
         >
           <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
@@ -131,9 +128,6 @@ export function Services() {
 
         {/* Urgency reframe */}
         <div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
           className="flex items-center justify-center gap-2 text-sm text-primary font-medium mb-10 bg-gold/10 rounded-full py-2 px-5 max-w-fit mx-auto"
         >
           <Clock className="w-4 h-4 shrink-0" />
@@ -142,10 +136,6 @@ export function Services() {
 
         {/* Services Grid */}
         <div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
           className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
         >
           {services.map((service) => {
@@ -158,7 +148,6 @@ export function Services() {
             return (
               <div
                 key={service.title}
-                variants={itemVariants}
                 className="group bg-card rounded-2xl p-6 shadow-subtle card-hover border border-border/50 flex flex-col"
               >
                 <div
@@ -198,9 +187,6 @@ export function Services() {
 
         {/* CTA */}
         <div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
           className="text-center mt-12 flex flex-col items-center gap-3"
         >
           <Button

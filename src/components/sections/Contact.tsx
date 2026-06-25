@@ -116,7 +116,7 @@ export function Contact() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
 
           {/* Formulário */}
-          <div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
+          <div>
             <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
               Entre em Contato
             </span>
@@ -131,8 +131,6 @@ export function Contact() {
 
             {formState === 'success' ? (
               <div
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
                 className="rounded-2xl bg-emerald-50 border border-emerald-200 p-8 text-center"
               >
                 <CheckCircle className="w-12 h-12 text-emerald-500 mx-auto mb-4" />
@@ -218,7 +216,7 @@ export function Contact() {
           </div>
 
           {/* Info lateral */}
-          <div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="lg:pl-8">
+          <div className="lg:pl-8">
             <div className="bg-primary rounded-3xl p-8 lg:p-10 text-primary-foreground h-full flex flex-col">
               <h3 className="font-display text-2xl font-bold mb-6">Prefere falar agora?</h3>
               <p className="text-primary-foreground/80 mb-8">

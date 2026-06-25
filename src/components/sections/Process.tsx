@@ -93,10 +93,6 @@ function TimelineStep({
   const Icon = step.icon;
   return (
     <div
-      initial={{ opacity: 0, x: isLeft ? -30 : 30 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: true }}
-      transition={{ delay: index * 0.05 }}
       className={`relative flex items-center lg:items-stretch ${isLeft ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}
     >
       <div className={`flex-1 ${isLeft ? 'lg:pr-12 lg:text-right' : 'lg:pl-12'}`}>
@@ -130,9 +126,6 @@ export function Process() {
       <div className="container-width">
         {/* Section Header */}
         <div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
@@ -159,9 +152,6 @@ export function Process() {
 
         {/* Mid-timeline CTA — captures leads who decided after seeing the process is clear */}
         <div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
           className="my-12 max-w-2xl mx-auto text-center bg-gold/10 rounded-2xl p-8 border border-gold/20"
         >
           <h3 className="font-display text-xl font-semibold text-foreground mb-2">
