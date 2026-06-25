@@ -129,8 +129,7 @@ export default function ServicePage() {
             <Button
               variant="gold"
               size="lg"
-              onClick={() =>
-                window.open(
+              onClick={() => window.open(
                   whatsappLink(`Olá! Quero saber mais sobre ${content.breadcrumbLabel.toLowerCase()}.`),
                   '_blank',
                   'noopener,noreferrer'
@@ -258,8 +257,7 @@ export default function ServicePage() {
               <Button
                 variant="gold"
                 className="w-full"
-                onClick={() =>
-                  window.open(
+                onClick={() => window.open(
                     whatsappLink(`Olá! Quero uma análise gratuita sobre ${content.breadcrumbLabel.toLowerCase()}.`),
                     '_blank',
                     'noopener,noreferrer'
